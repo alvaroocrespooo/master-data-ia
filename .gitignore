@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# Datos y bases de datos: se regeneran o vienen de fuera
+datos/
+db/
+*.duckdb
+*.duckdb.wal
