@@ -10,9 +10,8 @@
 --   time duckdb db/marejada.duckdb < sql/00_cargar_bronze.sql
 --
 -- Tiempo medido (26/10/2026, MacBook Air M2, DuckDB 1.5.6):
---   0,37 s en total.
---   Se midió reconstruyendo en una base temporal, con el mismo script,
---   para no borrar la de trabajo.
+--   0,41 s en total (salida de `time`: 0.410 total), borrando
+--   db/marejada.duckdb y reconstruyéndola con el script.
 --
 -- Comprobación: después de reconstruir, contar las filas y compararlas
 -- con las de antes (entregables/01_inventario_datos.md).

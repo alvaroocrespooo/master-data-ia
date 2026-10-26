@@ -36,7 +36,7 @@ FROM (SELECT unnest(orders) AS o
       FROM read_json('datos/web/pedidos_web.json'));
 
 -- Resultado (26/10/2026, DuckDB 1.5.6):
---   clientes 1.212 filas, 16 columnas · comerciales 14, 9
+--   clientes 1.212 filas, 15 columnas · comerciales 14, 9
 --   inventario 381, 6 · lineas_pedido 381.158, 7
 --   pedidos 77.448, 10 · productos 235, 13
 --   Pedidos ERP: 2024-01-01 08:03 → 2026-09-30 23:32
