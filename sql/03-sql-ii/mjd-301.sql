@@ -2,7 +2,6 @@
 -- MJD-301 · ¿Los clientes de la web son nuevos?
 -- Pide: Paula Herrero · Marketing y tienda online
 -- Criterio: ventas del 1.4 (silver, sin cancelados, cliente_maestro_id)
--- Uso: .read sql/03-sql-ii/mjd-301_clientes_web_nuevos.sql
 -- ============================================================
 
 WITH validos AS (
