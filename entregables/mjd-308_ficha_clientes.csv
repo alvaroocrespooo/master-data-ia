@@ -1,0 +1,1176 @@
+cliente_id,nombre_comercial,provincia,primer_pedido,ultimo_pedido,canal_ultimo,comercial_ultimo,pedidos_12m,ventas_12m,puesto_provincia
+11108,Supermercado La Sidra,Asturias,2024-01-01,2026-09-29,Teléfono,Adrián Suárez Fernández,138,388547.59,1
+10578,Hotel La Judería,Asturias,2025-07-01,2026-09-29,Comercial,Adrián Suárez Fernández,91,195749.96,2
+11057,Supermercado La Rula,Asturias,2024-01-10,2026-09-30,Web B2B,Adrián Suárez Fernández,79,157043.16,3
+11144,Supermercado El Mercado,Asturias,2024-01-08,2026-09-28,Web B2B,Nuria Álvarez Menéndez,75,138296.15,4
+10942,Supermercado Bitácora,Asturias,2025-09-12,2026-09-25,Comercial,Adrián Suárez Fernández,63,115783.96,5
+10870,Supermercado Los Pinares,Asturias,2024-01-08,2026-09-23,Comercial,Adrián Suárez Fernández,60,98822.81,6
+10067,Supermercado El Pasiego,Asturias,2024-01-01,2026-09-16,Comercial,Nuria Álvarez Menéndez,50,76672.11,7
+11087,Hotel Bitácora,Asturias,2024-01-22,2026-09-30,Web B2B,Adrián Suárez Fernández,55,72467.21,8
+11015,Supermercado El Raquero,Asturias,2024-01-09,2026-09-02,Web B2B,Nuria Álvarez Menéndez,43,66956.69,9
+10038,Hotel Bitácora,Asturias,2024-01-16,2026-09-28,Comercial,Adrián Suárez Fernández,51,64468.63,10
+10255,Hotel Malecón,Asturias,2024-01-01,2026-09-29,Web B2B,Nuria Álvarez Menéndez,46,60256.48,11
+10068,Hotel La Taberna,Asturias,2024-01-11,2026-09-21,Web B2B,Nuria Álvarez Menéndez,39,50094.96,12
+11035,Supermercado La Ría,Asturias,2024-01-10,2026-09-10,Comercial,Nuria Álvarez Menéndez,40,49489.45,13
+10571,Hotel El Mercado,Asturias,2024-01-03,2026-09-11,Web B2B,Nuria Álvarez Menéndez,42,49174.15,14
+10241,Hotel La Fuente,Asturias,2024-01-01,2026-09-19,Comercial,Nuria Álvarez Menéndez,37,41598.58,15
+10237,Hotel Mareas,Asturias,2025-08-28,2026-09-30,Comercial,Nuria Álvarez Menéndez,36,41213.12,16
+10376,Hotel El Hórreo,Asturias,2024-01-02,2026-09-30,Teléfono,Nuria Álvarez Menéndez,38,37394.39,17
+10904,Hotel El Mirador,Asturias,2024-01-10,2026-09-18,Comercial,Nuria Álvarez Menéndez,34,35763.55,18
+10427,Supermercado Arena,Asturias,2026-05-28,2026-09-22,Comercial,Nuria Álvarez Menéndez,20,32482.13,19
+11056,Restaurante El Pasiego,Asturias,2024-01-02,2026-09-30,Teléfono,Adrián Suárez Fernández,51,32259.9,20
+10735,Hotel La Montaña,Asturias,2024-01-03,2026-09-16,Web B2B,Nuria Álvarez Menéndez,31,29267.63,21
+10120,Hotel El Molino,Asturias,2024-01-04,2026-09-30,Comercial,Adrián Suárez Fernández,27,27820.44,22
+10501,Hotel La Gaviota,Asturias,2024-11-22,2026-09-01,Comercial,Nuria Álvarez Menéndez,25,24212.73,23
+10276,Hotel El Hórreo II,Asturias,2024-01-26,2026-09-30,Teléfono,Adrián Suárez Fernández,26,23608.81,24
+10718,Hotel El Raquero,Asturias,2024-01-01,2026-09-30,Teléfono,Adrián Suárez Fernández,25,21121.37,25
+10726,Restaurante La Peña,Asturias,2024-01-03,2026-09-14,Comercial,Adrián Suárez Fernández,39,20791.87,26
+11168,Restaurante La Ribera,Asturias,2024-01-01,2026-09-25,Comercial,Nuria Álvarez Menéndez,43,20679.74,27
+11163,Restaurante La Peña,Asturias,2024-01-01,2026-09-21,Comercial,Nuria Álvarez Menéndez,43,20310.15,28
+10378,Alimentación El Mirador,Asturias,2024-01-08,2026-09-29,Comercial,Adrián Suárez Fernández,40,19774.32,29
+10630,Restaurante El Muelle,Asturias,2024-06-17,2026-09-22,Web B2B,Nuria Álvarez Menéndez,35,19311.98,30
+10099,Alimentación La Barquera,Asturias,2024-03-06,2026-09-26,Web B2B,Nuria Álvarez Menéndez,34,18720.18,31
+10063,Restaurante La Estación,Asturias,2024-01-25,2026-08-27,Comercial,Adrián Suárez Fernández,41,18361.79,32
+11074,Bar La Sidra,Asturias,2024-01-12,2026-09-28,Comercial,Adrián Suárez Fernández,46,18040.72,33
+10668,Restaurante Salitre,Asturias,2025-08-18,2026-09-22,Teléfono,Adrián Suárez Fernández,36,17993.7,34
+10151,Restaurante Bitácora,Asturias,2024-01-09,2026-09-29,Comercial,Nuria Álvarez Menéndez,40,17960.23,35
+11162,Sidrería El Pasiego,Asturias,2024-01-04,2026-09-15,Web B2B,Adrián Suárez Fernández,38,17845.17,36
+10026,Restaurante El Hórreo,Asturias,2024-02-08,2026-09-28,Comercial,Adrián Suárez Fernández,38,17258.34,37
+10539,Sidrería El Puente,Asturias,2024-01-10,2026-09-28,Comercial,Adrián Suárez Fernández,43,17036.79,38
+10803,Restaurante Los Pinares,Asturias,2024-03-08,2026-09-23,Comercial,Nuria Álvarez Menéndez,42,16942.93,39
+10028,Hotel Nautilus,Asturias,2025-03-26,2025-12-19,Comercial,Adrián Suárez Fernández,12,16744.44,40
+10845,Bar Bahía,Asturias,2024-01-05,2026-09-29,Comercial,Adrián Suárez Fernández,46,16171.06,41
+10466,Restaurante Bitácora,Asturias,2024-01-06,2026-09-25,Comercial,Adrián Suárez Fernández,36,15890.44,42
+10108,Bar El Mercado,Asturias,2024-01-09,2026-09-29,Comercial,Nuria Álvarez Menéndez,41,15822.0,43
+10062,Restaurante El Pisuerga,Asturias,2026-01-30,2026-09-30,Comercial,Adrián Suárez Fernández,28,15409.37,44
+10101,Sidrería Marejadilla,Asturias,2024-08-06,2026-09-22,Comercial,Nuria Álvarez Menéndez,40,15355.3,45
+11132,Restaurante El Hórreo,Asturias,2024-02-01,2026-09-29,Comercial,Nuria Álvarez Menéndez,30,15276.73,46
+10306,Alimentación La Montaña,Asturias,2024-01-01,2026-09-23,Comercial,Nuria Álvarez Menéndez,30,15222.79,47
+10878,Cafetería El Mercado,Asturias,2024-01-03,2026-09-30,Web B2B,Adrián Suárez Fernández,47,15104.24,48
+10843,Restaurante Malecón,Asturias,2024-01-15,2026-09-21,Comercial,Nuria Álvarez Menéndez,36,14742.97,49
+10328,Alimentación La Peña,Asturias,2024-05-06,2026-09-25,Web B2B,Nuria Álvarez Menéndez,33,14678.26,50
+10197,Restaurante La Castellana,Asturias,2024-01-29,2026-08-28,Teléfono,Nuria Álvarez Menéndez,27,14371.76,51
+11062,Sidrería El Espolón,Asturias,2024-01-02,2026-09-29,Teléfono,Adrián Suárez Fernández,35,14365.76,52
+11022,Bar Atalaya,Asturias,2024-01-16,2026-09-28,Web B2B,Adrián Suárez Fernández,49,14120.3,53
+10565,Bar La Estación,Asturias,2024-01-04,2026-09-30,Web B2B,Nuria Álvarez Menéndez,42,14039.01,54
+10790,Alimentación La Peña,Asturias,2024-02-15,2026-09-22,Web B2B,Nuria Álvarez Menéndez,27,13914.57,55
+10133,Restaurante El Cid,Asturias,2024-11-11,2026-09-23,Comercial,Nuria Álvarez Menéndez,34,13732.57,56
+10991,Bar La Fuente,Asturias,2024-01-10,2026-09-29,Comercial,Nuria Álvarez Menéndez,36,13556.57,57
+11017,Cafetería El Duero,Asturias,2024-01-17,2026-09-23,Teléfono,Adrián Suárez Fernández,38,13542.4,58
+10497,Bar Marejadilla,Asturias,2024-01-05,2026-09-25,Web B2B,Nuria Álvarez Menéndez,41,13536.29,59
+10744,Restaurante Atalaya,Asturias,2026-04-27,2026-09-17,Web B2B,Adrián Suárez Fernández,22,12913.97,60
+10311,Bar La Montaña,Asturias,2024-02-06,2026-09-30,Comercial,Adrián Suárez Fernández,40,12700.57,61
+10611,Restaurante La Estación,Asturias,2024-01-19,2026-09-28,Teléfono,Nuria Álvarez Menéndez,32,12697.73,62
+11008,Bar La Montaña,Asturias,2024-02-01,2026-09-24,Comercial,Nuria Álvarez Menéndez,39,12440.91,63
+10494,Restaurante La Castellana,Asturias,2025-07-04,2026-09-23,Web B2B,Nuria Álvarez Menéndez,31,12329.93,64
+10142,Bar Las Anclas,Asturias,2024-01-10,2026-09-22,Comercial,Adrián Suárez Fernández,42,12294.32,65
+10199,Restaurante El Pejino,Asturias,2024-01-01,2026-09-29,Teléfono,Nuria Álvarez Menéndez,29,12203.11,66
+10218,Bar La Concha,Asturias,2024-01-11,2026-09-26,Teléfono,Nuria Álvarez Menéndez,36,12125.12,67
+10359,Alimentación El Cid,Asturias,2024-01-13,2026-09-22,Comercial,Nuria Álvarez Menéndez,28,12081.52,68
+11089,Bar La Castellana,Asturias,2024-01-02,2026-09-29,Comercial,Nuria Álvarez Menéndez,32,11761.11,69
+10507,Catering Duna,Asturias,2024-01-11,2026-09-01,Comercial,Adrián Suárez Fernández,29,11746.84,70
+10528,Catering Albatros,Asturias,2024-10-30,2026-09-15,Web B2B,Nuria Álvarez Menéndez,25,11468.82,71
+10932,Bar El Mirador,Asturias,2024-01-04,2026-09-26,Comercial,Nuria Álvarez Menéndez,28,11454.4,72
+11023,Bar El Castillo Playa,Asturias,2024-01-31,2026-09-24,Comercial,Adrián Suárez Fernández,32,11434.23,73
+10415,Alimentación Las Anclas,Asturias,2024-02-08,2026-09-07,Teléfono,Nuria Álvarez Menéndez,24,11425.07,74
+10671,Bar La Bodeguilla,Asturias,2024-01-05,2026-09-24,Comercial,Nuria Álvarez Menéndez,31,11375.77,75
+10971,Bar Bitácora,Asturias,2024-01-19,2026-09-30,Teléfono,Nuria Álvarez Menéndez,35,11327.58,76
+10506,Bar La Plaza,Asturias,2024-01-11,2026-09-28,Web B2B,Adrián Suárez Fernández,30,11314.34,77
+10784,Bar Arena,Asturias,2024-01-11,2026-08-14,Web B2B,Adrián Suárez Fernández,24,10678.95,78
+10273,Bar La Barquera,Asturias,2024-01-04,2026-09-07,Comercial,Nuria Álvarez Menéndez,31,10569.04,79
+10613,Bar Los Picos,Asturias,2024-01-10,2026-09-25,Comercial,Adrián Suárez Fernández,33,10485.98,80
+10544,Bar La Pradera,Asturias,2024-01-02,2026-09-25,Web B2B,Adrián Suárez Fernández,32,10485.18,81
+10850,Bar El Molino,Asturias,2024-01-02,2026-09-23,Web B2B,Adrián Suárez Fernández,36,10407.84,82
+10924,Bar Mareas,Asturias,2024-10-02,2026-07-30,Comercial,Nuria Álvarez Menéndez,33,10323.16,83
+10941,Bar El Pejino,Asturias,2024-01-08,2026-09-29,Teléfono,Nuria Álvarez Menéndez,33,10249.59,84
+10855,Bar La Ría,Asturias,2024-02-15,2026-09-29,Comercial,Nuria Álvarez Menéndez,30,10193.65,85
+11096,Sidrería Salitre,Asturias,2024-05-01,2026-09-21,Comercial,Nuria Álvarez Menéndez,30,10158.86,86
+10704,Bar El Cid,Asturias,2024-01-25,2026-09-28,Web B2B,Adrián Suárez Fernández,29,10078.71,87
+11131,Restaurante El Cuco,Asturias,2024-01-19,2026-08-20,Comercial,Adrián Suárez Fernández,25,9882.78,88
+10185,Cafetería Las Anclas,Asturias,2024-01-24,2026-09-30,Teléfono,Adrián Suárez Fernández,32,9872.53,89
+10617,Alimentación El Raquero II,Asturias,2024-01-16,2026-09-17,Comercial,Nuria Álvarez Menéndez,23,9812.3,90
+11005,Alimentación La Estación,Asturias,2024-02-06,2026-09-30,Comercial,Nuria Álvarez Menéndez,23,9795.61,91
+10949,Cafetería La Pradera,Asturias,2025-08-12,2026-09-15,Comercial,Nuria Álvarez Menéndez,34,9640.79,92
+10269,Alimentación El Chiqui,Asturias,2024-01-12,2026-09-22,Teléfono,Adrián Suárez Fernández,21,9605.89,93
+10629,Supermercado Los Picos II,Asturias,2024-01-02,2025-12-08,Comercial,Nuria Álvarez Menéndez,6,9592.13,94
+10555,Restaurante El Muelle,Asturias,2024-01-01,2026-09-08,Comercial,Nuria Álvarez Menéndez,22,9512.59,95
+10810,Bar La Taberna,Asturias,2025-11-24,2026-09-25,Teléfono,Nuria Álvarez Menéndez,36,9417.26,96
+10041,Sidrería El Cuco,Asturias,2024-02-06,2026-09-30,Comercial,Adrián Suárez Fernández,30,9378.52,97
+11095,Bar El Duero Playa,Asturias,2024-01-01,2026-09-28,Teléfono,Nuria Álvarez Menéndez,31,9167.37,98
+10605,Bar La Brisa Nuevo,Asturias,2025-02-21,2026-08-25,Comercial,Adrián Suárez Fernández,25,9093.54,99
+10928,Bar La Ola,Asturias,2024-03-06,2026-09-23,Comercial,Adrián Suárez Fernández,33,8875.9,100
+10864,Bar El Espolón,Asturias,2024-01-01,2026-07-16,Comercial,Adrián Suárez Fernández,27,8856.6,101
+10592,Alimentación El Raquero,Asturias,2025-06-04,2026-08-07,Comercial,Nuria Álvarez Menéndez,18,8821.36,102
+11044,Sidrería El Castillo,Asturias,2024-01-22,2026-09-16,Web B2B,Nuria Álvarez Menéndez,33,8797.55,103
+10164,Bar El Cuco,Asturias,2024-01-08,2026-09-28,Teléfono,Nuria Álvarez Menéndez,34,8742.08,104
+10973,Bar El Pasiego,Asturias,2024-01-29,2026-09-21,Teléfono,Adrián Suárez Fernández,34,8625.06,105
+10720,Bar El Espolón,Asturias,2024-01-06,2026-08-28,Comercial,Nuria Álvarez Menéndez,31,8614.74,106
+10399,Alimentación El Llagar,Asturias,2024-01-01,2026-09-11,Comercial,Adrián Suárez Fernández,19,8180.99,107
+10160,Bar La Ola,Asturias,2025-10-13,2026-09-24,Comercial,Adrián Suárez Fernández,32,8160.2,108
+10641,Bar Las Anclas,Asturias,2024-12-06,2026-09-14,Comercial,Adrián Suárez Fernández,29,7958.07,109
+10081,Alimentación Mareas,Asturias,2024-03-06,2026-08-28,Comercial,Nuria Álvarez Menéndez,21,7956.9,110
+10476,Bar El Pasiego Nuevo,Asturias,2024-11-05,2026-09-17,Teléfono,Nuria Álvarez Menéndez,25,7930.82,111
+10963,Bar La Barquera,Asturias,2024-01-15,2026-09-18,Comercial,Nuria Álvarez Menéndez,31,7866.47,112
+10574,Bar El Botxo,Asturias,2025-01-30,2026-09-10,Teléfono,Nuria Álvarez Menéndez,29,7708.01,113
+10077,Sidrería El Robledal,Asturias,2024-01-01,2026-09-08,Comercial,Nuria Álvarez Menéndez,24,7519.58,114
+10851,Bar La Taberna,Asturias,2024-01-03,2026-08-05,Comercial,Adrián Suárez Fernández,27,7477.85,115
+10239,Bar La Barquera,Asturias,2024-01-08,2026-09-30,Teléfono,Nuria Álvarez Menéndez,29,7266.41,116
+10032,Alimentación Nautilus,Asturias,2024-01-17,2026-09-18,Web B2B,Nuria Álvarez Menéndez,21,7177.34,117
+11043,Sidrería El Molino,Asturias,2024-01-08,2026-09-11,Web B2B,Adrián Suárez Fernández,19,7134.36,118
+11129,Restaurante El Castillo,Asturias,2024-01-03,2026-02-09,Teléfono,Nuria Álvarez Menéndez,13,7008.89,119
+11179,Catering La Taberna,Asturias,2024-12-13,2026-09-17,Comercial,Nuria Álvarez Menéndez,16,6858.15,120
+10656,Cafetería La Brisa,Asturias,2024-02-22,2026-09-30,Web B2B,Adrián Suárez Fernández,25,6612.81,121
+10988,Club La Taberna,Asturias,2025-09-30,2026-08-31,Teléfono,Adrián Suárez Fernández,23,6600.55,122
+10955,Sidrería El Hórreo,Asturias,2024-05-31,2026-09-10,Comercial,Nuria Álvarez Menéndez,26,6535.29,123
+10089,Cafetería El Pisuerga,Asturias,2024-02-05,2026-09-05,Comercial,Nuria Álvarez Menéndez,23,6376.18,124
+10368,Bar Bitácora,Asturias,2024-01-12,2026-09-18,Comercial,Nuria Álvarez Menéndez,25,6359.38,125
+10926,Bar El Pisuerga,Asturias,2024-05-27,2026-09-01,Comercial,Adrián Suárez Fernández,24,6244.87,126
+10384,Bar La Muralla,Asturias,2025-11-21,2026-05-20,Comercial,Adrián Suárez Fernández,20,6066.57,127
+10040,Bar Albatros,Asturias,2026-07-31,2026-09-28,Comercial,Adrián Suárez Fernández,13,5965.89,128
+10591,Bar La Txalupa,Asturias,2024-01-17,2026-09-28,Comercial,Nuria Álvarez Menéndez,24,5959.33,129
+10150,Sidrería El Puerto,Asturias,2024-01-02,2026-09-29,Comercial,Nuria Álvarez Menéndez,21,5915.13,130
+10272,Bar El Duero,Asturias,2026-02-03,2026-09-17,Web B2B,Adrián Suárez Fernández,22,5902.32,131
+11141,Bar Salitre Norte,Asturias,2024-01-05,2026-09-30,Comercial,Nuria Álvarez Menéndez,23,5863.83,132
+10823,Bar El Castillo,Asturias,2025-09-03,2026-07-02,Teléfono,Adrián Suárez Fernández,21,5764.47,133
+10323,Cafetería Las Anclas,Asturias,2024-12-13,2026-09-16,Comercial,Adrián Suárez Fernández,31,5704.69,134
+10739,Restaurante La Concha,Asturias,2025-05-08,2026-05-08,Comercial,Adrián Suárez Fernández,11,5608.92,135
+10253,Cafetería El Puente,Asturias,2024-01-18,2026-08-18,Comercial,Nuria Álvarez Menéndez,22,5584.91,136
+10208,Club La Taberna,Asturias,2024-02-05,2026-08-01,Web B2B,Nuria Álvarez Menéndez,24,5418.84,137
+10167,Bar La Judería,Asturias,2024-01-08,2026-09-15,Web B2B,Adrián Suárez Fernández,24,5410.71,138
+10420,Catering Malecón,Asturias,2024-01-11,2026-09-14,Web B2B,Adrián Suárez Fernández,17,5340.66,139
+10270,Cafetería La Pradera,Asturias,2024-01-09,2026-09-07,Comercial,Nuria Álvarez Menéndez,28,5306.12,140
+10548,Bar El Puerto,Asturias,2024-01-10,2026-08-29,Comercial,Nuria Álvarez Menéndez,26,5228.44,141
+10439,Sidrería La Estación,Asturias,2025-05-19,2026-09-21,Teléfono,Nuria Álvarez Menéndez,19,5098.66,142
+10492,Cafetería Los Arcos,Asturias,2024-10-10,2026-09-18,Web B2B,Nuria Álvarez Menéndez,19,5053.91,143
+11102,Cafetería La Estación,Asturias,2025-09-15,2026-09-25,Comercial,Nuria Álvarez Menéndez,20,5002.06,144
+10149,Bar El Espolón,Asturias,2025-04-23,2026-09-30,Comercial,Nuria Álvarez Menéndez,22,4982.54,145
+10337,Bar La Estación,Asturias,2024-01-05,2026-09-09,Comercial,Adrián Suárez Fernández,17,4906.62,146
+10588,Cafetería La Ola,Asturias,2024-01-03,2026-09-25,Comercial,Adrián Suárez Fernández,23,4900.46,147
+11142,Club El Cuco,Asturias,2024-01-20,2026-09-21,Teléfono,Adrián Suárez Fernández,16,4743.55,148
+10914,Bar Velero,Asturias,2026-04-21,2026-09-29,Teléfono,Adrián Suárez Fernández,17,4723.36,149
+10649,Cafetería Atalaya,Asturias,2024-01-04,2026-09-30,Web B2B,Nuria Álvarez Menéndez,20,4693.43,150
+10865,Cafetería El Muelle,Asturias,2024-01-19,2026-09-07,Teléfono,Adrián Suárez Fernández,24,4638.97,151
+10575,Cafetería El Hórreo,Asturias,2025-12-29,2026-08-24,Comercial,Nuria Álvarez Menéndez,17,4427.82,152
+10868,Alimentación El Paseo,Asturias,2024-01-15,2026-09-18,Teléfono,Adrián Suárez Fernández,15,4370.05,153
+10632,Bar El Castillo,Asturias,2024-01-03,2026-09-30,Web B2B,Adrián Suárez Fernández,21,4222.75,154
+10796,Cafetería El Faro Centro,Asturias,2024-01-31,2026-09-17,Web B2B,Nuria Álvarez Menéndez,19,3908.89,155
+10204,Cafetería La Estación,Asturias,2024-02-20,2026-09-09,Comercial,Nuria Álvarez Menéndez,22,3850.35,156
+10619,Bar Nautilus Norte,Asturias,2026-03-10,2026-09-03,Web B2B,Adrián Suárez Fernández,15,3668.31,157
+10633,Cafetería El Abra,Asturias,2024-03-05,2026-04-27,Teléfono,Adrián Suárez Fernández,12,3662.51,158
+10326,Cafetería La Peña,Asturias,2026-03-31,2026-08-21,Teléfono,Nuria Álvarez Menéndez,17,3572.41,159
+10747,Bar La Galerna,Asturias,2026-07-01,2026-09-28,Comercial,Nuria Álvarez Menéndez,10,3336.72,160
+10003,Bar Bitácora,Asturias,2024-01-08,2026-07-30,Web B2B,Nuria Álvarez Menéndez,16,3057.77,161
+10616,Cafetería La Marina,Asturias,2024-02-15,2026-09-29,Comercial,Nuria Álvarez Menéndez,16,2709.12,162
+11047,Cafetería La Ola,Asturias,2025-12-04,2026-06-23,Comercial,Nuria Álvarez Menéndez,14,2624.91,163
+10603,Bar Salitre,Asturias,2025-08-08,2026-02-04,Teléfono,Adrián Suárez Fernández,10,2572.89,164
+10334,Bar El Botxo,Asturias,2024-01-17,2026-09-29,Teléfono,Nuria Álvarez Menéndez,19,2528.63,165
+10053,Cafetería El Ancla,Asturias,2024-01-03,2026-09-07,Web B2B,Adrián Suárez Fernández,15,2498.01,166
+10458,Restaurante El Faro,Asturias,2024-01-18,2025-11-24,Comercial,Adrián Suárez Fernández,4,2464.33,167
+10217,Bar Duna,Asturias,2026-06-23,2026-09-01,Web B2B,Adrián Suárez Fernández,5,2043.26,168
+10775,Restaurante El Pasiego,Asturias,2025-06-05,2025-12-05,Comercial,Nuria Álvarez Menéndez,4,1657.09,169
+10822,Restaurante El Castillo,Asturias,2026-08-27,2026-09-04,Comercial,Nuria Álvarez Menéndez,2,1524.87,170
+11101,Bar Marejadilla,Asturias,2026-05-30,2026-07-22,Web B2B,Nuria Álvarez Menéndez,5,1439.47,171
+10827,Cafetería El Hórreo,Asturias,2026-08-19,2026-09-23,Comercial,Adrián Suárez Fernández,7,1309.16,172
+11076,Bar El Castillo Nuevo,Asturias,2025-10-01,2025-11-19,Web B2B,Nuria Álvarez Menéndez,4,828.04,173
+10750,Bar La Pradera,Asturias,2024-01-11,2025-10-29,Teléfono,Adrián Suárez Fernández,2,361.89,174
+10248,Club La Galerna,Asturias,2024-02-05,2025-07-04,Teléfono,Adrián Suárez Fernández,0,0.0,175
+10892,Bar La Taberna,Asturias,2025-07-15,2025-09-29,Web B2B,Adrián Suárez Fernández,0,0.0,175
+11021,Restaurante La Sidra,Asturias,2024-01-11,2024-08-05,Comercial,Adrián Suárez Fernández,0,0.0,175
+10943,Bar Los Arcos,Asturias,2024-01-03,2025-04-10,Comercial,Adrián Suárez Fernández,0,0.0,175
+10580,Restaurante La Ría,Asturias,2024-02-01,2024-04-24,Teléfono,Adrián Suárez Fernández,0,0.0,175
+10284,Restaurante La Ría,Asturias,2024-01-01,2024-09-25,Comercial,Adrián Suárez Fernández,0,0.0,175
+10568,Restaurante La Alameda,Asturias,2024-01-11,2025-03-26,Teléfono,Nuria Álvarez Menéndez,0,0.0,175
+10156,Restaurante El Faro,Asturias,2024-01-05,2025-01-03,Teléfono,Nuria Álvarez Menéndez,0,0.0,175
+10145,Restaurante La Ribera,Asturias,2024-01-10,2024-05-23,Comercial,Adrián Suárez Fernández,0,0.0,175
+10226,Restaurante Los Picos,Asturias,2024-01-04,2024-07-23,Teléfono,Adrián Suárez Fernández,0,0.0,175
+11065,Alimentación La Ría,Asturias,2024-01-24,2025-06-12,Teléfono,Nuria Álvarez Menéndez,0,0.0,175
+10210,Supermercado Los Pinares,Asturias,2024-01-02,2024-07-11,Comercial,Adrián Suárez Fernández,0,0.0,175
+10331,Cafetería El Pasiego,Asturias,2024-02-01,2024-05-27,Comercial,Nuria Álvarez Menéndez,0,0.0,175
+10394,Bar La Judería,Asturias,2024-03-08,2024-11-14,Teléfono,Nuria Álvarez Menéndez,0,0.0,175
+10885,Restaurante Arena,Asturias,2024-01-01,2024-10-25,Comercial,Adrián Suárez Fernández,0,0.0,175
+10231,Restaurante El Chiqui,Asturias,2024-01-06,2025-02-28,Comercial,Adrián Suárez Fernández,0,0.0,175
+10815,Alimentación La Fuente,Asturias,2024-02-28,2024-02-28,Comercial,Nuria Álvarez Menéndez,0,0.0,175
+11103,Restaurante El Rincón,Asturias,2024-01-02,2024-03-18,Comercial,Nuria Álvarez Menéndez,0,0.0,175
+10517,Hotel Albatros,Bizkaia,2025-06-16,2026-09-30,Comercial,Mikel Goikoetxea Arana,75,143195.45,1
+10853,Supermercado La Montaña,Bizkaia,2025-12-02,2026-09-26,Teléfono,Mikel Goikoetxea Arana,56,98620.42,2
+11094,Supermercado Los Arcos,Bizkaia,2025-03-20,2026-09-24,Web B2B,Ane Etxeberria Zubiri,55,81704.54,3
+10715,Supermercado El Cid,Bizkaia,2025-08-27,2026-09-14,Comercial,Mikel Goikoetxea Arana,54,81231.89,4
+10759,Hotel La Muralla,Bizkaia,2025-04-07,2026-09-25,Comercial,Ane Etxeberria Zubiri,49,71659.21,5
+10636,Supermercado Mareas,Bizkaia,2025-03-10,2026-09-03,Comercial,Mikel Goikoetxea Arana,54,62654.93,6
+10828,Supermercado El Espolón,Bizkaia,2026-02-09,2026-09-16,Comercial,Ane Etxeberria Zubiri,40,60234.73,7
+10344,Hotel El Muelle,Bizkaia,2025-10-09,2026-09-10,Web B2B,Ane Etxeberria Zubiri,44,58378.94,8
+10039,Hotel La Txalupa,Bizkaia,2025-06-16,2026-09-28,Web B2B,Ane Etxeberria Zubiri,42,58177.83,9
+10954,Supermercado La Catedral,Bizkaia,2025-10-24,2026-09-29,Web B2B,Mikel Goikoetxea Arana,47,55873.02,10
+10586,Hotel La Sidra,Bizkaia,2026-01-05,2026-09-24,Teléfono,Ane Etxeberria Zubiri,39,43323.75,11
+10805,Hotel El Hórreo,Bizkaia,2026-02-27,2026-09-29,Web B2B,Mikel Goikoetxea Arana,34,42160.85,12
+10519,Supermercado Mareas,Bizkaia,2026-02-17,2026-09-24,Teléfono,Mikel Goikoetxea Arana,29,39487.96,13
+10708,Restaurante La Montaña,Bizkaia,2025-10-07,2026-09-26,Web B2B,Mikel Goikoetxea Arana,44,28925.55,14
+10161,Restaurante El Faro,Bizkaia,2025-05-19,2026-09-16,Comercial,Mikel Goikoetxea Arana,45,27399.9,15
+10184,Hotel El Mirador,Bizkaia,2026-01-19,2026-09-21,Teléfono,Ane Etxeberria Zubiri,26,27347.83,16
+11055,Restaurante La Brisa,Bizkaia,2025-09-22,2026-09-30,Teléfono,Mikel Goikoetxea Arana,41,26443.79,17
+10171,Restaurante El Pasiego,Bizkaia,2025-08-26,2026-09-28,Teléfono,Ane Etxeberria Zubiri,52,24675.12,18
+11153,Bar El Espolón,Bizkaia,2025-05-20,2026-09-30,Comercial,Mikel Goikoetxea Arana,61,22904.84,19
+10907,Restaurante La Alameda,Bizkaia,2025-07-07,2026-09-29,Teléfono,Mikel Goikoetxea Arana,39,21483.63,20
+11104,Restaurante Nautilus,Bizkaia,2025-07-10,2026-09-30,Comercial,Ane Etxeberria Zubiri,40,20813.29,21
+10515,Bar La Gaviota,Bizkaia,2025-07-01,2026-09-26,Web B2B,Ane Etxeberria Zubiri,45,19335.15,22
+10229,Hotel Las Rocas,Bizkaia,2025-07-08,2026-09-16,Teléfono,Ane Etxeberria Zubiri,23,19275.04,23
+10535,Restaurante El Muelle,Bizkaia,2026-01-19,2026-09-23,Web B2B,Mikel Goikoetxea Arana,30,19060.63,24
+10857,Hotel El Puerto,Bizkaia,2026-07-22,2026-09-16,Comercial,Ane Etxeberria Zubiri,11,18405.0,25
+11006,Supermercado El Castillo Viejo,Bizkaia,2026-04-07,2026-07-31,Teléfono,Mikel Goikoetxea Arana,17,18176.64,26
+10894,Alimentación El Hórreo,Bizkaia,2025-06-12,2026-09-24,Comercial,Ane Etxeberria Zubiri,36,17992.74,27
+11046,Restaurante Los Pinares,Bizkaia,2025-12-27,2026-09-15,Comercial,Mikel Goikoetxea Arana,33,17860.75,28
+10508,Bar El Mercado,Bizkaia,2025-12-05,2026-09-30,Comercial,Ane Etxeberria Zubiri,44,17389.45,29
+10085,Alimentación La Muralla,Bizkaia,2025-05-20,2026-09-08,Comercial,Mikel Goikoetxea Arana,33,17338.26,30
+10297,Restaurante El Chiqui,Bizkaia,2025-11-17,2026-09-30,Web B2B,Ane Etxeberria Zubiri,34,17104.55,31
+10019,Cafetería Bitácora,Bizkaia,2025-03-17,2026-09-25,Teléfono,Ane Etxeberria Zubiri,46,16846.25,32
+10620,Alimentación El Molino Viejo,Bizkaia,2025-04-12,2026-07-27,Comercial,Ane Etxeberria Zubiri,28,16715.37,33
+10692,Restaurante Marejadilla,Bizkaia,2025-12-08,2026-09-14,Teléfono,Mikel Goikoetxea Arana,31,16349.48,34
+10968,Bar Atalaya,Bizkaia,2025-06-24,2026-09-17,Comercial,Mikel Goikoetxea Arana,44,16064.16,35
+11178,Restaurante La Ribera,Bizkaia,2025-10-23,2026-09-26,Comercial,Ane Etxeberria Zubiri,33,15074.73,36
+10116,Restaurante Capitán,Bizkaia,2025-06-17,2026-09-26,Comercial,Mikel Goikoetxea Arana,31,14025.02,37
+10454,Restaurante El Ancla,Bizkaia,2025-07-22,2026-09-10,Comercial,Mikel Goikoetxea Arana,28,13657.86,38
+10141,Alimentación Marejadilla,Bizkaia,2025-11-03,2026-09-28,Comercial,Ane Etxeberria Zubiri,28,13426.85,39
+11127,Alimentación El Espolón,Bizkaia,2025-10-27,2026-08-31,Web B2B,Ane Etxeberria Zubiri,28,13332.28,40
+10764,Sidrería Los Picos,Bizkaia,2025-04-16,2026-09-23,Comercial,Ane Etxeberria Zubiri,35,12257.45,41
+10126,Alimentación La Catedral,Bizkaia,2025-04-25,2026-09-28,Web B2B,Ane Etxeberria Zubiri,24,11664.16,42
+10052,Alimentación Los Picos II,Bizkaia,2025-06-12,2026-09-07,Comercial,Mikel Goikoetxea Arana,20,10727.53,43
+10521,Bar El Llagar,Bizkaia,2025-10-08,2026-08-17,Teléfono,Mikel Goikoetxea Arana,30,10708.77,44
+10659,Restaurante La Taberna,Bizkaia,2026-04-06,2026-08-14,Teléfono,Mikel Goikoetxea Arana,12,10402.41,45
+10339,Catering El Paseo,Bizkaia,2026-02-03,2026-09-12,Web B2B,Ane Etxeberria Zubiri,21,10286.04,46
+10317,Alimentación La Barquera,Bizkaia,2025-04-03,2026-09-16,Teléfono,Mikel Goikoetxea Arana,23,10053.57,47
+11014,Alimentación La Concha,Bizkaia,2025-07-11,2026-09-30,Comercial,Ane Etxeberria Zubiri,21,9934.84,48
+10060,Restaurante Las Rocas,Bizkaia,2026-03-24,2026-09-23,Web B2B,Mikel Goikoetxea Arana,22,9823.37,49
+10124,Restaurante El Chiqui,Bizkaia,2026-05-30,2026-09-24,Comercial,Ane Etxeberria Zubiri,17,9416.86,50
+10481,Sidrería El Robledal,Bizkaia,2026-04-06,2026-09-23,Web B2B,Ane Etxeberria Zubiri,27,9342.66,51
+10367,Bar Arena,Bizkaia,2025-07-22,2026-09-14,Comercial,Mikel Goikoetxea Arana,29,9072.76,52
+10349,Alimentación El Puente,Bizkaia,2025-08-23,2026-09-10,Comercial,Mikel Goikoetxea Arana,21,8780.79,53
+10392,Bar La Fuente,Bizkaia,2025-07-28,2026-09-28,Teléfono,Ane Etxeberria Zubiri,32,8772.86,54
+10343,Restaurante La Brisa,Bizkaia,2025-05-22,2026-09-21,Web B2B,Mikel Goikoetxea Arana,21,8754.3,55
+10302,Alimentación Duna,Bizkaia,2025-12-17,2026-09-29,Comercial,Ane Etxeberria Zubiri,24,8717.8,56
+10644,Alimentación La Marina Nuevo,Bizkaia,2026-01-13,2026-09-30,Web B2B,Mikel Goikoetxea Arana,18,8441.56,57
+10296,Sidrería El Chiqui,Bizkaia,2026-02-25,2026-09-24,Teléfono,Ane Etxeberria Zubiri,25,8317.02,58
+11170,Bar El Mirador,Bizkaia,2025-07-21,2026-07-14,Comercial,Mikel Goikoetxea Arana,28,7936.25,59
+10570,Bar El Pisuerga,Bizkaia,2025-12-25,2026-09-22,Comercial,Mikel Goikoetxea Arana,25,7848.28,60
+10426,Bar Albatros,Bizkaia,2025-07-17,2026-09-09,Web B2B,Ane Etxeberria Zubiri,22,7818.61,61
+10371,Hotel La Montaña,Bizkaia,2026-08-18,2026-09-30,Comercial,Ane Etxeberria Zubiri,6,7750.01,62
+11071,Alimentación Los Arcos,Bizkaia,2026-03-13,2026-08-03,Teléfono,Mikel Goikoetxea Arana,17,7648.57,63
+10858,Sidrería La Taberna,Bizkaia,2026-04-28,2026-09-11,Web B2B,Ane Etxeberria Zubiri,20,7585.46,64
+10679,Alimentación El Duero,Bizkaia,2025-11-24,2026-09-10,Comercial,Ane Etxeberria Zubiri,20,7520.36,65
+10007,Bar El Abra,Bizkaia,2025-05-16,2026-09-29,Web B2B,Ane Etxeberria Zubiri,22,7167.48,66
+10813,Bar La Bodeguilla,Bizkaia,2025-11-07,2026-09-28,Web B2B,Ane Etxeberria Zubiri,28,7126.1,67
+10109,Bar La Barquera,Bizkaia,2026-03-17,2026-09-30,Comercial,Ane Etxeberria Zubiri,19,7031.87,68
+10414,Cafetería El Espolón,Bizkaia,2025-05-05,2026-09-09,Comercial,Mikel Goikoetxea Arana,26,6895.0,69
+10854,Sidrería Salitre,Bizkaia,2025-08-25,2026-08-26,Web B2B,Ane Etxeberria Zubiri,26,6829.24,70
+10251,Bar El Ancla Viejo,Bizkaia,2025-09-16,2026-09-21,Teléfono,Ane Etxeberria Zubiri,24,6785.17,71
+10181,Bar Capitán,Bizkaia,2025-04-15,2026-09-29,Comercial,Ane Etxeberria Zubiri,28,6680.8,72
+10593,Alimentación Velero,Bizkaia,2025-07-09,2026-09-14,Comercial,Mikel Goikoetxea Arana,17,6579.94,73
+10653,Restaurante El Pasiego,Bizkaia,2026-06-10,2026-09-29,Comercial,Ane Etxeberria Zubiri,14,6461.3,74
+10045,Alimentación La Fuente,Bizkaia,2026-06-30,2026-09-18,Teléfono,Mikel Goikoetxea Arana,11,6261.17,75
+10074,Bar La Ola,Bizkaia,2026-02-19,2026-08-10,Comercial,Ane Etxeberria Zubiri,17,6208.27,76
+10177,Bar El Cuco,Bizkaia,2026-02-23,2026-09-10,Teléfono,Ane Etxeberria Zubiri,20,6133.84,77
+10893,Restaurante El Mercado,Bizkaia,2026-05-11,2026-09-17,Web B2B,Ane Etxeberria Zubiri,14,6042.0,78
+10891,Cafetería El Pasiego,Bizkaia,2025-09-04,2026-09-21,Comercial,Ane Etxeberria Zubiri,25,6041.71,79
+10998,Alimentación El Raquero,Bizkaia,2026-04-18,2026-09-21,Comercial,Mikel Goikoetxea Arana,12,5806.02,80
+10238,Bar El Rincón,Bizkaia,2025-09-13,2026-09-23,Comercial,Mikel Goikoetxea Arana,20,5748.36,81
+10325,Alimentación Los Pinares,Bizkaia,2026-04-09,2026-09-09,Comercial,Mikel Goikoetxea Arana,12,5681.28,82
+10245,Catering El Pisuerga,Bizkaia,2025-06-10,2026-09-23,Comercial,Mikel Goikoetxea Arana,15,5628.22,83
+10363,Restaurante El Castillo,Bizkaia,2026-07-22,2026-09-12,Teléfono,Mikel Goikoetxea Arana,10,5580.48,84
+10166,Bar Los Picos,Bizkaia,2025-03-31,2026-09-15,Teléfono,Ane Etxeberria Zubiri,24,5579.32,85
+10956,Bar La Ola Centro,Bizkaia,2025-07-24,2026-09-22,Comercial,Ane Etxeberria Zubiri,23,5446.56,86
+10360,Cafetería La Fuente,Bizkaia,2025-07-25,2026-09-01,Teléfono,Ane Etxeberria Zubiri,23,5381.87,87
+11122,Cafetería El Pisuerga,Bizkaia,2025-05-19,2026-09-08,Comercial,Mikel Goikoetxea Arana,26,5298.71,88
+10436,Bar La Castellana,Bizkaia,2026-01-14,2026-09-09,Comercial,Mikel Goikoetxea Arana,20,5170.76,89
+10682,Bar El Molino,Bizkaia,2025-09-24,2026-07-28,Comercial,Mikel Goikoetxea Arana,20,5058.28,90
+10558,Cafetería Los Pinares,Bizkaia,2025-11-20,2026-09-21,Web B2B,Mikel Goikoetxea Arana,22,5030.73,91
+10361,Bar El Sardinero,Bizkaia,2025-12-03,2026-09-10,Comercial,Mikel Goikoetxea Arana,21,5005.91,92
+10787,Bar El Muelle,Bizkaia,2026-02-23,2026-09-29,Web B2B,Mikel Goikoetxea Arana,14,5001.07,93
+10690,Bar La Catedral,Bizkaia,2025-11-25,2026-09-30,Comercial,Mikel Goikoetxea Arana,20,4753.51,94
+10369,Sidrería Marejadilla,Bizkaia,2026-02-24,2026-08-11,Teléfono,Mikel Goikoetxea Arana,14,4717.55,95
+10379,Bar Arena,Bizkaia,2026-03-17,2026-09-10,Web B2B,Mikel Goikoetxea Arana,17,4692.4,96
+10976,Restaurante El Espolón,Bizkaia,2025-12-01,2026-03-09,Comercial,Mikel Goikoetxea Arana,10,4638.36,97
+11093,Cafetería El Robledal,Bizkaia,2025-07-21,2026-09-07,Comercial,Ane Etxeberria Zubiri,23,4543.49,98
+11075,Bar Los Pinares,Bizkaia,2025-11-20,2026-09-22,Comercial,Ane Etxeberria Zubiri,23,4463.33,99
+10495,Club El Llagar,Bizkaia,2025-09-04,2026-09-29,Web B2B,Ane Etxeberria Zubiri,22,4213.59,100
+11031,Bar El Raquero,Bizkaia,2026-06-10,2026-08-24,Teléfono,Mikel Goikoetxea Arana,10,4192.01,101
+10980,Cafetería El Llagar,Bizkaia,2026-02-19,2026-09-28,Teléfono,Mikel Goikoetxea Arana,20,4139.84,102
+10312,Cafetería Los Arcos,Bizkaia,2025-05-21,2026-09-30,Comercial,Ane Etxeberria Zubiri,17,4102.53,103
+11174,Bar La Marina,Bizkaia,2026-06-10,2026-09-02,Teléfono,Ane Etxeberria Zubiri,9,3891.75,104
+10745,Cafetería El Castillo,Bizkaia,2025-10-02,2026-09-21,Teléfono,Mikel Goikoetxea Arana,15,3855.1,105
+10139,Bar Los Arcos,Bizkaia,2026-03-12,2026-08-03,Comercial,Mikel Goikoetxea Arana,10,3822.07,106
+10385,Bar El Paseo Playa,Bizkaia,2026-01-22,2026-09-15,Web B2B,Mikel Goikoetxea Arana,13,3510.88,107
+10056,Sidrería El Faro,Bizkaia,2025-05-30,2025-12-19,Web B2B,Mikel Goikoetxea Arana,8,3495.92,108
+10838,Cafetería El Faro,Bizkaia,2026-02-28,2026-09-28,Comercial,Mikel Goikoetxea Arana,12,3481.79,109
+10503,Bar El Molino Nuevo,Bizkaia,2026-06-22,2026-09-09,Comercial,Ane Etxeberria Zubiri,8,3478.36,110
+10329,Bar El Cuco,Bizkaia,2026-03-19,2026-06-12,Comercial,Ane Etxeberria Zubiri,9,3414.58,111
+10781,Bar El Robledal,Bizkaia,2025-12-10,2026-09-30,Comercial,Mikel Goikoetxea Arana,20,3328.94,112
+10168,Cafetería Las Anclas,Bizkaia,2025-05-08,2026-09-29,Teléfono,Ane Etxeberria Zubiri,16,3290.31,113
+10890,Bar Atalaya,Bizkaia,2026-06-24,2026-09-28,Teléfono,Mikel Goikoetxea Arana,11,3156.53,114
+10423,Bar La Taberna Playa,Bizkaia,2026-07-27,2026-09-21,Teléfono,Ane Etxeberria Zubiri,8,3150.1,115
+10534,Restaurante Marejadilla Nuevo,Bizkaia,2026-04-03,2026-09-03,Web B2B,Mikel Goikoetxea Arana,11,2899.33,116
+10751,Club El Molino,Bizkaia,2025-07-01,2026-08-18,Teléfono,Mikel Goikoetxea Arana,15,2886.45,117
+10689,Cafetería El Chiqui,Bizkaia,2026-02-18,2026-04-23,Comercial,Mikel Goikoetxea Arana,9,2732.35,118
+10896,Bar La Ría,Bizkaia,2026-04-07,2026-07-02,Comercial,Mikel Goikoetxea Arana,9,2722.31,119
+10244,Restaurante El Molino,Bizkaia,2026-09-08,2026-09-29,Comercial,Ane Etxeberria Zubiri,6,2644.55,120
+10271,Bar La Taberna,Bizkaia,2026-03-11,2026-09-26,Comercial,Ane Etxeberria Zubiri,13,2566.09,121
+10791,Sidrería Las Anclas,Bizkaia,2026-06-26,2026-09-22,Comercial,Ane Etxeberria Zubiri,7,2469.34,122
+10250,Restaurante Arena,Bizkaia,2026-08-25,2026-09-24,Comercial,Ane Etxeberria Zubiri,6,2425.07,123
+11180,Bar La Castellana Viejo,Bizkaia,2026-08-11,2026-09-29,Comercial,Ane Etxeberria Zubiri,7,2396.62,124
+10886,Restaurante El Robledal,Bizkaia,2026-02-19,2026-04-23,Web B2B,Mikel Goikoetxea Arana,5,2331.07,125
+10601,Catering El Chiqui,Bizkaia,2026-06-27,2026-09-15,Comercial,Ane Etxeberria Zubiri,4,2269.52,126
+10916,Bar La Ribera,Bizkaia,2025-11-21,2026-05-02,Comercial,Ane Etxeberria Zubiri,11,2168.24,127
+10725,Cafetería La Castellana,Bizkaia,2026-06-17,2026-09-09,Comercial,Mikel Goikoetxea Arana,10,2167.71,128
+10547,Sidrería El Sardinero,Bizkaia,2026-07-24,2026-09-09,Comercial,Ane Etxeberria Zubiri,7,2096.04,129
+11092,Bar Las Anclas Norte,Bizkaia,2026-08-19,2026-09-29,Web B2B,Ane Etxeberria Zubiri,8,2083.37,130
+10711,Bar Capitán,Bizkaia,2025-06-23,2026-02-18,Comercial,Mikel Goikoetxea Arana,9,2064.82,131
+10123,Cafetería La Marina,Bizkaia,2026-01-13,2026-09-24,Web B2B,Ane Etxeberria Zubiri,11,1976.19,132
+10258,Cafetería El Cuco,Bizkaia,2026-05-07,2026-09-28,Comercial,Ane Etxeberria Zubiri,10,1946.23,133
+11088,Cafetería Malecón,Bizkaia,2025-09-18,2026-01-26,Comercial,Mikel Goikoetxea Arana,9,1843.14,134
+10433,Cafetería El Mercado,Bizkaia,2025-12-26,2026-08-24,Web B2B,Ane Etxeberria Zubiri,10,1705.97,135
+10111,Alimentación Albatros,Bizkaia,2026-04-27,2026-06-24,Teléfono,Ane Etxeberria Zubiri,5,1672.05,136
+10587,Bar El Raquero,Bizkaia,2026-08-25,2026-09-17,Web B2B,Mikel Goikoetxea Arana,4,1604.92,137
+10897,Club El Raquero,Bizkaia,2026-06-18,2026-09-23,Web B2B,Ane Etxeberria Zubiri,8,1520.76,138
+10162,Bar La Galerna,Bizkaia,2025-06-25,2025-12-04,Web B2B,Ane Etxeberria Zubiri,5,1495.17,139
+10512,Club El Chiqui,Bizkaia,2025-11-04,2026-01-30,Web B2B,Ane Etxeberria Zubiri,6,1444.26,140
+10474,Catering El Cuco,Bizkaia,2026-08-10,2026-08-19,Comercial,Mikel Goikoetxea Arana,2,1384.0,141
+11060,Restaurante La Txalupa,Bizkaia,2026-07-20,2026-09-14,Web B2B,Ane Etxeberria Zubiri,3,1162.75,142
+10289,Bar El Mirador,Bizkaia,2026-07-28,2026-09-25,Comercial,Ane Etxeberria Zubiri,8,815.64,143
+10529,Bar La Barquera,Bizkaia,2026-08-31,2026-09-29,Comercial,Mikel Goikoetxea Arana,3,614.99,144
+10435,Alimentación La Txalupa,Bizkaia,2025-05-21,2025-11-26,Web B2B,Mikel Goikoetxea Arana,2,561.9,145
+10257,Bar Salitre,Bizkaia,2026-08-13,2026-08-13,Web B2B,Mikel Goikoetxea Arana,1,475.42,146
+10097,Sidrería La Catedral,Bizkaia,2026-09-22,2026-09-22,Web B2B,Mikel Goikoetxea Arana,1,336.37,147
+10246,Hotel Mareas,Burgos,2024-01-05,2026-09-30,Comercial,Rubén Martín Calvo,74,130248.88,1
+10022,Supermercado Arena,Burgos,2025-09-17,2026-09-30,Comercial,Rubén Martín Calvo,70,123427.69,2
+10176,Supermercado Bitácora,Burgos,2024-03-15,2026-09-29,Web B2B,Rubén Martín Calvo,68,115909.75,3
+10610,Supermercado La Montaña,Burgos,2024-01-02,2026-09-24,Web B2B,Rubén Martín Calvo,58,88470.64,4
+10830,Supermercado La Taberna,Burgos,2024-01-02,2026-09-23,Comercial,Rubén Martín Calvo,55,73038.83,5
+10061,Supermercado El Hórreo,Burgos,2024-01-06,2026-09-23,Teléfono,Rubén Martín Calvo,50,68069.32,6
+10700,Supermercado Velero,Burgos,2024-05-10,2026-09-29,Comercial,Rubén Martín Calvo,41,59693.15,7
+10100,Hotel Bitácora,Burgos,2024-01-03,2026-09-25,Web B2B,Rubén Martín Calvo,46,59241.78,8
+10110,Hotel El Pasiego,Burgos,2024-01-08,2026-09-24,Teléfono,Rubén Martín Calvo,35,36056.27,9
+10449,Restaurante Duna,Burgos,2025-03-01,2026-09-14,Web B2B,Rubén Martín Calvo,50,35885.32,10
+10136,Hotel El Cid,Burgos,2024-01-09,2026-09-29,Web B2B,Rubén Martín Calvo,30,35482.46,11
+10372,Restaurante Marejadilla,Burgos,2024-01-11,2026-09-30,Comercial,Rubén Martín Calvo,57,30875.59,12
+10308,Hotel El Chiqui,Burgos,2024-01-04,2026-09-21,Teléfono,Rubén Martín Calvo,31,30664.5,13
+10318,Restaurante Los Arcos,Burgos,2024-01-01,2026-08-19,Comercial,Rubén Martín Calvo,54,29819.36,14
+10457,Hotel La Judería,Burgos,2024-01-22,2026-09-28,Web B2B,Rubén Martín Calvo,26,29120.66,15
+10556,Hotel Atalaya,Burgos,2024-02-03,2026-09-28,Comercial,Rubén Martín Calvo,26,28206.63,16
+10684,Restaurante La Peña,Burgos,2024-01-08,2026-09-15,Teléfono,Rubén Martín Calvo,49,27999.26,17
+10984,Restaurante El Muelle Norte,Burgos,2025-06-04,2026-09-29,Comercial,Rubén Martín Calvo,43,25836.84,18
+10733,Restaurante La Gaviota,Burgos,2024-12-09,2026-09-22,Teléfono,Rubén Martín Calvo,45,24911.82,19
+10975,Restaurante La Marina,Burgos,2024-01-01,2026-09-21,Comercial,Rubén Martín Calvo,38,22028.33,20
+10305,Restaurante El Ancla,Burgos,2024-01-10,2026-09-23,Comercial,Rubén Martín Calvo,35,20231.65,21
+10756,Restaurante La Brisa,Burgos,2024-01-02,2026-09-28,Comercial,Rubén Martín Calvo,35,20109.43,22
+10818,Restaurante El Cuco,Burgos,2024-01-04,2026-09-10,Web B2B,Rubén Martín Calvo,35,19994.27,23
+10920,Bar La Peña,Burgos,2024-01-04,2026-09-21,Comercial,Rubén Martín Calvo,48,19626.28,24
+10642,Restaurante El Espolón,Burgos,2024-01-01,2026-09-11,Comercial,Rubén Martín Calvo,40,18238.25,25
+10536,Bar El Molino,Burgos,2024-01-19,2026-09-26,Web B2B,Rubén Martín Calvo,46,18035.43,26
+10538,Restaurante El Chiqui,Burgos,2024-01-10,2026-09-29,Comercial,Rubén Martín Calvo,30,17707.42,27
+11027,Bar La Montaña,Burgos,2024-01-20,2026-09-29,Teléfono,Rubén Martín Calvo,51,17063.27,28
+10425,Restaurante La Ribera,Burgos,2024-01-06,2026-09-26,Comercial,Rubén Martín Calvo,37,16715.24,29
+10594,Restaurante El Ancla,Burgos,2025-08-01,2026-09-07,Comercial,Rubén Martín Calvo,33,16186.67,30
+10183,Restaurante El Duero,Burgos,2025-11-03,2026-09-15,Comercial,Rubén Martín Calvo,38,15438.96,31
+10755,Restaurante Mareas,Burgos,2024-01-04,2026-09-24,Web B2B,Rubén Martín Calvo,30,15382.98,32
+10338,Bar El Cuco,Burgos,2024-01-10,2026-09-23,Comercial,Rubén Martín Calvo,42,14284.23,33
+10491,Bar La Galerna,Burgos,2025-06-23,2026-09-29,Comercial,Rubén Martín Calvo,39,14223.28,34
+10635,Bar El Puente,Burgos,2024-01-05,2026-09-11,Teléfono,Rubén Martín Calvo,39,13287.96,35
+10504,Cafetería Las Rocas,Burgos,2025-04-09,2026-09-23,Teléfono,Rubén Martín Calvo,36,12638.92,36
+10847,Restaurante La Ría,Burgos,2024-01-26,2026-09-29,Web B2B,Rubén Martín Calvo,24,12520.58,37
+10091,Restaurante La Taberna,Burgos,2025-01-31,2026-09-24,Comercial,Rubén Martín Calvo,30,12428.37,38
+11030,Restaurante El Abra,Burgos,2024-02-01,2026-09-25,Comercial,Rubén Martín Calvo,31,12004.04,39
+10798,Bar La Alameda,Burgos,2025-10-20,2026-09-28,Web B2B,Rubén Martín Calvo,36,11205.04,40
+10862,Bar Bahía,Burgos,2024-01-12,2026-09-11,Web B2B,Rubén Martín Calvo,30,11177.38,41
+10518,Bar Velero,Burgos,2024-01-02,2026-09-22,Web B2B,Rubén Martín Calvo,30,10630.36,42
+10266,Bar La Brisa,Burgos,2024-02-06,2026-09-11,Comercial,Rubén Martín Calvo,29,10177.04,43
+11049,Cafetería La Plaza,Burgos,2024-01-08,2026-09-14,Comercial,Rubén Martín Calvo,37,10135.46,44
+10351,Alimentación La Castellana,Burgos,2025-12-16,2026-09-07,Comercial,Rubén Martín Calvo,19,9926.95,45
+10137,Bar La Estación,Burgos,2024-01-18,2026-09-29,Comercial,Rubén Martín Calvo,29,9716.53,46
+11139,Bar La Pradera,Burgos,2024-01-12,2026-09-25,Comercial,Rubén Martín Calvo,34,9705.64,47
+10215,Cafetería La Ribera,Burgos,2024-06-10,2026-09-30,Comercial,Rubén Martín Calvo,32,9488.74,48
+10304,Bar Albatros,Burgos,2024-01-25,2026-09-18,Comercial,Rubén Martín Calvo,29,8734.54,49
+11059,Restaurante El Sardinero Playa,Burgos,2024-01-03,2026-04-29,Comercial,Rubén Martín Calvo,17,8344.51,50
+11070,Bar Las Rocas,Burgos,2025-06-11,2026-09-21,Comercial,Rubén Martín Calvo,30,8204.27,51
+10628,Bar El Abra,Burgos,2024-01-01,2026-09-28,Comercial,Rubén Martín Calvo,30,8023.94,52
+11068,Bar Duna,Burgos,2024-01-01,2026-09-14,Comercial,Rubén Martín Calvo,27,7934.74,53
+10450,Bar Bitácora,Burgos,2024-01-02,2026-09-16,Comercial,Rubén Martín Calvo,32,7862.76,54
+10187,Alimentación La Ría,Burgos,2024-01-05,2026-09-24,Web B2B,Rubén Martín Calvo,19,7858.85,55
+10010,Bar El Chiqui,Burgos,2024-01-03,2026-09-24,Comercial,Rubén Martín Calvo,25,7748.16,56
+10997,Restaurante Los Arcos,Burgos,2024-02-13,2026-02-02,Web B2B,Rubén Martín Calvo,14,7667.66,57
+10236,Bar La Taberna,Burgos,2024-01-04,2026-09-25,Comercial,Rubén Martín Calvo,28,7654.89,58
+10140,Cafetería Albatros,Burgos,2024-04-06,2026-09-24,Comercial,Rubén Martín Calvo,22,7302.52,59
+10631,Bar La Castellana,Burgos,2024-01-09,2026-09-17,Comercial,Rubén Martín Calvo,26,7126.64,60
+11128,Alimentación Las Anclas,Burgos,2024-01-17,2026-08-13,Comercial,Rubén Martín Calvo,16,7071.88,61
+10826,Restaurante Bahía,Burgos,2024-01-10,2026-09-19,Comercial,Rubén Martín Calvo,24,6753.86,62
+11079,Bar La Plaza,Burgos,2024-01-05,2026-09-29,Teléfono,Rubén Martín Calvo,21,6333.69,63
+10974,Bar Nautilus,Burgos,2024-01-01,2026-09-21,Comercial,Rubén Martín Calvo,25,6310.51,64
+10195,Bar La Concha,Burgos,2024-01-06,2026-09-25,Teléfono,Rubén Martín Calvo,28,6181.05,65
+10472,Cafetería La Txalupa,Burgos,2024-01-25,2026-08-20,Teléfono,Rubén Martín Calvo,24,6177.78,66
+10647,Bar La Montaña,Burgos,2026-01-12,2026-09-29,Comercial,Rubén Martín Calvo,20,6133.04,67
+10879,Bar El Sardinero,Burgos,2024-01-18,2026-09-30,Teléfono,Rubén Martín Calvo,28,5862.04,68
+10203,Alimentación La Montaña,Burgos,2024-01-11,2026-09-25,Comercial,Rubén Martín Calvo,18,5656.1,69
+10076,Restaurante El Mirador,Burgos,2024-01-16,2025-12-25,Comercial,Rubén Martín Calvo,11,5113.98,70
+10069,Catering La Concha,Burgos,2024-01-25,2026-09-23,Comercial,Rubén Martín Calvo,19,5110.8,71
+10315,Catering La Montaña,Burgos,2024-02-01,2026-09-30,Comercial,Rubén Martín Calvo,10,4706.9,72
+10448,Restaurante El Faro,Burgos,2024-01-31,2025-12-05,Comercial,Rubén Martín Calvo,9,4581.55,73
+10261,Bar La Txalupa,Burgos,2025-12-08,2026-09-11,Web B2B,Rubén Martín Calvo,22,4541.25,74
+10155,Cafetería Albatros,Burgos,2024-01-18,2026-09-17,Web B2B,Rubén Martín Calvo,16,4416.72,75
+10098,Cafetería El Faro,Burgos,2026-04-24,2026-09-24,Web B2B,Rubén Martín Calvo,12,3981.2,76
+10023,Restaurante Arena,Burgos,2024-02-02,2025-11-04,Comercial,Rubén Martín Calvo,7,2635.44,77
+10743,Restaurante Atalaya,Burgos,2026-07-28,2026-09-28,Teléfono,Rubén Martín Calvo,6,2097.75,78
+10366,Alimentación El Abra,Burgos,2026-07-24,2026-09-29,Teléfono,Rubén Martín Calvo,5,2002.29,79
+10705,Bar Velero,Burgos,2024-01-10,2025-11-06,Teléfono,Rubén Martín Calvo,5,1788.1,80
+10004,Cafetería El Llagar,Burgos,2026-08-14,2026-09-07,Web B2B,Rubén Martín Calvo,3,1401.17,81
+10079,Bar Capitán,Burgos,2026-05-11,2026-09-16,Web B2B,Rubén Martín Calvo,6,1341.34,82
+11135,Cafetería El Castillo,Burgos,2024-01-18,2025-11-04,Comercial,Rubén Martín Calvo,2,582.16,83
+11013,Bar El Castillo,Burgos,2024-07-19,2024-12-16,Comercial,Rubén Martín Calvo,0,0.0,84
+10319,Bar Atalaya,Burgos,2024-02-16,2025-02-03,Comercial,Rubén Martín Calvo,0,0.0,84
+10852,Bar La Galerna Viejo,Burgos,2024-01-03,2024-06-10,Comercial,Óscar Peña Revilla,0,0.0,84
+10303,Bar El Botxo Playa,Burgos,2024-01-08,2024-10-14,Comercial,Rubén Martín Calvo,0,0.0,84
+10581,Alimentación El Pejino,Burgos,2024-01-23,2025-04-22,Comercial,Rubén Martín Calvo,0,0.0,84
+10742,Catering Nautilus,Burgos,2024-01-19,2024-09-21,Comercial,Rubén Martín Calvo,0,0.0,84
+11151,Alimentación El Pasiego,Burgos,2024-04-30,2024-07-25,Comercial,Óscar Peña Revilla,0,0.0,84
+10947,Alimentación Atalaya,Burgos,2024-02-26,2024-11-16,Comercial,Rubén Martín Calvo,0,0.0,84
+10347,Bar Los Pinares,Burgos,2024-01-25,2024-10-04,Comercial,Rubén Martín Calvo,0,0.0,84
+10146,Alimentación La Taberna,Burgos,2024-03-27,2025-08-27,Comercial,Rubén Martín Calvo,0,0.0,84
+10346,Supermercado Los Arcos,Cantabria,2024-01-02,2026-09-24,Comercial,Raquel Fernández Cobo,79,168610.59,1
+10769,Supermercado Los Pinares,Cantabria,2024-01-01,2026-09-11,Comercial,Daniel Gutiérrez Pérez,81,163457.91,2
+10475,Supermercado Velero,Cantabria,2024-01-01,2026-09-30,Web B2B,Sara Ceballos Ortiz,72,128406.56,3
+10490,Supermercado El Ancla,Cantabria,2024-01-11,2026-09-30,Comercial,Daniel Gutiérrez Pérez,68,116815.11,4
+11110,Supermercado Nautilus,Cantabria,2025-06-26,2026-09-28,Comercial,Daniel Gutiérrez Pérez,63,115320.83,5
+10874,Supermercado La Galerna,Cantabria,2025-05-30,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,71,112880.74,6
+10483,Supermercado La Sidra,Cantabria,2024-01-06,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,63,112625.13,7
+10900,Hotel La Muralla,Cantabria,2024-01-08,2026-09-29,Comercial,Pablo Revuelta Gómez,66,109368.71,8
+10011,Supermercado El Mirador,Cantabria,2024-01-10,2026-09-22,Web B2B,Celia Gómez Sáiz,65,105733.06,9
+10031,Supermercado La Concha,Cantabria,2024-01-08,2026-09-30,Comercial,Lorena Arce Díaz,63,102868.92,10
+11109,Supermercado La Plaza,Cantabria,2024-01-04,2026-09-29,Web B2B,Celia Gómez Sáiz,56,101051.03,11
+10637,Supermercado La Fuente,Cantabria,2024-01-02,2026-04-27,Teléfono,Sara Ceballos Ortiz,48,94748.08,12
+10809,Supermercado La Brisa,Cantabria,2024-04-04,2026-09-17,Comercial,Pablo Revuelta Gómez,61,94233.28,13
+10131,Supermercado Nautilus,Cantabria,2024-01-17,2026-09-24,Teléfono,Pablo Revuelta Gómez,61,84101.59,14
+10687,Hotel La Taberna,Cantabria,2024-01-15,2026-09-30,Web B2B,Raquel Fernández Cobo,49,76972.37,15
+11171,Hotel Mareas,Cantabria,2024-01-18,2026-09-29,Comercial,Pablo Revuelta Gómez,48,76713.69,16
+10729,Hotel El Paseo,Cantabria,2024-01-03,2026-09-28,Comercial,Celia Gómez Sáiz,51,70731.52,17
+10441,Supermercado El Duero,Cantabria,2024-11-15,2026-09-25,Teléfono,Daniel Gutiérrez Pérez,50,70301.84,18
+10233,Supermercado Albatros,Cantabria,2024-01-08,2026-09-21,Comercial,Daniel Gutiérrez Pérez,49,69565.91,19
+10165,Hotel La Castellana Playa,Cantabria,2024-01-03,2026-09-22,Comercial,Celia Gómez Sáiz,53,69013.33,20
+10707,Hotel El Mirador Nuevo,Cantabria,2024-01-18,2026-09-22,Comercial,Raquel Fernández Cobo,47,68193.41,21
+10298,Restaurante El Pasiego,Cantabria,2024-01-06,2026-09-28,Comercial,Raquel Fernández Cobo,83,68021.5,22
+11050,Supermercado La Judería,Cantabria,2025-08-08,2026-09-30,Web B2B,Raquel Fernández Cobo,45,66452.08,23
+10075,Hotel El Espolón,Cantabria,2024-01-05,2026-09-25,Comercial,Daniel Gutiérrez Pérez,45,65452.54,24
+10811,Supermercado El Pisuerga,Cantabria,2025-08-11,2026-09-28,Web B2B,Lorena Arce Díaz,45,65279.59,25
+10114,Supermercado El Abra,Cantabria,2024-01-03,2026-09-21,Teléfono,Raquel Fernández Cobo,45,64611.92,26
+10948,Supermercado El Espolón,Cantabria,2025-03-24,2026-09-24,Comercial,Sara Ceballos Ortiz,53,64521.57,27
+11138,Supermercado Velero,Cantabria,2024-01-16,2026-09-29,Teléfono,Raquel Fernández Cobo,43,64352.74,28
+10401,Supermercado La Ola Centro,Cantabria,2024-02-05,2026-09-30,Web B2B,Raquel Fernández Cobo,47,63962.06,29
+10615,Supermercado La Barquera,Cantabria,2024-01-03,2026-09-23,Comercial,Celia Gómez Sáiz,53,63703.63,30
+10005,Hotel La Castellana,Cantabria,2024-01-26,2026-09-30,Comercial,Pablo Revuelta Gómez,51,63656.29,31
+10332,Supermercado El Raquero,Cantabria,2024-01-12,2026-09-22,Comercial,Sara Ceballos Ortiz,43,63652.65,32
+11024,Supermercado El Mirador Centro,Cantabria,2024-01-10,2026-09-29,Teléfono,Raquel Fernández Cobo,53,61287.16,33
+10675,Hotel Malecón,Cantabria,2024-01-15,2026-09-18,Comercial,Lorena Arce Díaz,45,59302.17,34
+10262,Supermercado El Chiqui,Cantabria,2024-07-11,2026-09-23,Teléfono,Daniel Gutiérrez Pérez,46,57410.76,35
+10127,Hotel La Rula,Cantabria,2025-05-27,2026-09-28,Web B2B,Lorena Arce Díaz,48,55917.66,36
+10566,Supermercado Albatros,Cantabria,2024-01-02,2026-09-26,Comercial,Pablo Revuelta Gómez,44,54689.52,37
+10969,Hotel El Paseo,Cantabria,2024-01-06,2026-09-18,Teléfono,Pablo Revuelta Gómez,41,54419.51,38
+10252,Hotel La Txalupa,Cantabria,2024-01-05,2026-09-23,Teléfono,Daniel Gutiérrez Pérez,45,54156.04,39
+11140,Hotel La Muralla II,Cantabria,2024-01-01,2026-09-17,Comercial,Daniel Gutiérrez Pérez,42,53572.7,40
+10614,Hotel El Pasiego,Cantabria,2024-01-22,2026-09-23,Comercial,Raquel Fernández Cobo,37,52517.57,41
+10760,Hotel La Ría,Cantabria,2025-06-30,2026-09-10,Comercial,Pablo Revuelta Gómez,41,51398.82,42
+10083,Supermercado El Muelle,Cantabria,2025-12-19,2026-09-21,Comercial,Raquel Fernández Cobo,31,50056.68,43
+10324,Hotel La Montaña,Cantabria,2024-02-22,2026-09-28,Web B2B,Pablo Revuelta Gómez,46,49727.93,44
+10841,Supermercado El Mercado,Cantabria,2024-01-08,2026-09-05,Teléfono,Raquel Fernández Cobo,37,48051.98,45
+10335,Hotel El Pisuerga,Cantabria,2024-01-05,2026-09-29,Comercial,Pablo Revuelta Gómez,40,47031.23,46
+10597,Hotel El Faro,Cantabria,2024-11-04,2026-09-26,Comercial,Celia Gómez Sáiz,40,47002.82,47
+11026,Hotel Nautilus,Cantabria,2025-04-18,2026-09-05,Web B2B,Pablo Revuelta Gómez,37,46888.7,48
+10395,Hotel El Faro,Cantabria,2024-01-22,2026-09-15,Teléfono,Daniel Gutiérrez Pérez,36,46391.88,49
+10054,Restaurante La Galerna,Cantabria,2024-01-04,2026-09-26,Comercial,Daniel Gutiérrez Pérez,65,46285.1,50
+10799,Restaurante Duna,Cantabria,2024-01-01,2026-09-29,Teléfono,Sara Ceballos Ortiz,62,45068.16,51
+10801,Restaurante El Puente,Cantabria,2024-01-03,2026-09-28,Web B2B,Lorena Arce Díaz,62,43596.45,52
+10669,Hotel El Abra,Cantabria,2024-01-11,2026-09-22,Comercial,Pablo Revuelta Gómez,36,43257.53,53
+10190,Hotel Atalaya,Cantabria,2024-02-09,2026-09-24,Comercial,Celia Gómez Sáiz,37,41722.0,54
+10808,Bar Salitre,Cantabria,2024-01-17,2026-09-28,Comercial,Daniel Gutiérrez Pérez,73,41080.21,55
+10520,Restaurante Bahía,Cantabria,2024-01-02,2026-09-24,Comercial,Daniel Gutiérrez Pérez,62,40906.92,56
+10105,Hotel Los Pinares,Cantabria,2024-01-10,2026-08-17,Web B2B,Pablo Revuelta Gómez,31,38395.08,57
+10767,Restaurante El Cid,Cantabria,2024-03-08,2026-09-30,Web B2B,Pablo Revuelta Gómez,65,37747.77,58
+10693,Restaurante Albatros,Cantabria,2024-01-18,2026-09-30,Comercial,Pablo Revuelta Gómez,59,37453.79,59
+10887,Restaurante El Paseo Playa,Cantabria,2024-01-08,2026-09-17,Teléfono,Daniel Gutiérrez Pérez,55,37208.54,60
+10793,Hotel El Castillo,Cantabria,2025-11-10,2026-09-28,Web B2B,Pablo Revuelta Gómez,38,37121.63,61
+10579,Restaurante Los Arcos,Cantabria,2024-01-01,2026-09-28,Teléfono,Sara Ceballos Ortiz,54,36446.57,62
+10931,Hotel Bitácora,Cantabria,2024-12-25,2026-09-08,Comercial,Celia Gómez Sáiz,37,36405.38,63
+10646,Restaurante La Brisa,Cantabria,2024-01-02,2026-09-24,Teléfono,Raquel Fernández Cobo,49,36032.36,64
+10288,Hotel El Raquero,Cantabria,2024-01-09,2026-09-28,Web B2B,Sara Ceballos Ortiz,34,33975.42,65
+11160,Hotel Mareas,Cantabria,2024-01-04,2026-09-29,Comercial,Raquel Fernández Cobo,31,33683.72,66
+10429,Hotel Bitácora,Cantabria,2024-01-31,2026-09-30,Comercial,Pablo Revuelta Gómez,30,33650.98,67
+11032,Alimentación Capitán,Cantabria,2024-04-10,2026-09-22,Comercial,Raquel Fernández Cobo,46,32185.39,68
+10651,Alimentación La Barquera,Cantabria,2024-10-15,2026-09-10,Web B2B,Raquel Fernández Cobo,43,32182.3,69
+10035,Hotel El Castillo,Cantabria,2024-01-08,2026-09-26,Comercial,Pablo Revuelta Gómez,33,32092.97,70
+11037,Hotel La Barquera,Cantabria,2024-10-14,2026-09-15,Teléfono,Daniel Gutiérrez Pérez,31,31977.58,71
+11073,Supermercado El Faro,Cantabria,2025-11-05,2026-03-11,Teléfono,Sara Ceballos Ortiz,20,31952.41,72
+10390,Hotel El Pisuerga,Cantabria,2024-01-04,2026-09-04,Teléfono,Lorena Arce Díaz,28,31753.19,73
+10983,Hotel Las Rocas,Cantabria,2024-01-02,2026-09-24,Teléfono,Daniel Gutiérrez Pérez,30,31047.71,74
+10432,Restaurante Albatros,Cantabria,2024-09-03,2026-09-16,Comercial,Raquel Fernández Cobo,51,30437.22,75
+10301,Restaurante Atalaya,Cantabria,2024-01-09,2026-09-29,Teléfono,Raquel Fernández Cobo,52,30169.13,76
+10402,Hotel El Sardinero,Cantabria,2024-01-11,2026-09-30,Comercial,Celia Gómez Sáiz,28,29660.94,77
+10222,Restaurante El Mercado,Cantabria,2024-01-11,2026-09-25,Web B2B,Raquel Fernández Cobo,45,29102.34,78
+10999,Restaurante El Chiqui,Cantabria,2024-01-09,2026-09-18,Teléfono,Daniel Gutiérrez Pérez,53,28988.44,79
+11045,Restaurante La Rula,Cantabria,2025-10-09,2026-09-23,Teléfono,Pablo Revuelta Gómez,48,28696.73,80
+10033,Restaurante El Pejino,Cantabria,2024-01-03,2026-09-29,Web B2B,Sara Ceballos Ortiz,50,28673.04,81
+10274,Restaurante La Galerna,Cantabria,2024-01-03,2026-09-21,Comercial,Pablo Revuelta Gómez,52,28627.36,82
+10192,Restaurante La Plaza,Cantabria,2024-01-12,2026-09-28,Web B2B,Pablo Revuelta Gómez,43,27812.08,83
+11091,Restaurante La Sidra,Cantabria,2024-01-08,2026-09-28,Comercial,Pablo Revuelta Gómez,46,27473.94,84
+10763,Hotel El Cid,Cantabria,2024-01-03,2026-09-18,Web B2B,Daniel Gutiérrez Pérez,32,27414.51,85
+10782,Supermercado El Botxo,Cantabria,2026-02-03,2026-07-01,Comercial,Lorena Arce Díaz,20,26797.64,86
+10103,Hotel Las Rocas,Cantabria,2024-01-04,2026-09-15,Comercial,Raquel Fernández Cobo,33,26686.45,87
+10626,Hotel Nautilus,Cantabria,2024-01-11,2026-09-03,Comercial,Lorena Arce Díaz,30,26609.63,88
+10313,Restaurante La Rula,Cantabria,2025-07-09,2026-09-22,Comercial,Celia Gómez Sáiz,43,26082.15,89
+10434,Restaurante El Puerto,Cantabria,2024-01-02,2026-09-14,Teléfono,Pablo Revuelta Gómez,40,26023.72,90
+10373,Supermercado Bahía,Cantabria,2026-08-20,2026-09-29,Comercial,Sara Ceballos Ortiz,11,26009.68,91
+10905,Restaurante Mareas,Cantabria,2025-06-17,2026-09-29,Comercial,Pablo Revuelta Gómez,37,25670.88,92
+10694,Restaurante La Catedral II,Cantabria,2024-01-02,2026-09-22,Web B2B,Daniel Gutiérrez Pérez,40,25316.8,93
+10676,Restaurante La Sidra Norte,Cantabria,2024-11-19,2026-09-25,Comercial,Raquel Fernández Cobo,44,25071.67,94
+10934,Restaurante El Pisuerga,Cantabria,2025-03-24,2026-09-29,Web B2B,Pablo Revuelta Gómez,38,24773.93,95
+10382,Restaurante El Muelle,Cantabria,2024-07-12,2026-09-15,Comercial,Celia Gómez Sáiz,41,24740.2,96
+10908,Hotel El Robledal,Cantabria,2024-01-10,2026-09-22,Comercial,Pablo Revuelta Gómez,29,24379.46,97
+10345,Restaurante El Puerto,Cantabria,2024-01-04,2026-09-18,Teléfono,Pablo Revuelta Gómez,41,24097.48,98
+10713,Hotel La Galerna,Cantabria,2024-01-24,2026-09-30,Comercial,Pablo Revuelta Gómez,28,24020.72,99
+10873,Restaurante El Paseo,Cantabria,2024-01-01,2026-09-14,Comercial,Sara Ceballos Ortiz,44,23954.06,100
+10994,Hotel La Judería,Cantabria,2024-01-03,2026-09-28,Web B2B,Raquel Fernández Cobo,25,23661.8,101
+10738,Hotel El Mercado,Cantabria,2025-07-01,2026-08-27,Web B2B,Raquel Fernández Cobo,23,22641.14,102
+10240,Restaurante La Brisa,Cantabria,2024-01-16,2026-09-28,Web B2B,Raquel Fernández Cobo,38,22466.08,103
+10398,Bar La Alameda Nuevo,Cantabria,2026-01-15,2026-09-30,Comercial,Pablo Revuelta Gómez,47,22388.35,104
+10205,Restaurante Los Pinares,Cantabria,2025-01-08,2026-09-21,Teléfono,Raquel Fernández Cobo,37,22259.46,105
+10685,Restaurante La Catedral Viejo,Cantabria,2024-01-18,2026-09-16,Web B2B,Sara Ceballos Ortiz,39,22046.73,106
+10129,Restaurante Velero,Cantabria,2024-02-14,2026-09-30,Comercial,Daniel Gutiérrez Pérez,41,22046.05,107
+10848,Restaurante La Pradera,Cantabria,2025-02-10,2026-09-24,Teléfono,Celia Gómez Sáiz,42,21652.42,108
+10362,Restaurante Los Picos,Cantabria,2024-01-19,2026-09-29,Comercial,Lorena Arce Díaz,38,21372.35,109
+10728,Cafetería El Rincón,Cantabria,2024-01-08,2026-09-22,Web B2B,Lorena Arce Díaz,44,21258.26,110
+10320,Restaurante La Estación,Cantabria,2024-02-03,2026-09-24,Comercial,Pablo Revuelta Gómez,43,21163.99,111
+10405,Sidrería Duna,Cantabria,2024-01-08,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,47,21022.47,112
+10840,Sidrería El Pejino,Cantabria,2024-01-04,2026-09-29,Comercial,Pablo Revuelta Gómez,49,20999.37,113
+10939,Restaurante El Abra,Cantabria,2024-01-15,2026-09-25,Web B2B,Daniel Gutiérrez Pérez,35,20993.7,114
+10383,Restaurante El Chiqui,Cantabria,2024-01-02,2026-09-30,Comercial,Lorena Arce Díaz,37,20873.81,115
+10202,Restaurante El Castillo,Cantabria,2024-01-09,2026-09-18,Teléfono,Celia Gómez Sáiz,39,20819.63,116
+11114,Restaurante Arena,Cantabria,2024-01-01,2026-09-28,Web B2B,Raquel Fernández Cobo,33,20648.11,117
+10048,Bar La Ola,Cantabria,2024-01-01,2026-09-25,Comercial,Pablo Revuelta Gómez,52,20582.04,118
+10409,Restaurante La Concha,Cantabria,2024-01-01,2026-09-14,Comercial,Raquel Fernández Cobo,34,20449.04,119
+10912,Sidrería La Marina,Cantabria,2024-01-15,2026-09-15,Teléfono,Pablo Revuelta Gómez,48,20414.73,120
+11136,Restaurante El Rincón,Cantabria,2024-01-05,2026-09-30,Web B2B,Sara Ceballos Ortiz,40,20375.85,121
+11173,Bar Las Rocas,Cantabria,2024-01-01,2026-09-30,Comercial,Lorena Arce Díaz,53,20209.26,122
+10316,Restaurante Bitácora,Cantabria,2024-01-11,2026-09-23,Web B2B,Pablo Revuelta Gómez,44,20087.13,123
+10596,Bar El Molino Norte,Cantabria,2024-01-02,2026-09-26,Teléfono,Raquel Fernández Cobo,45,19957.05,124
+10486,Restaurante El Faro,Cantabria,2024-01-18,2026-09-30,Web B2B,Pablo Revuelta Gómez,35,19944.2,125
+10876,Restaurante La Galerna,Cantabria,2024-01-11,2026-09-25,Web B2B,Celia Gómez Sáiz,39,19895.16,126
+10047,Bar El Puente,Cantabria,2024-01-04,2026-09-23,Comercial,Daniel Gutiérrez Pérez,48,19618.9,127
+11078,Restaurante La Galerna,Cantabria,2024-01-04,2026-09-30,Comercial,Raquel Fernández Cobo,44,19423.52,128
+10589,Hotel El Muelle,Cantabria,2024-01-08,2026-09-28,Comercial,Raquel Fernández Cobo,20,19286.06,129
+10147,Restaurante El Robledal,Cantabria,2024-01-04,2026-09-10,Web B2B,Sara Ceballos Ortiz,36,18829.28,130
+10121,Bar El Puente,Cantabria,2024-01-01,2026-09-30,Web B2B,Pablo Revuelta Gómez,50,18800.8,131
+10447,Restaurante El Puerto,Cantabria,2024-01-08,2026-09-22,Comercial,Daniel Gutiérrez Pérez,35,18337.46,132
+10697,Restaurante Duna,Cantabria,2024-01-02,2026-09-14,Web B2B,Lorena Arce Díaz,36,18173.81,133
+11106,Restaurante Bitácora,Cantabria,2024-01-16,2026-09-28,Comercial,Daniel Gutiérrez Pérez,42,18170.24,134
+10913,Restaurante El Espolón Centro,Cantabria,2024-03-12,2026-09-25,Comercial,Celia Gómez Sáiz,30,17924.83,135
+10761,Restaurante Malecón,Cantabria,2024-01-02,2026-09-29,Teléfono,Sara Ceballos Ortiz,36,17788.51,136
+10967,Alimentación El Robledal,Cantabria,2024-01-03,2026-09-11,Comercial,Lorena Arce Díaz,32,17697.24,137
+10640,Restaurante Los Picos,Cantabria,2024-01-20,2026-09-30,Web B2B,Raquel Fernández Cobo,41,17509.71,138
+10291,Sidrería La Barquera,Cantabria,2024-01-02,2026-09-24,Web B2B,Lorena Arce Díaz,40,17426.97,139
+10020,Restaurante El Raquero,Cantabria,2024-01-05,2026-09-26,Comercial,Lorena Arce Díaz,31,17412.13,140
+10232,Restaurante El Mirador,Cantabria,2024-01-23,2026-09-30,Teléfono,Pablo Revuelta Gómez,36,17400.37,141
+10541,Bar El Chiqui Playa,Cantabria,2024-02-23,2026-09-25,Comercial,Sara Ceballos Ortiz,47,17368.8,142
+10915,Hotel El Sardinero,Cantabria,2024-01-27,2026-04-18,Teléfono,Pablo Revuelta Gómez,15,17319.27,143
+10144,Bar El Cid,Cantabria,2024-01-09,2026-09-25,Comercial,Pablo Revuelta Gómez,42,17304.81,144
+11082,Restaurante La Plaza,Cantabria,2024-01-12,2026-09-28,Teléfono,Sara Ceballos Ortiz,30,17282.21,145
+10456,Restaurante La Ribera,Cantabria,2025-10-02,2026-09-29,Web B2B,Raquel Fernández Cobo,38,17275.07,146
+11069,Sidrería La Gaviota,Cantabria,2024-01-03,2026-09-04,Comercial,Pablo Revuelta Gómez,39,17274.67,147
+10903,Restaurante La Ribera,Cantabria,2024-01-04,2026-09-22,Comercial,Celia Gómez Sáiz,40,17213.12,148
+10699,Restaurante Mareas,Cantabria,2024-01-01,2026-09-22,Comercial,Lorena Arce Díaz,34,17088.14,149
+10749,Restaurante El Hórreo,Cantabria,2024-01-03,2026-09-29,Comercial,Lorena Arce Díaz,39,16994.31,150
+10546,Bar La Ría,Cantabria,2024-01-11,2026-09-17,Comercial,Celia Gómez Sáiz,41,16966.18,151
+10654,Restaurante La Txalupa,Cantabria,2025-01-21,2026-09-15,Web B2B,Celia Gómez Sáiz,32,16956.85,152
+10437,Bar El Cuco,Cantabria,2024-01-01,2026-09-22,Comercial,Raquel Fernández Cobo,46,16928.12,153
+10509,Restaurante El Paseo,Cantabria,2024-10-10,2026-09-21,Teléfono,Celia Gómez Sáiz,32,16914.51,154
+11113,Restaurante Bahía,Cantabria,2024-01-05,2026-09-22,Comercial,Celia Gómez Sáiz,36,16859.41,155
+10526,Alimentación Duna,Cantabria,2024-01-02,2026-09-24,Web B2B,Sara Ceballos Ortiz,34,16714.4,156
+10835,Restaurante El Hórreo,Cantabria,2024-01-31,2026-09-02,Comercial,Celia Gómez Sáiz,35,16636.91,157
+11175,Bar La Taberna Nuevo,Cantabria,2024-01-03,2026-09-17,Web B2B,Raquel Fernández Cobo,46,16575.88,158
+10411,Restaurante El Muelle,Cantabria,2024-03-22,2026-09-15,Comercial,Sara Ceballos Ortiz,38,16539.83,159
+10225,Restaurante La Bodeguilla,Cantabria,2024-01-22,2026-09-18,Comercial,Daniel Gutiérrez Pérez,36,16537.21,160
+10987,Sidrería Velero,Cantabria,2024-01-18,2026-09-16,Comercial,Lorena Arce Díaz,39,16477.86,161
+11097,Bar El Pejino,Cantabria,2024-01-19,2026-09-22,Teléfono,Raquel Fernández Cobo,43,16436.05,162
+11081,Restaurante La Taberna,Cantabria,2024-01-24,2026-09-28,Teléfono,Raquel Fernández Cobo,33,16376.73,163
+10804,Restaurante El Molino,Cantabria,2024-01-03,2026-09-22,Web B2B,Pablo Revuelta Gómez,32,16089.34,164
+10992,Cafetería La Concha,Cantabria,2024-01-04,2026-09-30,Teléfono,Raquel Fernández Cobo,50,15805.24,165
+10732,Restaurante El Hórreo,Cantabria,2024-01-25,2026-09-28,Comercial,Daniel Gutiérrez Pérez,36,15762.82,166
+10989,Alimentación Bitácora,Cantabria,2024-01-11,2026-09-28,Web B2B,Daniel Gutiérrez Pérez,32,15690.04,167
+10961,Sidrería El Espolón,Cantabria,2024-01-01,2026-08-28,Comercial,Sara Ceballos Ortiz,39,15674.93,168
+10143,Restaurante Los Pinares,Cantabria,2025-08-25,2026-09-25,Comercial,Celia Gómez Sáiz,32,15591.51,169
+10438,Restaurante El Puerto,Cantabria,2024-01-12,2026-09-29,Comercial,Celia Gómez Sáiz,30,15475.07,170
+10816,Restaurante El Cuco,Cantabria,2024-01-09,2026-09-17,Teléfono,Pablo Revuelta Gómez,30,15396.31,171
+10658,Restaurante Los Picos,Cantabria,2024-01-09,2026-09-25,Comercial,Raquel Fernández Cobo,32,15323.73,172
+10157,Restaurante La Catedral,Cantabria,2024-10-22,2026-09-29,Comercial,Pablo Revuelta Gómez,36,15297.4,173
+10952,Club Las Rocas II,Cantabria,2024-10-17,2026-09-23,Comercial,Raquel Fernández Cobo,38,15237.27,174
+10015,Sidrería El Sardinero,Cantabria,2024-01-05,2026-09-23,Comercial,Raquel Fernández Cobo,38,15187.09,175
+10430,Restaurante El Llagar,Cantabria,2025-02-25,2026-09-28,Comercial,Celia Gómez Sáiz,31,15158.95,176
+11115,Restaurante Salitre,Cantabria,2024-01-31,2026-09-10,Comercial,Lorena Arce Díaz,34,15102.03,177
+11157,Restaurante Nautilus,Cantabria,2024-01-18,2026-09-26,Comercial,Raquel Fernández Cobo,31,15016.4,178
+10927,Alimentación La Peña,Cantabria,2024-01-09,2026-09-21,Teléfono,Daniel Gutiérrez Pérez,28,14965.77,179
+10737,Bar Albatros,Cantabria,2024-01-17,2026-09-28,Web B2B,Celia Gómez Sáiz,41,14866.3,180
+10765,Sidrería La Catedral,Cantabria,2024-01-15,2026-09-25,Comercial,Pablo Revuelta Gómez,42,14776.23,181
+10842,Restaurante El Castillo,Cantabria,2024-01-11,2026-09-02,Comercial,Raquel Fernández Cobo,31,14618.64,182
+10959,Club El Pasiego,Cantabria,2024-01-09,2026-09-14,Web B2B,Pablo Revuelta Gómez,31,14618.03,183
+11029,Bar El Duero,Cantabria,2025-06-13,2026-09-28,Comercial,Celia Gómez Sáiz,41,14523.39,184
+10228,Bar Duna,Cantabria,2024-03-29,2026-09-28,Teléfono,Lorena Arce Díaz,42,14516.98,185
+11158,Restaurante Marejadilla,Cantabria,2024-01-11,2026-09-30,Teléfono,Celia Gómez Sáiz,33,14510.16,186
+10172,Bar El Botxo,Cantabria,2024-02-03,2026-09-23,Web B2B,Sara Ceballos Ortiz,42,14489.77,187
+10138,Sidrería Bahía,Cantabria,2024-01-03,2026-09-29,Comercial,Pablo Revuelta Gómez,41,14457.85,188
+10086,Alimentación La Alameda,Cantabria,2024-05-10,2026-09-16,Comercial,Raquel Fernández Cobo,31,14451.1,189
+10314,Restaurante El Molino Playa,Cantabria,2024-09-25,2026-09-21,Comercial,Celia Gómez Sáiz,32,14433.62,190
+10125,Restaurante El Puerto,Cantabria,2024-01-19,2026-09-29,Teléfono,Sara Ceballos Ortiz,29,14372.87,191
+10995,Bar Capitán,Cantabria,2024-01-01,2026-09-30,Comercial,Celia Gómez Sáiz,42,14306.74,192
+10428,Bar La Brisa,Cantabria,2024-01-16,2026-09-01,Comercial,Sara Ceballos Ortiz,42,14241.74,193
+10513,Restaurante El Pejino,Cantabria,2024-01-01,2026-09-09,Comercial,Celia Gómez Sáiz,28,14198.27,194
+10832,Alimentación La Peña,Cantabria,2024-02-09,2026-09-28,Teléfono,Raquel Fernández Cobo,30,14184.2,195
+11083,Bar La Marina Norte,Cantabria,2024-01-08,2026-09-23,Web B2B,Daniel Gutiérrez Pérez,38,13991.78,196
+10499,Restaurante El Sardinero,Cantabria,2024-12-25,2026-09-25,Web B2B,Pablo Revuelta Gómez,34,13961.17,197
+11164,Bar El Pasiego,Cantabria,2024-01-08,2026-09-15,Teléfono,Pablo Revuelta Gómez,39,13940.29,198
+11090,Restaurante El Raquero,Cantabria,2024-01-10,2026-09-17,Web B2B,Celia Gómez Sáiz,29,13824.66,199
+10698,Bar Nautilus,Cantabria,2025-09-22,2026-09-25,Web B2B,Raquel Fernández Cobo,37,13804.06,200
+10465,Sidrería El Hórreo,Cantabria,2025-04-21,2026-09-23,Comercial,Raquel Fernández Cobo,36,13803.88,201
+10404,Bar La Estación,Cantabria,2024-01-24,2026-08-28,Comercial,Celia Gómez Sáiz,40,13782.68,202
+10780,Bar La Muralla,Cantabria,2024-02-06,2026-09-24,Comercial,Pablo Revuelta Gómez,42,13697.11,203
+10531,Restaurante Los Picos,Cantabria,2024-05-03,2026-08-31,Teléfono,Pablo Revuelta Gómez,39,13643.3,204
+10365,Sidrería La Ola,Cantabria,2024-04-10,2026-09-22,Teléfono,Pablo Revuelta Gómez,38,13633.43,205
+10444,Alimentación Atalaya,Cantabria,2024-01-09,2026-09-28,Teléfono,Lorena Arce Díaz,32,13597.76,206
+10016,Bar La Galerna,Cantabria,2024-11-14,2026-09-22,Comercial,Sara Ceballos Ortiz,41,13589.21,207
+10993,Alimentación El Llagar,Cantabria,2024-02-08,2026-09-15,Comercial,Raquel Fernández Cobo,26,13581.86,208
+11169,Sidrería Los Pinares,Cantabria,2024-01-15,2026-09-21,Teléfono,Celia Gómez Sáiz,35,13478.94,209
+10072,Bar El Cid,Cantabria,2024-01-03,2026-09-04,Comercial,Daniel Gutiérrez Pérez,43,13477.91,210
+10910,Restaurante La Gaviota,Cantabria,2024-03-01,2026-09-28,Comercial,Lorena Arce Díaz,28,13460.08,211
+10256,Alimentación El Espolón,Cantabria,2024-01-12,2026-09-08,Teléfono,Celia Gómez Sáiz,28,13444.32,212
+10264,Sidrería Mareas,Cantabria,2025-09-19,2026-09-22,Teléfono,Pablo Revuelta Gómez,39,13399.54,213
+10134,Sidrería El Ancla,Cantabria,2024-01-05,2026-09-24,Web B2B,Sara Ceballos Ortiz,36,13397.36,214
+10856,Restaurante Los Pinares,Cantabria,2024-01-17,2026-09-21,Comercial,Raquel Fernández Cobo,29,13354.18,215
+10703,Restaurante El Espolón,Cantabria,2024-01-05,2026-08-18,Teléfono,Pablo Revuelta Gómez,30,13340.03,216
+10985,Restaurante La Barquera,Cantabria,2024-01-16,2026-09-18,Comercial,Sara Ceballos Ortiz,36,13297.82,217
+10221,Restaurante La Castellana,Cantabria,2024-01-03,2026-09-04,Comercial,Sara Ceballos Ortiz,30,13273.7,218
+10833,Restaurante Velero,Cantabria,2024-01-19,2026-09-21,Comercial,Raquel Fernández Cobo,31,13257.12,219
+10731,Restaurante La Ribera,Cantabria,2026-02-16,2026-09-21,Comercial,Pablo Revuelta Gómez,24,13254.05,220
+10607,Bar La Gaviota,Cantabria,2024-01-04,2026-09-16,Comercial,Raquel Fernández Cobo,44,13238.26,221
+10872,Cafetería Los Arcos,Cantabria,2024-01-03,2026-09-15,Comercial,Sara Ceballos Ortiz,38,13208.12,222
+10734,Restaurante La Ría,Cantabria,2024-02-05,2026-09-08,Web B2B,Celia Gómez Sáiz,25,13098.91,223
+11126,Restaurante El Raquero,Cantabria,2024-01-27,2026-08-31,Teléfono,Celia Gómez Sáiz,30,13000.97,224
+10505,Alimentación El Hórreo,Cantabria,2024-01-24,2026-09-30,Teléfono,Raquel Fernández Cobo,26,12998.27,225
+10527,Alimentación Duna,Cantabria,2025-04-10,2026-09-14,Web B2B,Lorena Arce Díaz,28,12980.21,226
+11105,Bar La Rula,Cantabria,2024-01-12,2026-09-04,Comercial,Lorena Arce Díaz,38,12913.07,227
+10582,Cafetería Capitán,Cantabria,2024-01-03,2026-09-23,Web B2B,Celia Gómez Sáiz,40,12912.78,228
+10572,Bar La Alameda,Cantabria,2024-01-02,2026-09-28,Comercial,Daniel Gutiérrez Pérez,41,12895.86,229
+11165,Cafetería Las Anclas,Cantabria,2024-02-20,2026-09-29,Comercial,Daniel Gutiérrez Pérez,41,12799.43,230
+10230,Alimentación Salitre,Cantabria,2024-05-30,2026-07-20,Comercial,Sara Ceballos Ortiz,22,12701.64,231
+10249,Sidrería La Galerna,Cantabria,2024-01-24,2026-09-28,Comercial,Sara Ceballos Ortiz,36,12646.41,232
+10178,Alimentación El Puente,Cantabria,2025-05-23,2026-09-30,Teléfono,Pablo Revuelta Gómez,28,12636.16,233
+10645,Bar La Catedral,Cantabria,2024-01-03,2026-09-17,Web B2B,Raquel Fernández Cobo,32,12631.65,234
+10014,Restaurante El Duero,Cantabria,2024-01-15,2026-09-29,Teléfono,Daniel Gutiérrez Pérez,38,12622.64,235
+10736,Alimentación La Plaza Nuevo,Cantabria,2025-01-02,2026-09-22,Comercial,Raquel Fernández Cobo,28,12613.91,236
+10084,Bar El Pisuerga,Cantabria,2024-01-23,2026-09-25,Teléfono,Sara Ceballos Ortiz,37,12532.35,237
+10902,Alimentación El Ancla,Cantabria,2024-01-05,2026-09-24,Web B2B,Daniel Gutiérrez Pérez,34,12422.21,238
+10106,Restaurante El Rincón,Cantabria,2026-01-05,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,29,12413.57,239
+10009,Restaurante El Sardinero,Cantabria,2024-01-08,2026-09-23,Comercial,Sara Ceballos Ortiz,31,12396.83,240
+10552,Bar La Taberna,Cantabria,2024-01-03,2026-09-25,Web B2B,Pablo Revuelta Gómez,42,12279.16,241
+11130,Bar El Mirador,Cantabria,2024-01-19,2026-09-07,Web B2B,Daniel Gutiérrez Pérez,32,12273.79,242
+10962,Sidrería Los Arcos,Cantabria,2024-03-02,2026-09-24,Comercial,Pablo Revuelta Gómez,31,12105.39,243
+10336,Bar La Pradera,Cantabria,2024-01-05,2026-09-29,Teléfono,Sara Ceballos Ortiz,37,12094.26,244
+10661,Bar La Montaña,Cantabria,2024-02-28,2026-09-30,Web B2B,Sara Ceballos Ortiz,36,12030.11,245
+10469,Restaurante El Abra,Cantabria,2024-01-04,2026-09-14,Web B2B,Sara Ceballos Ortiz,31,11987.09,246
+10681,Restaurante Bahía,Cantabria,2024-02-08,2026-09-22,Web B2B,Lorena Arce Díaz,37,11983.83,247
+10650,Alimentación El Muelle,Cantabria,2024-01-04,2026-07-31,Teléfono,Pablo Revuelta Gómez,29,11933.0,248
+10375,Bar Velero,Cantabria,2024-02-01,2026-09-25,Teléfono,Pablo Revuelta Gómez,42,11904.92,249
+10612,Alimentación La Ola,Cantabria,2024-02-27,2026-09-17,Teléfono,Daniel Gutiérrez Pérez,27,11826.61,250
+10327,Cafetería La Ría,Cantabria,2024-12-10,2026-07-22,Teléfono,Daniel Gutiérrez Pérez,27,11822.35,251
+10800,Catering El Pisuerga Norte,Cantabria,2024-02-02,2026-09-22,Web B2B,Celia Gómez Sáiz,26,11719.89,252
+10774,Sidrería El Cuco,Cantabria,2024-04-05,2026-09-30,Teléfono,Pablo Revuelta Gómez,33,11555.26,253
+10219,Cafetería Marejadilla,Cantabria,2024-01-25,2026-09-28,Teléfono,Daniel Gutiérrez Pérez,42,11491.07,254
+10602,Restaurante La Ola,Cantabria,2024-01-01,2026-09-29,Web B2B,Pablo Revuelta Gómez,32,11361.09,255
+10748,Restaurante La Sidra,Cantabria,2024-01-22,2026-09-23,Web B2B,Daniel Gutiérrez Pérez,38,11349.6,256
+11061,Restaurante La Montaña,Cantabria,2024-01-22,2026-09-25,Comercial,Daniel Gutiérrez Pérez,27,11348.17,257
+10087,Restaurante La Marina,Cantabria,2024-01-05,2026-09-28,Comercial,Sara Ceballos Ortiz,24,11274.84,258
+10194,Alimentación El Cid,Cantabria,2024-01-26,2026-09-22,Comercial,Sara Ceballos Ortiz,21,11218.21,259
+10279,Bar Marejadilla,Cantabria,2024-01-22,2026-09-25,Web B2B,Raquel Fernández Cobo,37,11184.83,260
+10462,Alimentación Atalaya,Cantabria,2024-01-25,2026-09-07,Teléfono,Sara Ceballos Ortiz,24,11155.01,261
+10042,Bar El Ancla,Cantabria,2024-03-12,2026-09-12,Web B2B,Daniel Gutiérrez Pérez,31,11069.61,262
+10621,Bar El Espolón,Cantabria,2024-01-15,2026-09-24,Comercial,Daniel Gutiérrez Pérez,34,11001.85,263
+10122,Club Los Pinares,Cantabria,2024-01-23,2026-09-30,Web B2B,Raquel Fernández Cobo,31,10979.68,264
+10561,Restaurante Marejadilla,Cantabria,2024-01-08,2026-09-29,Teléfono,Lorena Arce Díaz,27,10967.44,265
+10104,Bar Los Pinares,Cantabria,2024-01-10,2026-09-10,Comercial,Lorena Arce Díaz,37,10917.08,266
+10473,Bar La Txalupa,Cantabria,2026-07-10,2026-09-28,Web B2B,Sara Ceballos Ortiz,19,10825.88,267
+10452,Club La Muralla,Cantabria,2024-02-12,2026-09-04,Comercial,Raquel Fernández Cobo,33,10799.51,268
+10532,Alimentación El Botxo,Cantabria,2024-01-03,2026-09-24,Teléfono,Raquel Fernández Cobo,28,10719.25,269
+10721,Catering Marejadilla,Cantabria,2024-01-12,2026-09-07,Teléfono,Lorena Arce Díaz,24,10683.28,270
+10871,Sidrería El Castillo,Cantabria,2024-07-23,2026-09-24,Comercial,Pablo Revuelta Gómez,31,10618.71,271
+10283,Alimentación Mareas,Cantabria,2024-01-18,2026-09-01,Teléfono,Celia Gómez Sáiz,18,10605.16,272
+10213,Bar Los Picos,Cantabria,2024-01-05,2026-09-24,Comercial,Lorena Arce Díaz,31,10573.23,273
+10674,Club El Mirador,Cantabria,2024-01-12,2026-09-11,Comercial,Pablo Revuelta Gómez,34,10470.57,274
+10996,Restaurante Salitre,Cantabria,2024-01-03,2026-08-26,Web B2B,Celia Gómez Sáiz,26,10378.04,275
+10666,Bar Los Picos,Cantabria,2024-01-02,2026-09-28,Teléfono,Daniel Gutiérrez Pérez,34,10356.33,276
+10516,Bar La Concha,Cantabria,2024-01-04,2026-09-26,Comercial,Sara Ceballos Ortiz,32,10321.23,277
+10135,Restaurante La Gaviota,Cantabria,2024-01-01,2026-09-25,Web B2B,Lorena Arce Díaz,22,10316.18,278
+10117,Bar La Taberna,Cantabria,2024-01-15,2026-09-28,Web B2B,Pablo Revuelta Gómez,39,10298.94,279
+10717,Alimentación El Pasiego,Cantabria,2024-05-08,2026-09-17,Comercial,Sara Ceballos Ortiz,27,10287.12,280
+10030,Alimentación La Peña,Cantabria,2024-01-18,2026-09-16,Web B2B,Lorena Arce Díaz,25,10281.55,281
+11125,Alimentación La Rula,Cantabria,2024-06-28,2026-09-28,Web B2B,Pablo Revuelta Gómez,24,10222.32,282
+10027,Restaurante El Faro,Cantabria,2024-01-09,2026-09-21,Teléfono,Raquel Fernández Cobo,31,10176.14,283
+10917,Bar El Llagar Centro,Cantabria,2024-01-04,2026-09-23,Comercial,Pablo Revuelta Gómez,39,10117.92,284
+10882,Bar La Peña Centro,Cantabria,2024-01-12,2026-09-22,Web B2B,Lorena Arce Díaz,35,10083.14,285
+10455,Bar Duna,Cantabria,2024-01-15,2026-09-16,Web B2B,Pablo Revuelta Gómez,30,10057.67,286
+10986,Bar Las Rocas,Cantabria,2024-06-28,2026-09-28,Web B2B,Lorena Arce Díaz,34,10035.45,287
+10278,Bar La Brisa,Cantabria,2024-01-02,2026-09-15,Comercial,Raquel Fernández Cobo,33,10029.17,288
+10300,Bar La Fuente,Cantabria,2024-01-01,2026-09-15,Teléfono,Raquel Fernández Cobo,34,10005.55,289
+10776,Bar La Txalupa,Cantabria,2024-01-08,2026-09-18,Comercial,Pablo Revuelta Gómez,33,9987.73,290
+10090,Club La Plaza,Cantabria,2025-09-19,2026-09-17,Web B2B,Sara Ceballos Ortiz,31,9987.22,291
+10524,Sidrería La Concha,Cantabria,2024-01-15,2026-09-23,Comercial,Raquel Fernández Cobo,30,9936.22,292
+10522,Alimentación La Marina,Cantabria,2024-01-06,2026-09-28,Teléfono,Lorena Arce Díaz,24,9891.76,293
+10419,Alimentación La Plaza,Cantabria,2024-01-29,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,23,9880.67,294
+10112,Bar El Hórreo,Cantabria,2024-01-12,2026-08-31,Web B2B,Celia Gómez Sáiz,32,9876.81,295
+11058,Bar El Llagar,Cantabria,2024-01-18,2026-09-24,Comercial,Raquel Fernández Cobo,40,9809.88,296
+10639,Catering El Hórreo,Cantabria,2024-01-08,2026-09-28,Comercial,Daniel Gutiérrez Pérez,17,9808.26,297
+11148,Bar Los Pinares,Cantabria,2024-01-01,2026-09-22,Comercial,Raquel Fernández Cobo,30,9767.03,298
+10128,Alimentación Las Anclas Nuevo,Cantabria,2024-01-15,2026-09-21,Comercial,Raquel Fernández Cobo,24,9694.91,299
+11018,Restaurante La Brisa,Cantabria,2025-09-15,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,22,9689.49,300
+10173,Bar El Puente,Cantabria,2024-01-04,2026-08-29,Web B2B,Lorena Arce Díaz,27,9627.63,301
+10741,Hotel Atalaya,Cantabria,2026-04-20,2026-09-09,Comercial,Sara Ceballos Ortiz,11,9614.71,302
+10660,Alimentación El Ancla Centro,Cantabria,2024-01-25,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,23,9592.63,303
+11052,Cafetería El Sardinero,Cantabria,2024-01-19,2026-09-22,Web B2B,Sara Ceballos Ortiz,36,9549.85,304
+11133,Bar El Castillo Nuevo,Cantabria,2024-01-11,2026-09-15,Teléfono,Daniel Gutiérrez Pérez,34,9549.72,305
+10050,Bar El Pisuerga,Cantabria,2024-01-23,2026-09-26,Comercial,Pablo Revuelta Gómez,33,9539.87,306
+10340,Bar El Sardinero,Cantabria,2024-03-23,2026-09-25,Comercial,Sara Ceballos Ortiz,31,9534.6,307
+10001,Bar La Ola,Cantabria,2024-12-16,2026-09-25,Teléfono,Pablo Revuelta Gómez,30,9519.11,308
+10118,Sidrería La Ría,Cantabria,2024-01-16,2026-09-29,Comercial,Sara Ceballos Ortiz,29,9492.42,309
+10446,Alimentación El Sardinero,Cantabria,2024-05-06,2026-09-08,Comercial,Raquel Fernández Cobo,20,9454.84,310
+10381,Sidrería El Rincón,Cantabria,2024-01-04,2026-09-29,Comercial,Celia Gómez Sáiz,27,9452.46,311
+10824,Alimentación La Plaza,Cantabria,2024-01-18,2026-09-14,Web B2B,Celia Gómez Sáiz,22,9421.71,312
+10958,Catering La Ribera,Cantabria,2024-01-23,2026-09-05,Web B2B,Celia Gómez Sáiz,24,9377.1,313
+10909,Bar El Faro,Cantabria,2024-02-01,2026-09-17,Web B2B,Lorena Arce Díaz,32,9371.11,314
+10945,Bar El Mercado Viejo,Cantabria,2024-03-05,2026-09-29,Web B2B,Sara Ceballos Ortiz,38,9366.38,315
+10523,Bar La Castellana,Cantabria,2024-01-04,2026-09-08,Web B2B,Raquel Fernández Cobo,25,9364.9,316
+11053,Cafetería La Gaviota,Cantabria,2024-04-24,2026-09-24,Web B2B,Daniel Gutiérrez Pérez,37,9355.13,317
+10691,Bar Atalaya Norte,Cantabria,2024-01-03,2026-09-29,Teléfono,Raquel Fernández Cobo,31,9321.29,318
+10227,Bar La Pradera,Cantabria,2024-02-15,2026-09-23,Teléfono,Celia Gómez Sáiz,25,9312.07,319
+10422,Bar Los Arcos,Cantabria,2024-01-18,2026-09-29,Comercial,Lorena Arce Díaz,30,9289.92,320
+10869,Restaurante La Ribera,Cantabria,2026-05-25,2026-09-28,Comercial,Lorena Arce Díaz,23,9285.47,321
+10006,Bar La Barquera,Cantabria,2024-02-12,2026-09-26,Comercial,Pablo Revuelta Gómez,37,9258.35,322
+10002,Bar La Ría,Cantabria,2024-02-22,2026-09-10,Comercial,Raquel Fernández Cobo,32,9244.33,323
+10839,Bar La Plaza,Cantabria,2024-01-02,2026-09-29,Web B2B,Celia Gómez Sáiz,29,9237.3,324
+10364,Restaurante La Estación,Cantabria,2024-01-04,2026-09-29,Teléfono,Raquel Fernández Cobo,24,9234.93,325
+10418,Alimentación El Molino,Cantabria,2024-01-05,2026-09-29,Teléfono,Raquel Fernández Cobo,22,9190.73,326
+10073,Bar La Alameda,Cantabria,2024-01-12,2026-09-28,Teléfono,Pablo Revuelta Gómez,32,9166.48,327
+11085,Bar Bitácora,Cantabria,2024-01-26,2026-09-14,Web B2B,Daniel Gutiérrez Pérez,35,9164.08,328
+10342,Alimentación El Pisuerga,Cantabria,2024-01-19,2026-09-21,Teléfono,Raquel Fernández Cobo,22,9158.52,329
+11048,Restaurante La Catedral Playa,Cantabria,2025-04-21,2026-09-28,Web B2B,Daniel Gutiérrez Pérez,30,9122.06,330
+10488,Restaurante La Rula,Cantabria,2024-02-01,2026-09-29,Web B2B,Celia Gómez Sáiz,23,9120.48,331
+10148,Bar El Puerto,Cantabria,2024-05-23,2026-09-25,Comercial,Sara Ceballos Ortiz,29,9108.62,332
+10807,Bar El Mercado,Cantabria,2025-08-12,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,33,9099.7,333
+10113,Bar La Estación,Cantabria,2024-01-03,2026-09-04,Web B2B,Daniel Gutiérrez Pérez,26,9089.79,334
+11067,Cafetería Las Anclas,Cantabria,2024-09-16,2026-09-21,Comercial,Pablo Revuelta Gómez,35,9081.7,335
+10242,Alimentación La Castellana,Cantabria,2024-01-06,2026-09-19,Comercial,Raquel Fernández Cobo,26,9080.83,336
+10470,Cafetería La Ola,Cantabria,2024-01-23,2026-09-26,Comercial,Raquel Fernández Cobo,33,8994.42,337
+10677,Bar Salitre,Cantabria,2024-02-02,2026-09-04,Comercial,Celia Gómez Sáiz,35,8985.49,338
+10234,Restaurante La Bodeguilla,Cantabria,2024-01-16,2026-09-22,Teléfono,Daniel Gutiérrez Pérez,27,8950.9,339
+10648,Bar El Robledal Centro,Cantabria,2024-02-19,2026-09-28,Comercial,Raquel Fernández Cobo,31,8945.79,340
+10058,Cafetería La Bodeguilla,Cantabria,2024-01-01,2026-09-30,Comercial,Pablo Revuelta Gómez,33,8936.83,341
+10757,Bar Atalaya,Cantabria,2024-02-08,2026-09-21,Teléfono,Celia Gómez Sáiz,33,8868.6,342
+10583,Restaurante La Plaza,Cantabria,2024-01-26,2026-09-25,Web B2B,Daniel Gutiérrez Pérez,25,8864.82,343
+10021,Alimentación La Castellana,Cantabria,2024-01-17,2026-09-29,Web B2B,Pablo Revuelta Gómez,22,8813.66,344
+10673,Alimentación El Pejino,Cantabria,2024-03-04,2026-09-29,Web B2B,Lorena Arce Díaz,21,8782.56,345
+10186,Cafetería El Botxo,Cantabria,2024-01-22,2026-09-30,Web B2B,Pablo Revuelta Gómez,29,8776.21,346
+10553,Sidrería Arena,Cantabria,2024-01-01,2026-09-23,Comercial,Sara Ceballos Ortiz,27,8759.22,347
+10088,Bar La Barquera,Cantabria,2024-01-06,2026-09-30,Teléfono,Sara Ceballos Ortiz,26,8748.35,348
+10281,Cafetería Bitácora,Cantabria,2024-01-08,2026-09-24,Comercial,Pablo Revuelta Gómez,29,8707.32,349
+10922,Bar La Castellana,Cantabria,2025-12-31,2026-08-26,Teléfono,Daniel Gutiérrez Pérez,25,8669.39,350
+11118,Sidrería Bitácora,Cantabria,2024-01-01,2026-09-14,Web B2B,Celia Gómez Sáiz,25,8651.55,351
+11003,Bar La Bodeguilla II,Cantabria,2026-04-09,2026-09-30,Comercial,Raquel Fernández Cobo,23,8639.71,352
+10044,Club Los Picos,Cantabria,2024-01-15,2026-09-30,Comercial,Daniel Gutiérrez Pérez,27,8613.56,353
+10263,Catering La Barquera,Cantabria,2024-10-07,2026-09-16,Teléfono,Celia Gómez Sáiz,21,8604.37,354
+10152,Bar La Alameda,Cantabria,2024-01-02,2026-09-05,Web B2B,Pablo Revuelta Gómez,30,8593.02,355
+10468,Bar Salitre,Cantabria,2024-01-02,2026-09-26,Comercial,Sara Ceballos Ortiz,29,8572.13,356
+10182,Bar Las Rocas,Cantabria,2024-04-30,2026-09-28,Comercial,Pablo Revuelta Gómez,33,8557.89,357
+11155,Restaurante La Plaza,Cantabria,2024-03-13,2026-09-22,Comercial,Raquel Fernández Cobo,28,8516.92,358
+10696,Bar El Robledal,Cantabria,2024-01-02,2026-09-24,Comercial,Daniel Gutiérrez Pérez,35,8503.31,359
+10130,Restaurante El Molino,Cantabria,2026-01-15,2026-08-10,Comercial,Pablo Revuelta Gómez,17,8470.74,360
+10310,Bar Arena,Cantabria,2024-01-08,2026-09-30,Comercial,Raquel Fernández Cobo,28,8418.82,361
+10683,Bar La Gaviota Nuevo,Cantabria,2024-01-05,2026-09-30,Teléfono,Sara Ceballos Ortiz,30,8413.99,362
+10071,Bar Bahía,Cantabria,2024-01-02,2026-09-21,Comercial,Raquel Fernández Cobo,35,8412.9,363
+10797,Restaurante Bahía,Cantabria,2024-01-15,2026-07-03,Comercial,Sara Ceballos Ortiz,18,8399.17,364
+10070,Alimentación El Cuco,Cantabria,2025-08-07,2026-09-14,Web B2B,Pablo Revuelta Gómez,21,8392.31,365
+10627,Bar La Txalupa,Cantabria,2024-01-12,2026-09-21,Comercial,Celia Gómez Sáiz,22,8391.68,366
+10599,Bar El Sardinero,Cantabria,2024-11-14,2026-09-26,Web B2B,Pablo Revuelta Gómez,28,8369.71,367
+10608,Alimentación La Plaza,Cantabria,2024-03-01,2026-09-18,Teléfono,Raquel Fernández Cobo,18,8340.71,368
+10950,Bar El Robledal,Cantabria,2024-02-02,2026-09-23,Web B2B,Pablo Revuelta Gómez,25,8314.03,369
+10576,Sidrería Mareas,Cantabria,2024-01-12,2026-09-29,Comercial,Celia Gómez Sáiz,28,8296.9,370
+11145,Bar Capitán Norte,Cantabria,2024-02-06,2026-09-24,Teléfono,Sara Ceballos Ortiz,28,8283.18,371
+10198,Alimentación El Rincón,Cantabria,2025-02-26,2026-09-23,Teléfono,Raquel Fernández Cobo,21,8266.61,372
+10277,Sidrería La Plaza,Cantabria,2024-01-01,2026-09-10,Comercial,Raquel Fernández Cobo,25,8264.85,373
+10714,Bar La Montaña,Cantabria,2025-08-27,2026-09-23,Comercial,Sara Ceballos Ortiz,32,8258.58,374
+10353,Bar Mareas,Cantabria,2024-01-22,2026-09-30,Teléfono,Pablo Revuelta Gómez,28,8254.79,375
+10554,Cafetería La Brisa,Cantabria,2025-06-03,2026-09-24,Web B2B,Pablo Revuelta Gómez,32,8250.2,376
+11077,Bar La Estación Centro,Cantabria,2024-01-26,2026-06-02,Teléfono,Daniel Gutiérrez Pérez,23,8244.78,377
+10604,Catering El Puente,Cantabria,2024-01-01,2026-08-27,Comercial,Pablo Revuelta Gómez,19,8243.55,378
+10978,Restaurante El Raquero,Cantabria,2024-01-25,2026-09-17,Comercial,Daniel Gutiérrez Pérez,24,8226.17,379
+10688,Sidrería El Pasiego,Cantabria,2024-07-10,2026-06-18,Comercial,Daniel Gutiérrez Pérez,22,8219.0,380
+10981,Bar El Muelle II,Cantabria,2024-01-16,2026-09-02,Web B2B,Daniel Gutiérrez Pérez,32,8205.78,381
+10665,Bar La Peña,Cantabria,2024-02-22,2026-09-29,Comercial,Sara Ceballos Ortiz,27,8170.31,382
+10206,Bar El Abra,Cantabria,2024-01-11,2026-09-15,Comercial,Raquel Fernández Cobo,30,8124.66,383
+10220,Cafetería El Mercado,Cantabria,2024-01-01,2026-09-04,Comercial,Daniel Gutiérrez Pérez,28,8120.18,384
+10212,Club El Abra,Cantabria,2024-01-31,2026-09-18,Comercial,Celia Gómez Sáiz,27,8119.06,385
+10530,Bar La Brisa,Cantabria,2024-01-20,2026-09-29,Comercial,Daniel Gutiérrez Pérez,33,8093.32,386
+10889,Bar Bahía,Cantabria,2024-02-05,2026-09-29,Web B2B,Celia Gómez Sáiz,31,8078.34,387
+10966,Bar El Chiqui,Cantabria,2024-01-22,2026-09-02,Comercial,Pablo Revuelta Gómez,25,8057.67,388
+10702,Bar Marejadilla Norte,Cantabria,2024-02-23,2026-09-29,Comercial,Pablo Revuelta Gómez,30,8053.25,389
+11063,Cafetería El Pasiego,Cantabria,2024-09-18,2026-09-18,Comercial,Sara Ceballos Ortiz,29,8051.79,390
+10159,Restaurante Los Arcos,Cantabria,2024-01-05,2026-09-28,Comercial,Celia Gómez Sáiz,19,8021.28,391
+10196,Catering Capitán,Cantabria,2024-02-01,2026-09-04,Comercial,Pablo Revuelta Gómez,19,7998.08,392
+11038,Bar Las Anclas,Cantabria,2025-04-03,2026-09-15,Comercial,Celia Gómez Sáiz,28,7988.24,393
+10560,Cafetería Los Picos,Cantabria,2024-01-09,2026-09-21,Teléfono,Lorena Arce Díaz,28,7947.21,394
+10929,Club Malecón,Cantabria,2025-04-01,2026-09-23,Teléfono,Daniel Gutiérrez Pérez,26,7928.45,395
+10550,Hotel El Pisuerga,Cantabria,2026-06-29,2026-09-30,Comercial,Sara Ceballos Ortiz,9,7899.34,396
+11146,Sidrería El Pejino Centro,Cantabria,2024-02-14,2026-09-17,Web B2B,Daniel Gutiérrez Pérez,28,7855.2,397
+10662,Cafetería Marejadilla,Cantabria,2024-01-09,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,25,7839.42,398
+10095,Bar Las Rocas,Cantabria,2025-04-03,2026-09-14,Comercial,Daniel Gutiérrez Pérez,29,7831.82,399
+10107,Bar El Muelle,Cantabria,2024-01-04,2026-09-17,Web B2B,Raquel Fernández Cobo,28,7825.74,400
+10275,Bar La Brisa,Cantabria,2026-03-03,2026-09-10,Web B2B,Sara Ceballos Ortiz,22,7816.04,401
+10037,Bar El Paseo,Cantabria,2024-01-10,2026-09-28,Web B2B,Raquel Fernández Cobo,27,7775.11,402
+10487,Catering El Paseo,Cantabria,2024-01-04,2026-09-29,Comercial,Celia Gómez Sáiz,18,7721.48,403
+11149,Bar El Mirador,Cantabria,2024-01-29,2026-09-28,Web B2B,Celia Gómez Sáiz,26,7710.22,404
+10391,Restaurante Salitre,Cantabria,2026-02-27,2026-09-18,Comercial,Sara Ceballos Ortiz,16,7664.65,405
+10567,Bar El Chiqui,Cantabria,2024-01-02,2026-09-22,Comercial,Sara Ceballos Ortiz,25,7636.3,406
+10287,Club La Galerna,Cantabria,2024-01-12,2026-09-28,Comercial,Sara Ceballos Ortiz,19,7625.65,407
+10562,Alimentación El Paseo,Cantabria,2024-01-01,2026-09-22,Web B2B,Sara Ceballos Ortiz,20,7613.93,408
+11036,Bar El Botxo,Cantabria,2025-05-19,2026-09-23,Comercial,Raquel Fernández Cobo,32,7602.79,409
+10937,Alimentación Las Rocas,Cantabria,2024-01-03,2026-09-25,Teléfono,Pablo Revuelta Gómez,21,7590.74,410
+11121,Cafetería Los Picos,Cantabria,2024-01-09,2026-08-28,Teléfono,Celia Gómez Sáiz,33,7547.49,411
+10431,Bar Marejadilla,Cantabria,2024-01-15,2026-09-09,Comercial,Celia Gómez Sáiz,21,7499.75,412
+11041,Catering La Marina,Cantabria,2024-01-04,2026-09-22,Web B2B,Raquel Fernández Cobo,17,7499.13,413
+10657,Sidrería La Galerna,Cantabria,2024-01-01,2026-09-29,Teléfono,Celia Gómez Sáiz,24,7494.25,414
+10771,Bar Los Arcos,Cantabria,2025-02-18,2026-08-27,Web B2B,Daniel Gutiérrez Pérez,28,7493.72,415
+10046,Alimentación El Duero,Cantabria,2024-01-26,2026-09-30,Teléfono,Sara Ceballos Ortiz,20,7473.63,416
+10982,Club La Sidra,Cantabria,2024-01-24,2026-09-08,Teléfono,Celia Gómez Sáiz,27,7446.91,417
+10175,Bar La Galerna,Cantabria,2024-01-19,2026-09-26,Web B2B,Daniel Gutiérrez Pérez,31,7424.55,418
+10972,Sidrería La Ría,Cantabria,2024-01-13,2026-09-04,Comercial,Sara Ceballos Ortiz,26,7416.63,419
+11143,Cafetería El Rincón,Cantabria,2025-03-04,2026-09-17,Web B2B,Raquel Fernández Cobo,29,7415.67,420
+10559,Bar La Taberna,Cantabria,2025-12-04,2026-09-11,Comercial,Daniel Gutiérrez Pérez,26,7370.69,421
+10416,Restaurante Las Anclas,Cantabria,2024-01-04,2026-09-30,Comercial,Daniel Gutiérrez Pérez,19,7361.36,422
+10812,Bar El Espolón,Cantabria,2024-02-01,2026-09-15,Teléfono,Pablo Revuelta Gómez,29,7346.69,423
+10051,Catering La Taberna,Cantabria,2024-03-07,2026-09-25,Comercial,Raquel Fernández Cobo,19,7320.92,424
+10480,Bar La Concha,Cantabria,2024-02-23,2026-09-22,Comercial,Celia Gómez Sáiz,29,7298.12,425
+10762,Sidrería El Chiqui,Cantabria,2024-02-05,2026-09-28,Comercial,Raquel Fernández Cobo,27,7296.15,426
+11119,Cafetería Velero,Cantabria,2024-09-27,2026-09-28,Comercial,Pablo Revuelta Gómez,32,7283.77,427
+10563,Cafetería Duna,Cantabria,2024-01-04,2026-08-31,Web B2B,Raquel Fernández Cobo,24,7276.58,428
+10944,Bar El Puente,Cantabria,2025-08-18,2026-09-19,Teléfono,Daniel Gutiérrez Pérez,28,7260.86,429
+10356,Bar El Pasiego,Cantabria,2024-03-01,2026-09-26,Comercial,Raquel Fernández Cobo,30,7236.11,430
+11011,Alimentación El Faro,Cantabria,2024-01-13,2026-09-29,Comercial,Raquel Fernández Cobo,22,7233.82,431
+10460,Bar La Ría,Cantabria,2024-01-04,2026-09-21,Comercial,Pablo Revuelta Gómez,26,7209.43,432
+10514,Bar La Concha,Cantabria,2025-05-02,2026-09-29,Comercial,Pablo Revuelta Gómez,27,7184.95,433
+11177,Club La Taberna Centro,Cantabria,2024-01-26,2026-09-23,Comercial,Daniel Gutiérrez Pérez,20,7132.3,434
+11033,Bar El Robledal II,Cantabria,2025-05-13,2026-09-09,Comercial,Daniel Gutiérrez Pérez,27,7126.87,435
+10370,Bar El Cuco II,Cantabria,2024-01-02,2026-08-24,Comercial,Raquel Fernández Cobo,24,7113.19,436
+10065,Cafetería La Marina,Cantabria,2024-01-30,2026-09-17,Web B2B,Pablo Revuelta Gómez,26,7099.07,437
+10789,Sidrería El Pejino,Cantabria,2024-01-31,2026-09-11,Web B2B,Pablo Revuelta Gómez,23,7074.68,438
+10443,Sidrería El Sardinero,Cantabria,2025-05-09,2026-09-16,Comercial,Raquel Fernández Cobo,30,7069.95,439
+11166,Cafetería El Muelle,Cantabria,2024-01-08,2026-09-21,Web B2B,Pablo Revuelta Gómez,26,7017.79,440
+10540,Bar La Judería,Cantabria,2026-04-08,2026-09-30,Comercial,Daniel Gutiérrez Pérez,27,7004.64,441
+10169,Club La Barquera,Cantabria,2024-01-02,2026-09-15,Teléfono,Lorena Arce Díaz,24,6951.37,442
+10979,Sidrería El Pejino,Cantabria,2024-02-06,2026-09-28,Web B2B,Daniel Gutiérrez Pérez,28,6944.12,443
+10542,Bar El Duero,Cantabria,2024-02-16,2026-09-26,Web B2B,Sara Ceballos Ortiz,21,6928.14,444
+10396,Bar Nautilus,Cantabria,2024-01-15,2026-09-03,Comercial,Daniel Gutiérrez Pérez,21,6880.13,445
+10201,Club El Rincón,Cantabria,2025-08-12,2026-09-09,Comercial,Daniel Gutiérrez Pérez,21,6871.84,446
+10930,Bar El Sardinero,Cantabria,2024-10-14,2026-09-25,Web B2B,Raquel Fernández Cobo,30,6815.48,447
+10670,Bar El Muelle,Cantabria,2024-01-04,2026-09-10,Teléfono,Pablo Revuelta Gómez,26,6802.13,448
+10207,Bar Duna,Cantabria,2024-01-17,2026-09-10,Comercial,Lorena Arce Díaz,28,6789.75,449
+10911,Bar La Plaza,Cantabria,2024-01-13,2026-09-24,Teléfono,Sara Ceballos Ortiz,25,6787.73,450
+10352,Bar Albatros,Cantabria,2024-01-15,2026-09-09,Web B2B,Lorena Arce Díaz,24,6784.3,451
+10247,Club El Abra,Cantabria,2025-09-25,2026-09-08,Comercial,Lorena Arce Díaz,22,6773.49,452
+10786,Restaurante Las Rocas,Cantabria,2025-09-10,2026-09-22,Comercial,Sara Ceballos Ortiz,25,6746.65,453
+10664,Cafetería La Pradera,Cantabria,2024-07-04,2026-08-27,Teléfono,Pablo Revuelta Gómez,22,6715.89,454
+10663,Bar La Estación Viejo,Cantabria,2024-01-09,2026-09-19,Comercial,Sara Ceballos Ortiz,28,6690.39,455
+10193,Bar La Brisa,Cantabria,2024-01-24,2026-09-23,Web B2B,Celia Gómez Sáiz,23,6658.19,456
+10723,Cafetería Malecón,Cantabria,2024-01-08,2026-08-07,Web B2B,Daniel Gutiérrez Pérez,24,6652.07,457
+10059,Cafetería El Robledal,Cantabria,2024-01-05,2026-08-27,Comercial,Pablo Revuelta Gómez,26,6641.28,458
+10623,Club Arena,Cantabria,2024-01-04,2026-09-16,Comercial,Raquel Fernández Cobo,18,6616.9,459
+10706,Bar Capitán Playa,Cantabria,2024-01-04,2026-09-29,Web B2B,Sara Ceballos Ortiz,27,6601.56,460
+10598,Cafetería El Faro,Cantabria,2024-12-24,2026-09-15,Comercial,Pablo Revuelta Gómez,25,6589.95,461
+10585,Alimentación La Galerna,Cantabria,2024-01-08,2026-09-22,Comercial,Sara Ceballos Ortiz,18,6577.17,462
+10525,Catering La Pradera,Cantabria,2024-03-11,2026-09-17,Comercial,Pablo Revuelta Gómez,20,6575.74,463
+10408,Club La Marina,Cantabria,2024-02-29,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,22,6551.06,464
+10082,Club Duna,Cantabria,2024-02-21,2026-09-29,Comercial,Daniel Gutiérrez Pérez,23,6543.63,465
+10753,Alimentación La Gaviota,Cantabria,2024-02-06,2026-09-26,Comercial,Daniel Gutiérrez Pérez,22,6535.27,466
+11054,Bar La Pradera,Cantabria,2024-01-11,2026-09-25,Comercial,Lorena Arce Díaz,26,6500.94,467
+10493,Bar Arena,Cantabria,2024-01-19,2026-09-28,Web B2B,Celia Gómez Sáiz,21,6491.65,468
+10719,Alimentación Arena,Cantabria,2025-02-10,2026-01-22,Comercial,Pablo Revuelta Gómez,11,6487.35,469
+11025,Bar La Marina II,Cantabria,2024-02-09,2026-09-23,Comercial,Sara Ceballos Ortiz,19,6451.53,470
+10814,Cafetería Duna,Cantabria,2024-02-13,2026-09-24,Web B2B,Celia Gómez Sáiz,27,6434.82,471
+10093,Cafetería El Puerto,Cantabria,2024-01-08,2026-09-14,Web B2B,Raquel Fernández Cobo,27,6427.51,472
+10895,Bar El Mercado Centro,Cantabria,2024-01-06,2026-09-21,Comercial,Sara Ceballos Ortiz,25,6416.7,473
+10092,Sidrería La Txalupa,Cantabria,2024-01-16,2026-09-21,Comercial,Raquel Fernández Cobo,22,6411.43,474
+10933,Bar El Duero Centro,Cantabria,2026-02-02,2026-09-11,Web B2B,Daniel Gutiérrez Pérez,22,6407.51,475
+10209,Bar Los Arcos,Cantabria,2024-01-17,2026-09-23,Comercial,Lorena Arce Díaz,22,6380.03,476
+10772,Bar Los Picos,Cantabria,2024-02-07,2026-09-11,Teléfono,Lorena Arce Díaz,30,6371.9,477
+11116,Alimentación La Galerna,Cantabria,2024-01-05,2026-09-21,Teléfono,Daniel Gutiérrez Pérez,21,6315.29,478
+10817,Sidrería La Peña,Cantabria,2025-02-27,2026-09-30,Comercial,Lorena Arce Díaz,21,6313.49,479
+10766,Catering La Montaña,Cantabria,2025-09-19,2026-08-27,Web B2B,Pablo Revuelta Gómez,16,6236.82,480
+10413,Bar El Botxo Nuevo,Cantabria,2024-01-02,2026-09-01,Teléfono,Celia Gómez Sáiz,22,6234.57,481
+10309,Bar El Mercado,Cantabria,2024-02-02,2026-09-28,Comercial,Daniel Gutiérrez Pérez,25,6179.45,482
+11124,Club Los Arcos,Cantabria,2024-01-01,2026-05-14,Web B2B,Sara Ceballos Ortiz,20,6176.34,483
+10115,Bar La Bodeguilla,Cantabria,2024-01-26,2026-09-29,Web B2B,Daniel Gutiérrez Pérez,26,6153.09,484
+10783,Club Malecón,Cantabria,2024-10-17,2026-09-23,Web B2B,Daniel Gutiérrez Pérez,24,6150.42,485
+10132,Bar La Catedral,Cantabria,2024-01-08,2026-09-23,Web B2B,Daniel Gutiérrez Pérez,22,6149.07,486
+10374,Bar La Catedral,Cantabria,2024-05-13,2026-09-17,Comercial,Pablo Revuelta Gómez,23,6099.34,487
+10625,Bar Albatros,Cantabria,2026-01-17,2026-09-17,Teléfono,Pablo Revuelta Gómez,23,6092.18,488
+10290,Club La Txalupa,Cantabria,2024-03-27,2026-09-25,Comercial,Lorena Arce Díaz,23,6078.7,489
+10551,Cafetería El Paseo,Cantabria,2024-02-06,2026-09-25,Comercial,Celia Gómez Sáiz,25,6074.52,490
+11099,Bar La Castellana,Cantabria,2024-01-11,2026-09-09,Comercial,Raquel Fernández Cobo,26,6048.55,491
+10357,Bar Velero,Cantabria,2024-02-12,2026-09-15,Comercial,Raquel Fernández Cobo,25,6035.2,492
+10333,Restaurante El Molino,Cantabria,2026-06-18,2026-09-14,Comercial,Daniel Gutiérrez Pérez,14,6029.91,493
+10730,Club El Puerto,Cantabria,2025-02-25,2026-09-25,Comercial,Pablo Revuelta Gómez,28,6005.55,494
+10990,Sidrería El Cid,Cantabria,2026-02-17,2026-09-04,Comercial,Pablo Revuelta Gómez,18,5996.35,495
+10354,Bar Atalaya,Cantabria,2024-11-28,2026-09-22,Web B2B,Celia Gómez Sáiz,26,5921.92,496
+10482,Bar Los Arcos Viejo,Cantabria,2024-01-06,2026-09-21,Comercial,Raquel Fernández Cobo,26,5916.69,497
+10066,Bar La Judería,Cantabria,2026-06-02,2026-09-18,Comercial,Raquel Fernández Cobo,12,5912.1,498
+10880,Bar El Ancla,Cantabria,2024-01-15,2026-08-27,Web B2B,Celia Gómez Sáiz,21,5871.3,499
+10158,Sidrería La Ola,Cantabria,2024-01-11,2026-09-30,Web B2B,Daniel Gutiérrez Pérez,18,5831.27,500
+10043,Restaurante El Pisuerga,Cantabria,2024-01-18,2026-09-21,Comercial,Pablo Revuelta Gómez,18,5825.03,501
+11134,Cafetería El Puerto,Cantabria,2024-02-09,2026-09-18,Comercial,Sara Ceballos Ortiz,22,5794.35,502
+10970,Bar La Barquera,Cantabria,2024-02-23,2026-09-02,Comercial,Raquel Fernández Cobo,21,5740.46,503
+11072,Cafetería La Galerna,Cantabria,2024-01-01,2026-05-13,Web B2B,Celia Gómez Sáiz,18,5738.28,504
+10295,Club El Cid,Cantabria,2024-01-22,2026-09-07,Teléfono,Celia Gómez Sáiz,22,5720.0,505
+11001,Bar La Ribera,Cantabria,2024-01-23,2026-09-09,Comercial,Raquel Fernández Cobo,25,5712.95,506
+10724,Bar El Pisuerga,Cantabria,2024-03-01,2026-09-22,Comercial,Pablo Revuelta Gómez,23,5697.64,507
+10421,Cafetería El Ancla,Cantabria,2024-01-10,2026-09-23,Web B2B,Lorena Arce Díaz,21,5687.97,508
+10545,Club El Sardinero Centro,Cantabria,2026-04-10,2026-09-23,Web B2B,Raquel Fernández Cobo,20,5683.83,509
+10036,Bar La Catedral,Cantabria,2024-01-04,2026-09-26,Web B2B,Celia Gómez Sáiz,25,5671.0,510
+10285,Bar La Barquera,Cantabria,2024-01-12,2026-08-10,Teléfono,Celia Gómez Sáiz,21,5662.06,511
+10831,Catering Marejadilla,Cantabria,2024-01-16,2026-09-22,Web B2B,Daniel Gutiérrez Pérez,17,5633.93,512
+10875,Alimentación El Puerto,Cantabria,2024-01-12,2026-09-08,Teléfono,Sara Ceballos Ortiz,15,5619.37,513
+11004,Bar La Muralla Norte,Cantabria,2024-01-03,2026-09-23,Web B2B,Lorena Arce Díaz,18,5545.3,514
+10080,Sidrería Arena,Cantabria,2024-01-02,2026-09-30,Web B2B,Sara Ceballos Ortiz,17,5526.6,515
+11051,Cafetería La Plaza,Cantabria,2024-01-01,2026-09-25,Teléfono,Daniel Gutiérrez Pérez,23,5520.0,516
+10235,Cafetería La Rula,Cantabria,2024-08-05,2026-09-21,Comercial,Celia Gómez Sáiz,28,5504.48,517
+10307,Bar La Alameda,Cantabria,2024-01-12,2026-09-29,Comercial,Celia Gómez Sáiz,25,5485.44,518
+10489,Bar La Ría,Cantabria,2024-01-17,2026-09-28,Teléfono,Lorena Arce Díaz,30,5479.55,519
+10686,Sidrería Albatros,Cantabria,2024-01-24,2026-09-28,Web B2B,Pablo Revuelta Gómez,16,5433.61,520
+10957,Alimentación El Botxo,Cantabria,2024-02-01,2026-09-10,Web B2B,Pablo Revuelta Gómez,17,5385.9,521
+10727,Cafetería Los Arcos Viejo,Cantabria,2024-01-31,2026-09-28,Teléfono,Raquel Fernández Cobo,24,5376.61,522
+10268,Bar Marejadilla,Cantabria,2026-01-13,2026-09-18,Web B2B,Sara Ceballos Ortiz,17,5365.31,523
+10057,Bar El Paseo,Cantabria,2024-01-09,2026-09-29,Comercial,Pablo Revuelta Gómez,27,5365.09,524
+10479,Club El Chiqui,Cantabria,2026-04-23,2026-09-29,Web B2B,Celia Gómez Sáiz,17,5337.64,525
+10863,Cafetería El Raquero,Cantabria,2024-01-25,2026-09-14,Web B2B,Celia Gómez Sáiz,21,5331.54,526
+10388,Bar El Raquero,Cantabria,2024-01-03,2026-09-24,Comercial,Pablo Revuelta Gómez,25,5323.17,527
+10029,Bar La Muralla,Cantabria,2024-01-15,2026-08-27,Web B2B,Pablo Revuelta Gómez,23,5293.52,528
+10752,Bar El Sardinero,Cantabria,2024-01-03,2026-09-10,Web B2B,Raquel Fernández Cobo,22,5261.27,529
+11040,Catering El Castillo,Cantabria,2026-03-23,2026-08-12,Teléfono,Celia Gómez Sáiz,10,5245.56,530
+10778,Bar Marejadilla,Cantabria,2024-10-28,2026-08-28,Comercial,Pablo Revuelta Gómez,24,5234.55,531
+10936,Cafetería La Ría,Cantabria,2024-02-01,2026-09-19,Comercial,Pablo Revuelta Gómez,29,5206.91,532
+10211,Bar La Peña,Cantabria,2024-06-19,2026-09-22,Web B2B,Celia Gómez Sáiz,22,5201.29,533
+10049,Cafetería La Estación,Cantabria,2024-01-15,2026-09-01,Comercial,Lorena Arce Díaz,21,5171.87,534
+10484,Club El Puerto,Cantabria,2024-01-03,2026-09-19,Web B2B,Raquel Fernández Cobo,23,5153.24,535
+10600,Club Albatros,Cantabria,2026-05-09,2026-09-28,Comercial,Lorena Arce Díaz,16,5134.88,536
+10964,Club El Molino,Cantabria,2026-01-30,2026-09-04,Web B2B,Lorena Arce Díaz,18,5111.6,537
+10846,Bar Bitácora,Cantabria,2024-01-05,2026-09-08,Web B2B,Raquel Fernández Cobo,21,5110.07,538
+10377,Bar El Chiqui,Cantabria,2024-01-08,2026-09-17,Comercial,Pablo Revuelta Gómez,25,5103.0,539
+10590,Bar El Llagar,Cantabria,2026-03-09,2026-09-30,Teléfono,Pablo Revuelta Gómez,20,5087.43,540
+11137,Cafetería La Taberna,Cantabria,2024-01-05,2026-09-30,Comercial,Pablo Revuelta Gómez,24,5057.58,541
+10951,Restaurante La Montaña Playa,Cantabria,2024-01-08,2026-04-10,Web B2B,Pablo Revuelta Gómez,14,5026.99,542
+10806,Alimentación El Sardinero,Cantabria,2024-08-08,2026-07-09,Comercial,Pablo Revuelta Gómez,15,5024.43,543
+10463,Bar Los Arcos Nuevo,Cantabria,2024-01-16,2026-09-28,Teléfono,Celia Gómez Sáiz,24,5007.23,544
+11086,Bar El Abra,Cantabria,2024-01-11,2026-09-02,Comercial,Raquel Fernández Cobo,21,4958.6,545
+10758,Cafetería La Fuente,Cantabria,2024-01-11,2026-09-24,Web B2B,Daniel Gutiérrez Pérez,22,4876.11,546
+11009,Bar El Ancla,Cantabria,2024-01-11,2026-09-22,Comercial,Daniel Gutiérrez Pérez,17,4845.16,547
+11028,Alimentación La Montaña Centro,Cantabria,2025-11-14,2026-02-27,Web B2B,Sara Ceballos Ortiz,9,4833.78,548
+10153,Club Bitácora,Cantabria,2024-01-04,2026-09-28,Teléfono,Sara Ceballos Ortiz,19,4793.95,549
+10280,Cafetería El Pisuerga,Cantabria,2024-01-11,2026-08-28,Comercial,Daniel Gutiérrez Pérez,23,4773.8,550
+10224,Bar El Mirador,Cantabria,2025-06-11,2026-09-25,Comercial,Pablo Revuelta Gómez,24,4729.57,551
+10496,Bar La Ribera,Cantabria,2024-01-15,2026-09-03,Teléfono,Daniel Gutiérrez Pérez,17,4722.13,552
+10618,Cafetería La Montaña,Cantabria,2024-01-03,2026-09-14,Comercial,Raquel Fernández Cobo,20,4712.45,553
+10609,Cafetería El Chiqui,Cantabria,2024-01-16,2026-09-25,Teléfono,Sara Ceballos Ortiz,22,4712.12,554
+10386,Alimentación Marejadilla,Cantabria,2025-12-22,2026-05-26,Comercial,Pablo Revuelta Gómez,14,4697.36,555
+10025,Alimentación La Ribera,Cantabria,2024-01-15,2026-05-18,Web B2B,Pablo Revuelta Gómez,13,4654.7,556
+11112,Cafetería El Botxo,Cantabria,2024-01-11,2026-09-18,Teléfono,Pablo Revuelta Gómez,27,4654.35,557
+10722,Bar El Chiqui Nuevo,Cantabria,2024-01-04,2026-09-24,Comercial,Pablo Revuelta Gómez,24,4634.33,558
+10877,Bar El Molino,Cantabria,2026-04-03,2026-09-30,Comercial,Pablo Revuelta Gómez,15,4550.12,559
+10918,Bar Las Anclas,Cantabria,2024-01-01,2026-09-30,Web B2B,Pablo Revuelta Gómez,24,4450.41,560
+11176,Catering La Pradera,Cantabria,2024-01-02,2026-09-14,Web B2B,Lorena Arce Díaz,16,4408.64,561
+11020,Sidrería La Peña,Cantabria,2026-04-08,2026-09-02,Web B2B,Daniel Gutiérrez Pérez,16,4366.93,562
+10013,Cafetería El Paseo,Cantabria,2024-01-24,2026-09-08,Teléfono,Sara Ceballos Ortiz,19,4335.67,563
+10844,Bar La Muralla,Cantabria,2024-01-15,2026-05-06,Teléfono,Raquel Fernández Cobo,14,4326.5,564
+10634,Cafetería El Espolón,Cantabria,2024-01-05,2026-09-04,Teléfono,Celia Gómez Sáiz,23,4265.01,565
+10453,Cafetería Los Picos,Cantabria,2025-11-26,2026-09-10,Web B2B,Raquel Fernández Cobo,19,4255.74,566
+10860,Club El Rincón,Cantabria,2024-07-02,2026-09-16,Comercial,Celia Gómez Sáiz,15,4255.7,567
+10946,Cafetería El Mercado II,Cantabria,2024-04-01,2026-08-31,Comercial,Raquel Fernández Cobo,22,4216.09,568
+10024,Cafetería El Espolón,Cantabria,2024-01-15,2026-04-17,Web B2B,Raquel Fernández Cobo,14,4190.27,569
+10400,Cafetería Los Picos Viejo,Cantabria,2024-02-27,2026-09-19,Web B2B,Daniel Gutiérrez Pérez,20,4113.15,570
+10655,Bar El Faro,Cantabria,2024-01-23,2026-09-24,Teléfono,Pablo Revuelta Gómez,20,4098.87,571
+10174,Alimentación La Pradera,Cantabria,2026-04-24,2026-09-18,Comercial,Lorena Arce Díaz,10,4094.02,572
+10464,Catering El Botxo,Cantabria,2024-01-18,2026-09-09,Comercial,Lorena Arce Díaz,8,4090.6,573
+10380,Bar El Hórreo,Cantabria,2026-05-20,2026-09-18,Comercial,Daniel Gutiérrez Pérez,14,4029.75,574
+10802,Cafetería La Alameda Playa,Cantabria,2024-10-12,2026-08-06,Comercial,Lorena Arce Díaz,20,3959.34,575
+10906,Bar El Abra,Cantabria,2024-02-16,2026-09-23,Web B2B,Pablo Revuelta Gómez,23,3950.33,576
+10260,Cafetería La Muralla,Cantabria,2024-02-07,2026-09-15,Web B2B,Daniel Gutiérrez Pérez,21,3931.72,577
+10777,Cafetería El Faro,Cantabria,2025-03-25,2026-08-27,Web B2B,Daniel Gutiérrez Pérez,27,3911.69,578
+10779,Cafetería Atalaya,Cantabria,2024-01-25,2026-09-21,Web B2B,Pablo Revuelta Gómez,18,3901.27,579
+10293,Cafetería Los Pinares,Cantabria,2024-01-02,2026-09-29,Teléfono,Pablo Revuelta Gómez,19,3893.86,580
+10292,Cafetería La Txalupa,Cantabria,2024-03-30,2026-08-06,Teléfono,Lorena Arce Díaz,18,3840.11,581
+10557,Bar El Ancla,Cantabria,2024-08-09,2026-08-11,Teléfono,Pablo Revuelta Gómez,18,3833.81,582
+10459,Alimentación La Ribera,Cantabria,2024-01-19,2026-01-22,Comercial,Pablo Revuelta Gómez,10,3814.15,583
+10569,Bar La Estación,Cantabria,2026-07-08,2026-09-23,Teléfono,Celia Gómez Sáiz,10,3794.22,584
+10795,Bar La Txalupa,Cantabria,2025-11-11,2026-03-09,Comercial,Pablo Revuelta Gómez,11,3777.86,585
+10940,Restaurante La Marina Playa,Cantabria,2024-01-29,2025-12-12,Teléfono,Raquel Fernández Cobo,8,3766.49,586
+10768,Bar El Rincón,Cantabria,2024-01-17,2026-09-15,Teléfono,Celia Gómez Sáiz,18,3742.83,587
+10451,Club La Plaza,Cantabria,2024-01-04,2026-09-10,Teléfono,Lorena Arce Díaz,20,3730.59,588
+10695,Cafetería Los Picos,Cantabria,2026-05-11,2026-09-28,Comercial,Pablo Revuelta Gómez,12,3667.09,589
+10919,Bar El Castillo,Cantabria,2026-07-01,2026-09-23,Teléfono,Sara Ceballos Ortiz,13,3522.23,590
+11172,Cafetería La Barquera,Cantabria,2026-07-20,2026-09-29,Comercial,Daniel Gutiérrez Pérez,13,3411.84,591
+10573,Club El Ancla,Cantabria,2026-06-08,2026-09-22,Teléfono,Sara Ceballos Ortiz,11,3402.56,592
+10977,Cafetería El Sardinero,Cantabria,2024-01-22,2026-09-28,Teléfono,Daniel Gutiérrez Pérez,21,3388.32,593
+10836,Cafetería La Marina,Cantabria,2024-02-12,2026-09-17,Teléfono,Sara Ceballos Ortiz,11,3337.51,594
+10485,Cafetería El Puente,Cantabria,2025-08-20,2026-09-22,Comercial,Raquel Fernández Cobo,19,3283.7,595
+10867,Cafetería Los Arcos,Cantabria,2026-06-02,2026-09-09,Teléfono,Celia Gómez Sáiz,12,3276.26,596
+10180,Sidrería La Marina,Cantabria,2024-01-11,2026-02-18,Comercial,Pablo Revuelta Gómez,7,3124.68,597
+10417,Cafetería El Pejino Norte,Cantabria,2024-01-13,2026-08-25,Comercial,Raquel Fernández Cobo,15,3086.23,598
+11007,Cafetería La Rula,Cantabria,2024-01-02,2026-09-30,Comercial,Pablo Revuelta Gómez,18,3052.21,599
+10223,Sidrería La Sidra,Cantabria,2026-05-05,2026-08-19,Comercial,Sara Ceballos Ortiz,13,3034.77,600
+10397,Cafetería Duna,Cantabria,2024-01-11,2026-09-24,Comercial,Lorena Arce Díaz,17,3024.39,601
+10216,Bar Atalaya,Cantabria,2024-01-08,2026-08-17,Comercial,Raquel Fernández Cobo,19,2996.38,602
+10410,Cafetería Atalaya,Cantabria,2024-02-07,2026-09-22,Comercial,Raquel Fernández Cobo,14,2988.34,603
+10502,Bar Bahía,Cantabria,2024-01-18,2026-07-10,Comercial,Pablo Revuelta Gómez,10,2961.44,604
+10820,Bar La Castellana,Cantabria,2026-06-10,2026-09-18,Comercial,Celia Gómez Sáiz,10,2938.21,605
+11019,Bar El Pejino,Cantabria,2026-04-17,2026-09-25,Comercial,Pablo Revuelta Gómez,10,2927.8,606
+11147,Cafetería La Txalupa,Cantabria,2024-12-16,2026-09-21,Comercial,Raquel Fernández Cobo,12,2881.77,607
+10859,Alimentación Velero,Cantabria,2026-06-18,2026-08-08,Comercial,Lorena Arce Díaz,5,2831.61,608
+10643,Cafetería El Pisuerga,Cantabria,2025-08-19,2026-09-17,Teléfono,Celia Gómez Sáiz,15,2764.04,609
+10652,Club La Peña,Cantabria,2025-06-05,2026-01-06,Web B2B,Raquel Fernández Cobo,8,2691.23,610
+10461,Bar El Cuco,Cantabria,2025-12-26,2026-05-29,Web B2B,Pablo Revuelta Gómez,10,2642.97,611
+10533,Bar La Rula,Cantabria,2025-12-09,2026-03-12,Teléfono,Daniel Gutiérrez Pérez,10,2528.87,612
+10792,Bar La Estación,Cantabria,2024-01-01,2026-04-16,Comercial,Pablo Revuelta Gómez,10,2465.23,613
+10467,Alimentación El Robledal,Cantabria,2026-06-22,2026-09-29,Teléfono,Daniel Gutiérrez Pérez,10,2394.18,614
+10953,Cafetería La Barquera,Cantabria,2024-01-01,2025-12-18,Comercial,Pablo Revuelta Gómez,8,2310.19,615
+10119,Cafetería La Sidra,Cantabria,2024-01-26,2026-07-24,Comercial,Lorena Arce Díaz,14,2293.28,616
+10884,Sidrería Bitácora Viejo,Cantabria,2026-08-11,2026-09-29,Comercial,Raquel Fernández Cobo,7,2189.86,617
+10584,Restaurante El Pisuerga,Cantabria,2026-04-13,2026-06-22,Teléfono,Pablo Revuelta Gómez,9,2162.7,618
+10170,Bar La Estación,Cantabria,2026-03-30,2026-06-13,Comercial,Pablo Revuelta Gómez,8,2136.73,619
+10102,Bar El Llagar,Cantabria,2025-11-25,2026-04-13,Comercial,Pablo Revuelta Gómez,11,2007.01,620
+11039,Alimentación El Pasiego,Cantabria,2026-04-27,2026-09-14,Comercial,Daniel Gutiérrez Pérez,11,1963.82,621
+10901,Cafetería Salitre,Cantabria,2026-08-10,2026-09-26,Comercial,Pablo Revuelta Gómez,7,1774.73,622
+10163,Cafetería La Catedral,Cantabria,2024-01-09,2026-09-24,Comercial,Daniel Gutiérrez Pérez,12,1652.95,623
+10424,Bar Mareas,Cantabria,2026-04-21,2026-09-28,Comercial,Raquel Fernández Cobo,9,1632.96,624
+10078,Club La Alameda,Cantabria,2026-06-05,2026-09-21,Comercial,Lorena Arce Díaz,7,1579.28,625
+10294,Bar Velero,Cantabria,2026-07-14,2026-09-05,Comercial,Celia Gómez Sáiz,6,1349.13,626
+10498,Sidrería La Pradera Centro,Cantabria,2026-03-24,2026-06-02,Comercial,Sara Ceballos Ortiz,6,1287.55,627
+10254,Alimentación La Fuente,Cantabria,2024-01-08,2025-11-05,Comercial,Lorena Arce Díaz,4,1078.78,628
+10442,Bar El Chiqui,Cantabria,2026-07-10,2026-09-10,Comercial,Celia Gómez Sáiz,4,996.0,629
+10773,Alimentación La Ría,Cantabria,2026-08-24,2026-09-14,Comercial,Lorena Arce Díaz,2,709.71,630
+10622,Cafetería Bitácora,Cantabria,2026-08-10,2026-09-10,Teléfono,Pablo Revuelta Gómez,4,520.31,631
+11159,Cafetería La Rula,Cantabria,2025-02-12,2025-10-13,Comercial,Lorena Arce Díaz,1,164.78,632
+10440,Sidrería El Chiqui Viejo,Cantabria,2025-04-05,2025-05-05,Teléfono,Daniel Gutiérrez Pérez,0,0.0,633
+11161,Hotel La Marina,Cantabria,2024-01-09,2025-09-18,Teléfono,Raquel Fernández Cobo,0,0.0,633
+10511,Bar El Chiqui,Cantabria,2024-01-02,2025-06-26,Teléfono,Daniel Gutiérrez Pérez,0,0.0,633
+10746,Bar Salitre Norte,Cantabria,2024-01-03,2025-06-13,Teléfono,Héctor Bustamante Lavín,0,0.0,633
+10861,Supermercado Marejadilla,Cantabria,2024-01-08,2025-08-01,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11111,Bar El Cid Nuevo,Cantabria,2024-01-29,2025-05-22,Comercial,Héctor Bustamante Lavín,0,0.0,633
+11150,Bar Arena Centro,Cantabria,2024-02-26,2024-03-28,Teléfono,Sara Ceballos Ortiz,0,0.0,633
+11154,Bar El Puerto,Cantabria,2024-01-06,2025-09-23,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11167,Cafetería La Brisa,Cantabria,2024-01-02,2025-09-01,Web B2B,Lorena Arce Díaz,0,0.0,633
+10881,Restaurante Nautilus,Cantabria,2024-01-04,2025-03-17,Teléfono,Pablo Revuelta Gómez,0,0.0,633
+10899,Restaurante El Mirador Playa,Cantabria,2024-01-15,2024-12-31,Teléfono,Sara Ceballos Ortiz,0,0.0,633
+10938,Alimentación El Ancla,Cantabria,2024-01-02,2025-03-24,Teléfono,Pablo Revuelta Gómez,0,0.0,633
+10012,Supermercado La Pradera,Cantabria,2024-01-01,2024-09-26,Teléfono,Daniel Gutiérrez Pérez,0,0.0,633
+10709,Bar La Plaza,Cantabria,2024-01-04,2025-05-13,Comercial,Héctor Bustamante Lavín,0,0.0,633
+10837,Bar La Galerna,Cantabria,2024-01-30,2024-07-03,Teléfono,Daniel Gutiérrez Pérez,0,0.0,633
+11000,Alimentación La Rula,Cantabria,2024-01-08,2025-09-17,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11012,Cafetería El Espolón,Cantabria,2024-01-04,2024-08-15,Comercial,Héctor Bustamante Lavín,0,0.0,633
+10785,Supermercado El Mercado,Cantabria,2024-01-04,2025-02-20,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+11084,Cafetería Malecón,Cantabria,2024-02-10,2025-07-09,Teléfono,Sara Ceballos Ortiz,0,0.0,633
+10094,Sidrería El Robledal,Cantabria,2024-01-25,2025-02-17,Comercial,Lorena Arce Díaz,0,0.0,633
+10510,Catering El Molino,Cantabria,2024-01-08,2025-05-29,Teléfono,Pablo Revuelta Gómez,0,0.0,633
+11100,Alimentación Arena,Cantabria,2024-01-01,2025-01-16,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11120,Catering Los Picos,Cantabria,2024-01-17,2024-04-22,Comercial,Pablo Revuelta Gómez,0,0.0,633
+10008,Supermercado La Sidra,Cantabria,2024-01-05,2024-07-29,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11152,Catering El Abra,Cantabria,2024-02-07,2024-05-25,Comercial,Raquel Fernández Cobo,0,0.0,633
+10712,Supermercado Salitre,Cantabria,2024-01-08,2024-04-17,Teléfono,Héctor Bustamante Lavín,0,0.0,633
+10788,Supermercado Nautilus,Cantabria,2024-01-06,2024-11-04,Comercial,Sara Ceballos Ortiz,0,0.0,633
+11064,Hotel La Fuente,Cantabria,2024-01-10,2025-09-29,Comercial,Pablo Revuelta Gómez,0,0.0,633
+10096,Bar La Sidra,Cantabria,2024-01-17,2024-09-17,Comercial,Raquel Fernández Cobo,0,0.0,633
+10286,Restaurante Bitácora,Cantabria,2024-02-13,2025-04-17,Comercial,Héctor Bustamante Lavín,0,0.0,633
+10471,Supermercado La Concha,Cantabria,2025-04-04,2025-09-25,Web B2B,Celia Gómez Sáiz,0,0.0,633
+10849,Restaurante La Montaña,Cantabria,2024-01-02,2024-06-26,Teléfono,Pablo Revuelta Gómez,0,0.0,633
+10064,Alimentación El Pejino,Cantabria,2024-01-22,2024-03-19,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10389,Bar Duna,Cantabria,2024-01-03,2024-09-30,Teléfono,Sara Ceballos Ortiz,0,0.0,633
+10406,Bar La Alameda,Cantabria,2024-01-29,2024-06-15,Comercial,Héctor Bustamante Lavín,0,0.0,633
+10407,Bar La Bodeguilla,Cantabria,2024-01-08,2025-09-16,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10794,Bar El Pasiego,Cantabria,2024-01-24,2024-01-24,Comercial,Raquel Fernández Cobo,0,0.0,633
+10925,Bar Albatros,Cantabria,2024-01-04,2024-07-17,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10577,Catering El Castillo,Cantabria,2024-01-08,2024-10-02,Teléfono,Héctor Bustamante Lavín,0,0.0,633
+10716,Restaurante La Sidra,Cantabria,2024-01-05,2025-06-13,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10754,Restaurante El Llagar,Cantabria,2024-06-24,2025-03-14,Teléfono,Pablo Revuelta Gómez,0,0.0,633
+10866,Club La Catedral,Cantabria,2024-01-02,2024-01-26,Comercial,Pablo Revuelta Gómez,0,0.0,633
+10935,Bar La Txalupa,Cantabria,2024-01-24,2025-06-20,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11042,Bar La Fuente II,Cantabria,2024-01-18,2025-09-20,Teléfono,Sara Ceballos Ortiz,0,0.0,633
+10819,Hotel La Ribera,Cantabria,2024-09-25,2025-09-03,Teléfono,Raquel Fernández Cobo,0,0.0,633
+11010,Restaurante El Abra Playa,Cantabria,2024-01-02,2024-10-08,Comercial,Raquel Fernández Cobo,0,0.0,633
+10477,Bar El Cid,Cantabria,2024-01-03,2025-05-06,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10537,Alimentación Malecón,Cantabria,2024-01-23,2024-12-09,Comercial,Lorena Arce Díaz,0,0.0,633
+10624,Restaurante Bitácora,Cantabria,2024-01-05,2025-08-15,Comercial,Raquel Fernández Cobo,0,0.0,633
+10883,Bar Las Rocas Viejo,Cantabria,2024-01-08,2024-08-16,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10267,Hotel Marejadilla,Cantabria,2024-02-13,2024-09-13,Comercial,Daniel Gutiérrez Pérez,0,0.0,633
+10478,Club La Concha,Cantabria,2024-02-21,2024-10-04,Comercial,Pablo Revuelta Gómez,0,0.0,633
+11034,Supermercado Duna,Palencia,2024-01-04,2026-09-29,Teléfono,Rubén Martín Calvo,77,133309.38,1
+10960,Supermercado La Ría,Palencia,2024-01-03,2026-09-28,Teléfono,Rubén Martín Calvo,57,86076.58,2
+10829,Hotel El Abra,Palencia,2025-03-18,2026-09-17,Teléfono,Rubén Martín Calvo,53,62955.84,3
+10740,Hotel Los Pinares II,Palencia,2024-01-22,2026-09-24,Comercial,Rubén Martín Calvo,51,51791.27,4
+10667,Hotel La Estación,Palencia,2024-01-10,2026-09-28,Comercial,Rubén Martín Calvo,44,46575.02,5
+11107,Hotel El Sardinero,Palencia,2024-01-03,2026-09-29,Teléfono,Rubén Martín Calvo,34,42812.28,6
+10701,Restaurante La Muralla,Palencia,2024-07-23,2026-09-18,Comercial,Rubén Martín Calvo,62,41518.72,7
+10672,Hotel El Botxo,Palencia,2024-01-02,2026-09-17,Teléfono,Rubén Martín Calvo,28,32854.86,8
+10055,Restaurante La Plaza,Palencia,2024-06-05,2026-09-08,Teléfono,Rubén Martín Calvo,42,22221.49,9
+11123,Restaurante La Taberna,Palencia,2024-01-04,2026-09-28,Teléfono,Rubén Martín Calvo,44,21051.83,10
+10191,Hotel La Barquera,Palencia,2024-03-22,2026-09-17,Teléfono,Rubén Martín Calvo,24,20513.48,11
+10834,Restaurante La Fuente,Palencia,2024-01-02,2026-06-26,Web B2B,Rubén Martín Calvo,34,20176.6,12
+10154,Restaurante Albatros,Palencia,2024-01-12,2026-09-19,Comercial,Rubén Martín Calvo,38,19830.41,13
+11066,Restaurante El Llagar,Palencia,2024-01-02,2026-09-21,Comercial,Rubén Martín Calvo,29,16111.02,14
+10018,Restaurante Bitácora,Palencia,2024-01-04,2026-09-23,Teléfono,Rubén Martín Calvo,37,15984.94,15
+10638,Restaurante La Galerna,Palencia,2024-01-01,2026-09-30,Web B2B,Rubén Martín Calvo,32,15897.7,16
+10034,Restaurante El Puerto,Palencia,2024-01-02,2026-09-30,Teléfono,Rubén Martín Calvo,35,15367.57,17
+10259,Cafetería El Hórreo,Palencia,2024-01-18,2026-09-28,Teléfono,Rubén Martín Calvo,40,14053.92,18
+10017,Restaurante Las Rocas,Palencia,2024-01-18,2026-09-23,Teléfono,Rubén Martín Calvo,27,12650.01,19
+10393,Restaurante El Muelle,Palencia,2024-02-26,2026-09-15,Comercial,Rubén Martín Calvo,33,12276.9,20
+10350,Hotel El Cuco,Palencia,2026-05-26,2026-08-07,Comercial,Rubén Martín Calvo,12,10837.87,21
+10678,Restaurante La Ría,Palencia,2024-01-26,2026-09-29,Comercial,Rubén Martín Calvo,24,10098.39,22
+10358,Alimentación El Pejino,Palencia,2024-01-02,2026-08-13,Web B2B,Rubén Martín Calvo,22,10090.75,23
+10564,Alimentación El Puerto,Palencia,2024-01-06,2026-09-22,Web B2B,Rubén Martín Calvo,21,9614.06,24
+10330,Bar El Cuco,Palencia,2024-01-18,2026-08-10,Web B2B,Rubén Martín Calvo,29,9415.41,25
+10282,Bar El Castillo,Palencia,2024-01-03,2026-09-16,Teléfono,Rubén Martín Calvo,28,9288.82,26
+10403,Alimentación El Llagar,Palencia,2025-05-01,2026-09-22,Web B2B,Rubén Martín Calvo,25,9118.98,27
+10549,Bar La Alameda,Palencia,2024-01-22,2026-09-29,Web B2B,Rubén Martín Calvo,33,8950.12,28
+10770,Bar El Puerto,Palencia,2024-02-19,2026-09-17,Web B2B,Rubén Martín Calvo,33,8805.89,29
+10606,Alimentación El Puerto,Palencia,2024-01-01,2026-09-30,Comercial,Rubén Martín Calvo,19,8176.8,30
+10214,Alimentación Duna,Palencia,2024-01-22,2026-09-16,Teléfono,Rubén Martín Calvo,17,7990.53,31
+10348,Bar Los Pinares,Palencia,2024-01-08,2026-09-17,Teléfono,Rubén Martín Calvo,27,7924.18,32
+10898,Bar Nautilus,Palencia,2024-01-13,2026-09-29,Comercial,Rubén Martín Calvo,26,7628.1,33
+11098,Bar El Puente,Palencia,2024-01-09,2026-09-02,Teléfono,Rubén Martín Calvo,25,7539.49,34
+10500,Bar Las Anclas,Palencia,2024-02-02,2026-09-21,Comercial,Rubén Martín Calvo,24,7300.76,35
+10200,Cafetería La Brisa,Palencia,2024-01-08,2026-09-24,Comercial,Rubén Martín Calvo,33,7121.89,36
+10710,Bar Albatros,Palencia,2024-01-05,2026-09-07,Comercial,Rubén Martín Calvo,23,6483.44,37
+10965,Cafetería La Plaza,Palencia,2024-01-23,2026-09-30,Comercial,Rubén Martín Calvo,27,6054.44,38
+10189,Bar El Paseo,Palencia,2024-02-12,2026-09-14,Web B2B,Rubén Martín Calvo,23,5897.27,39
+10543,Bar La Ría Viejo,Palencia,2024-03-11,2026-09-28,Comercial,Rubén Martín Calvo,25,5818.03,40
+10445,Bar La Ría,Palencia,2024-01-25,2026-08-03,Comercial,Rubén Martín Calvo,23,5795.76,41
+10355,Catering La Ribera,Palencia,2024-01-03,2026-09-25,Comercial,Rubén Martín Calvo,15,5744.84,42
+10243,Bar El Faro,Palencia,2024-01-03,2026-09-26,Comercial,Rubén Martín Calvo,25,5491.37,43
+10412,Bar El Robledal,Palencia,2024-01-01,2026-08-14,Teléfono,Rubén Martín Calvo,22,5195.14,44
+10341,Bar Velero,Palencia,2024-01-09,2026-09-14,Web B2B,Rubén Martín Calvo,22,4732.55,45
+11156,Cafetería El Puente,Palencia,2024-07-25,2026-09-15,Comercial,Rubén Martín Calvo,17,4575.02,46
+10595,Cafetería Albatros,Palencia,2024-01-15,2026-09-12,Web B2B,Rubén Martín Calvo,20,4535.54,47
+10821,Bar El Chiqui,Palencia,2024-01-18,2026-08-14,Web B2B,Rubén Martín Calvo,22,4464.56,48
+10322,Bar El Ancla,Palencia,2024-02-24,2026-09-02,Comercial,Rubén Martín Calvo,24,4134.81,49
+11002,Restaurante La Rula Playa,Palencia,2026-03-26,2026-09-16,Teléfono,Rubén Martín Calvo,13,4020.5,50
+11117,Bar Nautilus,Palencia,2025-08-14,2026-09-12,Web B2B,Rubén Martín Calvo,18,3946.32,51
+10188,Cafetería La Montaña,Palencia,2024-01-11,2026-09-22,Comercial,Rubén Martín Calvo,16,3799.14,52
+10921,Cafetería La Plaza,Palencia,2025-11-05,2026-06-16,Comercial,Rubén Martín Calvo,12,3211.95,53
+10888,Restaurante El Castillo,Palencia,2026-04-17,2026-06-19,Web B2B,Rubén Martín Calvo,6,2998.12,54
+10825,Cafetería Malecón,Palencia,2024-01-06,2026-03-03,Web B2B,Rubén Martín Calvo,7,2099.39,55
+10387,Cafetería La Pradera,Palencia,2026-08-19,2026-08-19,Comercial,Rubén Martín Calvo,1,139.2,56
+11016,Cafetería Albatros,Palencia,2024-01-12,2024-11-30,Comercial,Rubén Martín Calvo,0,0.0,57
+10179,Hotel El Cuco,Palencia,2024-01-18,2025-02-17,Comercial,Rubén Martín Calvo,0,0.0,57
+10299,Hotel La Estación,Palencia,2024-01-02,2025-04-21,Teléfono,Rubén Martín Calvo,0,0.0,57
