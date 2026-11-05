@@ -62,5 +62,3 @@ La capa `silver` se construye con `sql/01_construir_silver.sql` y se comprueba c
 | Fechas de entrega imposibles | `NULL` y el pedido marcado con `entrega_sospechosa = true`. |
 | SKU del inventario | Al formato del maestro (`CER-0001`), con su `producto_id`. |
 | Importes | Precios en `DECIMAL`; `importe_neto` de cada línea calculado una vez. |
-
-Reglas decididas por Elena Pérez (responsable de datos), 26/10/2026.
