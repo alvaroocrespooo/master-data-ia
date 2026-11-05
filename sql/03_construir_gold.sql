@@ -32,11 +32,17 @@ FROM generate_series(DATE '2024-01-01', DATE '2026-12-31', INTERVAL 1 DAY) AS t(
 CREATE OR REPLACE TABLE gold.dim_producto AS
 SELECT row_number() OVER (ORDER BY producto_id)::INTEGER AS producto_key,
 producto_id, sku, nombre, categoria, subcategoria, marca, formato,
-precio_lista, coste_unitario, iva_pct, activo
+precio_lista, coste_unitario, iva_pct, activo,
+-- MJD-406: gama por precio de tarifa (Íñigo). Límites: < 15 € básico; de 15 a 50 € (ambos
+-- incluidos) gama media; > 50 € premium. Tipo 1: la gama de hoy, según el precio actual.
+CASE WHEN precio_lista < 15 THEN '1. Básico'
+     WHEN precio_lista <= 50 THEN '2. Gama media'
+     ELSE '3. Premium'
+END AS gama_precio
 FROM silver.productos
 UNION ALL
 SELECT -1, NULL, 'DESCONOCIDO', 'Producto desconocido', 'Desconocida', 'Desconocida',
-'Desconocida', 'Desconocido', NULL, NULL, NULL, NULL;
+'Desconocida', 'Desconocido', NULL, NULL, NULL, NULL, 'Desconocida';
 -- ------------------------------------------------------------
 -- dim_comercial: una persona por fila + el miembro desconocido
 -- ------------------------------------------------------------

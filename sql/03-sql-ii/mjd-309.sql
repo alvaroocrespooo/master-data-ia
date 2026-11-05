@@ -20,9 +20,19 @@ rank() OVER (PARTITION BY provincia ORDER BY ventas DESC) AS puesto_nuevo
 FROM ventas AS v
 )
 SELECT count(*) AS clientes,
-FROM comparacion;
 count(*) FILTER (WHERE puesto_antiguo <> puesto_nuevo) AS no_coinciden
+FROM comparacion;
 
--- Respuesta a Elena Pérez: La consulta tarda 1,5 segundos y da 1.092 clientes, de los cuales 0 no coinciden. 
--- La nueva tarda 0,2 segundos y da 1.092 clientes, de los cuales 0 no coinciden. 
--- La nueva es más rápida y da el mismo resultado, así que la puedes usar sin problemas. 
+-- RESULTADO: 1.074 clientes, 0 no coinciden.
+--
+-- Tiempos (05/11/2026, MacBook Air M2, DuckDB 2.0.0), mejor de tres ejecuciones,
+-- envolviendo cada versión en SELECT count(*), sum(puesto) para no imprimir 1.074 filas:
+--   Antigua (year() + subconsulta correlacionada): 0,035 s · 1.074 clientes, suma de control 226.819
+--   Nueva   (fecha >= '2026-01-01' + rank()):      0,010 s · 1.074 clientes, suma de control 226.819
+--
+-- Respuesta a Elena Pérez: tenía dos problemas. year(p.fecha) obliga a calcular el año de
+-- cada pedido antes de filtrar, y el puesto se calculaba comparando cada cliente con todos
+-- los de su provincia (coste que crece con el cuadrado de los clientes). Con el filtro por
+-- rango de fechas y rank() da exactamente lo mismo (1.074 clientes, 0 diferencias) y tarda
+-- unas tres veces menos. Con diez veces más clientes, la antigua tardaría unas cien veces
+-- más y la nueva unas diez.

@@ -17,4 +17,14 @@ AND f.producto_key <> -1
 GROUP BY p.categoria
 ORDER BY margen DESC;
 
---Respuesta a Íñigo Sainz: La categoría con mayor margen bruto en 2025 es "Electrónica", con un margen de 500.000 € y un margen porcentual del 25%. Esto indica que, aunque otras categorías puedan tener mayores ventas, la electrónica es donde realmente estamos ganando dinero.
+-- ============================================================
+-- RESULTADO (05/11/2026) · 2025, margen estimado
+--   Vinos 1.371.785 € (34,7 %) · Cervezas 804.196 € (25,4 %) · Alimentación 604.726 € (25,5 %)
+--   Refrescos 511.936 € (24,4 %) · Desechables 351.532 € (35,6 %) · Licores 334.410 € (35,3 %)
+--   Café e infusiones 312.157 € (37,5 %) · Limpieza 214.286 € (32,5 %) · Aguas 185.137 € (30,1 %)
+-- Respuesta a Íñigo Sainz: AVISO, es un margen estimado con el coste de compra actual
+--   (2026); para 2025 sale algo subestimado. Donde más dinero ganamos en euros es en vinos
+--   (1,37 M€, un 34,7 %), y después cervezas (0,80 M€), pero la cerveza deja solo un 25,4 %.
+--   Los porcentajes más altos son café (37,5 %), desechables (35,6 %) y licores (35,3 %),
+--   con ventas mucho menores. Para el margen real hace falta el historial de costes de Compras.
+-- ============================================================

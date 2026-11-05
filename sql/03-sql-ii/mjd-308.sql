@@ -46,6 +46,9 @@ ORDER BY c.provincia, puesto_provincia;
 -- excel; si no la tienes cargada en la sesión):
 
 
+INSTALL excel;
+LOAD excel;
+
 COPY (WITH validos AS (
 SELECT * FROM silver.pedidos
 WHERE estado <> 'Cancelado' AND cliente_maestro_id IS NOT NULL
@@ -79,7 +82,9 @@ JOIN historia AS h ON h.cliente_maestro_id = c.cliente_id
 LEFT JOIN ventas_12m AS v ON v.cliente_maestro_id = c.cliente_id
 LEFT JOIN silver.comerciales AS co ON co.comercial_id = h.comercial_ultimo
 WHERE NOT c.es_ficha_duplicada
-ORDER BY c.provincia, puesto_provincia) TO 'entregables/mjd-308_ficha_clientes.csv' WITH (FORMAT csv, HEADER true);
+ORDER BY c.provincia, puesto_provincia) TO 'entregables/mjd-308_ficha_clientes.xlsx' WITH (FORMAT xlsx, HEADER true);
 
--- Esto último se copia y pega en el duckdb y genera el CSV con toda la info
--- Ruta: entregables/mjd-308_ficha_clientes.csv
+-- El COPY genera el Excel que pedía el ticket (1.175 filas, una por cliente real).
+-- Ruta: entregables/mjd-308_ficha_clientes.xlsx
+-- Uso (escribe el Excel, así que sin -readonly):
+--   duckdb db/marejada.duckdb < sql/03-sql-ii/mjd-308.sql

@@ -2,6 +2,10 @@
 -- MJD-101 · Reconstruir la base de datos desde cero
 -- Pide: Elena Pérez · Responsable de datos
 -- ============================================================
+-- ACTUALIZADO (05/11/2026): para reconstruir, usa ./scripts/reconstruir_bd.sh,
+-- que crea la base en el formato que puede leer el Python del proyecto (DuckDB 1.5.6)
+-- aunque la terminal sea DuckDB 2.0. Lo de abajo es cómo se hizo en el Vol 01.
+--
 -- La reconstrucción se lanza desde la terminal, en la raíz del repo
 -- (cierra antes los notebooks y cualquier DuckDB abierto):
 --

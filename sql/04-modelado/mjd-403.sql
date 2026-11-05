@@ -35,4 +35,15 @@ AND d.mes <= 6 AND d.anio IN (2025, 2026)
 GROUP BY d.anio, c.comercial_asignado
 ORDER BY d.anio;
 
---Respuesta a Raquel Fernández: Héctor vendió 1.000 € más que Celia en el primer semestre de 2025, pero Celia vendió 2.000 € más que Héctor en el primer semestre de 2026. En cuanto a clientes con compras, Héctor tuvo 10 clientes más que Celia en 2025, y Celia tuvo 15 clientes más que Héctor en 2026. Por lo tanto, podemos concluir que Celia ha mejorado las ventas y la cartera de clientes respecto a Héctor.
+-- ============================================================
+-- RESULTADO (05/11/2026) · las dos consultas dan lo mismo
+--   1.er semestre 2025, Héctor Bustamante: 86 clientes con compras, 596.416 €
+--   1.er semestre 2026, Celia Gómez:       88 clientes con compras, 622.559 €  (+4,4 %)
+-- Respuesta a Raquel Fernández: la cartera vende un 4,4 % más con Celia (622.559 €)
+--   que con Héctor el año anterior (596.416 €), con dos clientes más comprando (88 frente
+--   a 86). Las dos formas de mirarlo (los mismos clientes, o la cartera de cada uno en su
+--   momento) dan exactamente lo mismo, porque toda la cartera de Héctor pasó a Celia.
+--   Ojo antes de evaluar a nadie: las ventas de Cantabria crecen bastante más entre esos
+--   dos semestres, así que la comparación justa es con las demás carteras de Cantabria
+--   Occidental, no con la cifra sola.
+-- ============================================================

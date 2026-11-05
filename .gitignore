@@ -9,3 +9,5 @@ datos/
 db/
 *.duckdb
 *.duckdb.wal
+# Material personal del curso (PDF de los volúmenes, otros proyectos): no va al repositorio
+info_fullstack/

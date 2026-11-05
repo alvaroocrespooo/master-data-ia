@@ -79,7 +79,7 @@ FROM cobertura
 GROUP BY ALL
 ORDER BY cobertura;
 
--- Los doce primeros de la lista no tienen ni una unidad en ninguno de los dos almacenes: son roturas de stock
--- ya, no riesgos.
+-- Once de los doce primeros de la lista no tienen ni una unidad en ninguno de los dos almacenes (el aceite
+-- ALI-0012 tiene 6 unidades para una venta de 151 a la semana): son roturas de stock ya, no riesgos.
 -- La respuesta a Marcos: de los 211 productos activos, 72 tienen stock para menos de una semana al ritmo ac‐
 -- tual (12 de ellos, con el stock a cero) y 7 para más de medio año.

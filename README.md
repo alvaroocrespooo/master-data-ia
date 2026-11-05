@@ -7,16 +7,32 @@ Marejada Distribución, S.L., una distribuidora de bebidas y
 alimentación para hostelería en el norte de España.
 
 ## Estructura
-- `sql/` — consultas, una carpeta por volumen
+- `sql/` — consultas, una carpeta por volumen, y los scripts de las capas (`00_` a `04_`)
+- `scripts/` — programas de Python y el script de reconstrucción de la base
 - `notebooks/` — análisis en Python
 - `entregables/` — resultados entregados en cada ticket
 
 ## Cómo reproducirlo
-1. `uv sync` para crear el entorno de Python.
+1. `uv sync` para crear el entorno de Python (DuckDB 1.5.6, pandas, Jupyter).
 2. Copiar los datos de la empresa en `datos/`.
-3. `duckdb db/marejada.duckdb < sql/00_cargar_bronze.sql`
-4. `duckdb db/marejada.duckdb < sql/01_construir_silver.sql`
-5. `duckdb -readonly db/marejada.duckdb < sql/02_comprobar_silver.sql` (seis `true`)
+3. `./scripts/reconstruir_bd.sh`: crea `db/marejada.duckdb` desde cero
+   (bronze → silver → gold) y pasa las 13 comprobaciones (6 de silver y 7 de gold).
+
+## Versiones
+- **Python:** DuckDB 1.5.6, la versión con la que están hechos los volúmenes.
+- **Terminal:** Homebrew instala DuckDB 2.0. Lee y escribe sin problema una base creada
+  con la 1.5, pero si crea una base nueva la deja en un formato que el Python 1.5.6 no
+  puede abrir. Por eso la base se reconstruye siempre con `scripts/reconstruir_bd.sh`,
+  nunca con `rm` + `duckdb` a mano.
+
+## Problemas frecuentes
+- **`Could not set lock on file`**: la base está abierta en otro programa (otra pestaña
+  con DuckDB o un notebook). Sal con `.quit` o reinicia el kernel. Solo para consultar,
+  abre en modo lectura: `duckdb -readonly db/marejada.duckdb`.
+- **`No files found that match the pattern "datos/..."`**: has abierto DuckDB desde otra
+  carpeta. Lánzalo siempre desde la raíz del repo: `cd ~/master-data-ia`.
+- **La base sale vacía**: has escrito `duckdb marejada.duckdb` sin `db/` y DuckDB ha creado
+  una base nueva vacía. Bórrala y abre `db/marejada.duckdb`.
 
 ## Datos
 Los datos son de Marejada Distribución (empresa ficticia) y no se
