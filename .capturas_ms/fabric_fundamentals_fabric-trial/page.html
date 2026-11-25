@@ -1,0 +1,1754 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Fabric trial capacity - Microsoft Fabric | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Understand how the Fabric trial capacity works. This includes starting a trial, ending a trial, and sharing a trial." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Fabric trial capacity - Microsoft Fabric" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial" />
+			<meta property="og:description" content="Understand how the Fabric trial capacity works. This includes starting a trial, ending a trial, and sharing a trial." />
+			<meta name="platform_id" content="957b8306-e44c-98ba-fe6e-35280066b1d9" /> <meta name="scope" content="Microsoft Fabric" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Fabric" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/fabric/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="false" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/" />
+	
+		<meta name="ms.service" content="fabric" />
+	
+		<meta name="author" content="SnehaGunda" />
+	
+		<meta name="ms.author" content="sngun" />
+	
+		<meta name="ms.subservice" content="get-started" />
+	
+		<meta name="search.app" content="fabric-powerbi-docs" />
+	
+		<meta name="ms.reviewer" content="alpowers, mibruhje, oaladekomo" />
+	
+		<meta name="ms.topic" content="concept-article" />
+	
+		<meta name="ms.custom" content="fabric-cat" />
+	
+		<meta name="ms.collection" content="ce-skilling-ai-copilot" />
+	
+		<meta name="ms.date" content="2026-08-12T00:00:00Z" />
+	
+		<meta name="ms.update-cycle" content="180-days" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="document_id" content="f764d786-36ba-0adf-cbad-8bc4c1dcfac3" />
+	
+		<meta name="document_version_independent_id" content="f764d786-36ba-0adf-cbad-8bc4c1dcfac3" />
+	
+		<meta name="updated_at" content="2026-09-29T05:57:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/live/docs/fundamentals/fabric-trial.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/80a24c9bbee59b45ef8f5d978f7525a954cd2c82/docs/fundamentals/fabric-trial.md" />
+	
+		<meta name="git_commit_id" content="80a24c9bbee59b45ef8f5d978f7525a954cd2c82" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.fabric-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.fabric-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="3820" />
+	
+		<meta name="asset_id" content="fundamentals/fabric-trial" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="docs/fundamentals/fabric-trial.md" />
+	
+		<meta name="previous_tlsh_hash" content="7284ECA2309842006FC07F06B4EFA78061F9FC5EB9BC8ED85136A39F4A2A6C7BD7153CC7978BB305133C0A5151F2BF0EE6A19EE4546FE26905F9482C161C9BE1799433A19B" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/fabric-docs/blob/main/docs/fundamentals/fabric-trial.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/e7cd09c2-9e9a-4f0d-b160-c15783f45b1f" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/1d337399-0ca4-4b4c-acef-8df37820e018" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/fabric-docs/blob/main/docs/fundamentals/fabric-trial.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/live/docs/fundamentals/fabric-trial.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/docs/fundamentals/fabric-trial.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="try-microsoft-fabric-for-free">Try Microsoft Fabric for free</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>The Microsoft Fabric trial capacity gives you <strong>free access for 60 days</strong> to explore almost everything Fabric has to offer—across data engineering, data science, real-time analytics, business intelligence, and more. Whether you're new to Fabric or coming from the product to learn more, this trial is your gateway to understanding how Fabric brings all your data and analytics tools together in one place.</p>
+<div class="nextstepaction">
+<p><a href="https://app.fabric.microsoft.com/?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Start a Fabric trial for free</a></p>
+</div>
+<blockquote>
+<p><strong>Quick start</strong>: <a href="#start-the-fabric-capacity-trial" data-linktype="self-bookmark">Learn how to set up your Fabric trial capacity</a> | <a href="#start-using-your-trial" data-linktype="self-bookmark">Learn how to start using your Fabric trial capacity</a></p>
+</blockquote>
+<div class="NOTE">
+<p>Note</p>
+<p><strong>Share your feedback as a new Fabric user</strong></p>
+<p>Your honest take on what works and what doesn't will directly shape product improvements. <a href="https://microsoft.qualtrics.com/jfe/form/SV_1MTHk3TXzSUfEXA" data-linktype="external">Sign up to participate</a> and help drive Fabric's future.</p>
+</div>
+<h2 id="whats-includedand-whats-not">What's included—and what's not</h2>
+<p>Your trial is configured as either an F4 <a href="../enterprise/licenses#capacity" data-linktype="relative-path">capacity</a> (4 capacity units) or an F64 capacity (64 capacity units) and is complemented with a Power BI Individual Trial if you don't already have a Power BI Premium Per User license.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>If your trial currently has 4 capacity units, you might be eligible to increase the capacity to 64 capacity units. For more information, see <a href="#increase-trial-capacity" data-linktype="self-bookmark">Increase trial capacity</a>.</p>
+</div>
+<p>With your trial capacity, you can:</p>
+<ul>
+<li>Use all Fabric workloads, including <strong>Data Factory</strong>, <strong>Data Science</strong>, <strong>Data Engineering</strong>, <strong>Real-Time Analytics</strong>, and <strong>Power BI</strong>.</li>
+<li>Create <strong>pipelines</strong>, <strong>notebooks</strong>, and more.</li>
+<li>Collaborate in <strong>workspaces</strong> and monitor usage with the <strong>Microsoft Fabric Capacity Metrics app</strong>.</li>
+<li>Store up to <strong>1 TB of data</strong> in OneLake.</li>
+</ul>
+<p>However, some features aren't available:</p>
+<ul>
+<li>Copilot and Trusted Workspace Access aren't supported.</li>
+<li>AI Experiences such as Data agent, AI functions and AI services aren't supported.</li>
+<li>Private Link is disabled.</li>
+</ul>
+<p>Learn more about which <a href="../enterprise/fabric-features" data-linktype="relative-path">Microsoft Fabric features are supported in a trial capacity</a>.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>The <a href="https://aka.ms/LearnFAIAD" data-linktype="external">Fabric Analyst in a Day (FAIAD)</a> workshop is a free, hands-on training designed for analysts working with Power BI and Microsoft Fabric. You can get hands-on experience on how to analyze data and build reports, using Fabric. It covers key concepts like working with lakehouses, creating reports, and analyzing data in the Fabric environment.</p>
+</div>
+<h2 id="when-your-fabric-trial-ends">When your Fabric trial ends</h2>
+<p>Your Microsoft Fabric trial capacity lasts for 60 days, unless you cancel it earlier. As the trial nears its end, you’ll see notifications in the Fabric portal and in <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong>, helping you track how much time remains.</p>
+<p>Once the trial expires:</p>
+<ul>
+<li>Access to the trial capacity is revoked.</li>
+<li>Any workspaces assigned to the trial capacity will be reassigned to Pro and non Power BI Fabric items will no longer be accessible unless the workspace is reassigned to a paid F or P capacity.</li>
+<li>Non Power BI Fabric items (like notebooks and pipelines) remain in your tenant, but they become inactive until reassigned to a valid capacity.</li>
+<li>All content remains stored in OneLake for 7 days and can be reactivated by assigning the workspace to a paid Fabric F or Power BI Premium P capacity.</li>
+</ul>
+<p>For more information, see <a href="#end-a-fabric-trial" data-linktype="self-bookmark">ending your trial</a>. If Copilot becomes unavailable after your trial ends, see <a href="troubleshoot-copilot-unavailable-after-trial" data-linktype="relative-path">Troubleshoot Copilot unavailability after a trial expires</a>.</p>
+<div class="TIP">
+<p>Tip</p>
+<ul>
+<li><p>To check your trial status or trial expiration date, go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> &gt; <strong>Trial</strong>.</p>
+</li>
+<li><p>If you need to request a trial extension, contact your Microsoft sales representative or contact the <a href="https://azure.microsoft.com/contact/?msockid=02d2195e72356be10cc60cb5738d6afb" data-linktype="external">Azure sales team</a> for assistance.</p>
+</li>
+<li><p>If you're ready to continue using Fabric, visit the <a href="../enterprise/buy-capacity" data-linktype="relative-path">Purchase Fabric page</a> to explore your options.</p>
+</li>
+</ul>
+</div>
+<p>To learn more about limitations and get answers to frequently asked questions about the Fabric trial, see <a href="#frequently-asked-questions" data-linktype="self-bookmark">the FAQ</a>.</p>
+<p><a id="start-the-fabric-capacity-trial"></a></p>
+<h2 id="set-up-your-fabric-trial-capacity">Set up your Fabric trial capacity</h2>
+<p>You can start a trial capacity several different ways. The first two methods make you the Capacity administrator of the trial capacity.</p>
+<ul>
+<li><a href="#method-1" data-linktype="self-bookmark"><strong>Method 1</strong></a>: Start a new trial capacity from the Account manager.</li>
+<li><a href="#method-2" data-linktype="self-bookmark"><strong>Method 2</strong></a>: Trigger a new trial capacity by trying to use a Fabric feature.</li>
+<li><a href="#other-ways-to-start-a-microsoft-fabric-trial" data-linktype="self-bookmark"><strong>Method 3</strong></a>: Join an existing trial capacity.</li>
+</ul>
+<p><a id="method-1"></a></p>
+<h3 id="method-1-start-a-new-trial-capacity-from-the-account-manager">Method 1: Start a new trial capacity from the Account manager</h3>
+<p>You can sign up for a trial capacity. As the Capacity administrator, you manage who else can use your trial by giving coworkers permission to create workspaces in your trial capacity. Every user in the tenant has contributor permissions by default unless you explicitly manage who has access. Assigning workspaces to the trial capacity automatically adds coworkers (with roles in those workspaces) to the trial capacity. To start your Fabric trial capacity, select this button:</p>
+<div class="nextstepaction">
+<p><a href="https://app.fabric.microsoft.com/?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Start a Fabric trial for free</a></p>
+</div>
+<p>To become the Capacity administrator of that trial, follow these steps:</p>
+<ol>
+<li><p>To open your Account manager, select the tiny photo from the upper-right corner of the <a href="https://app.fabric.microsoft.com/home?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Fabric homepage</a>.</p>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/fabric-home-page.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/fabric-home-page.png" alt="Screenshot of the Microsoft Fabric homepage with the Account manager outlined in red." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p>In the Account manager, select <strong>Start trial</strong>. If you don't see <strong>Start trial</strong>, <strong>Free trial</strong>, or a <strong>Trial status</strong>, trials might be disabled for your tenant.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>If the Account manager already displays <strong>Trial status</strong>, you might already have a <strong>Power BI trial</strong> or a <strong>Fabric (Free) trial</strong> in progress. To test this out, attempt to use a Fabric feature. For more information, see <a href="#other-ways-to-start-a-microsoft-fabric-trial" data-linktype="self-bookmark">Start using Fabric</a>.</p>
+</div>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/me-control.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/me-control.png" alt="Screenshot of the Microsoft Fabric Account manager." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p>If prompted, agree to the terms and then select <strong>Start trial</strong>.</p>
+</li>
+<li><p>Within the <strong>Activate your 60-day free Fabric trial</strong> capacity prompt, please review the drop down selection of available <strong>Trial capacity regions</strong>. You can either accept the default home region or update it to a new region location that best suits your needs. Once you make your selection, agree to the terms and conditions, then select <strong>Activate</strong>.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>When planning your region deployment for Fabric capacities, it's important to make the appropriate selection from the outset. If you decide to move a workspace containing Fabric items to a different region after your trial is created, you need to delete all existing Fabric items before proceeding. For detailed instructions, see <a href="../admin/portal-workspaces#moving-data-around" data-linktype="relative-path">Moving your data around</a>.</p>
+<p>To ensure the best performance and resource management, we recommend deploying your capacity in a region where your existing resources are already located. This approach minimizes network latency, reduces ingress and egress charges, and enhances overall reliability.</p>
+</div>
+</li>
+<li><p>Once your trial capacity is ready, you receive a confirmation message. Select <strong>Fabric Home Page</strong> to begin a guided walkthrough of Fabric. You're now the Capacity administrator for that trial capacity. To learn how to share your trial capacity using workspaces, see <a href="#share-trial-capacities" data-linktype="self-bookmark">Share trial capacities</a>.</p>
+</li>
+</ol>
+<p>Congratulations. You now have a Fabric trial capacity and a complementary Power BI individual trial (if you didn't already have a Power BI <em>paid</em> license). To share your capacity, see <a href="#share-trial-capacities" data-linktype="self-bookmark">Share trial capacities.</a>.</p>
+<p><a id="method-2"></a></p>
+<h3 id="method-2-trigger-a-fabric-trial-by-trying-to-use-a-fabric-feature">Method 2: Trigger a Fabric trial by trying to use a Fabric feature</h3>
+<p>If your organization enabled Fabric and Power BI trials, attempting to use a Fabric feature launches a Fabric trial capacity. If your Fabric administrator enabled Microsoft Fabric for the tenant but you still don't have access to a Fabric-enabled capacity, follow these steps:</p>
+<ol>
+<li>Try to create a Fabric item in a workspace that you own (such as <strong>My Workspace</strong>) that doesn't currently support Fabric items (that is, not a Fabric, Premium, or Trial workspace).</li>
+<li>Follow the prompt to start a Fabric trial capacity.</li>
+</ol>
+<p>Once you agree, your trial starts and the workspace is reassigned to a trial capacity. You're the Capacity administrator and can add additional workspaces to the trial capacity by changing their type to Trial in workspace settings.</p>
+<p><a id="other-ways-to-start-a-microsoft-fabric-trial"></a></p>
+<h3 id="method-3-join-an-existing-trial">Method 3: Join an existing trial</h3>
+<p>You can join a trial started by a coworker by adding your workspace to their existing trial capacity. This action only is possible if the trial capacity administrator gives you or the entire organization <strong>Contributor permissions</strong> to the trial capacity.</p>
+<p>For more information, see <a href="#share-trial-capacities" data-linktype="self-bookmark">Sharing trial capacities</a>.</p>
+<h2 id="start-using-your-trial">Start using your trial</h2>
+<p>To start using your Fabric capacity trial, create a new workspace. Assign that workspace to your trial capacity <a href="workspaces#workspace-type" data-linktype="relative-path">using the <em>Trial</em> workspace type</a>, and then all the items in that workspace are saved and executed in that trial capacity. Invite colleagues to those workspaces so they can share the trial experience with you. If you, as the Capacity administrator, enable <strong>Contributor permissions</strong>, then others can also assign their workspaces to your trial capacity. For more information about sharing, see <a href="#share-trial-capacities" data-linktype="self-bookmark">Share trial capacities</a>.</p>
+<ul>
+<li><strong>Existing Power BI users</strong>: If you're an existing Power BI user, jump to <a href="#start-the-fabric-capacity-trial" data-linktype="self-bookmark">Start the Fabric trial</a>.</li>
+<li><strong>New Power BI users</strong>: The Fabric trial requires a per-user license. Open <a href="https://app.fabric.microsoft.com/?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Fabric</a> to sign up for a Fabric (Free) license. Once you have the free license, you can <a href="#start-the-fabric-capacity-trial" data-linktype="self-bookmark">begin participating in the Fabric capacity trial</a>.
+<ul>
+<li>You might already have a license and not realize it. For example, some versions of Microsoft 365 include a Power BI Pro license. Open <a href="https://app.fabric.microsoft.com?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Fabric</a> and select your Account manager to see if you already have a license, and which license it is. Read on to see how to open your Account manager.</li>
+</ul>
+</li>
+</ul>
+<div class="nextstepaction">
+<p><a href="https://app.fabric.microsoft.com/?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Start a Fabric trial for free</a></p>
+</div>
+<h2 id="get-the-status-of-your-trial">Get the status of your trial</h2>
+<p>To see the status of your trial, open your Account manager again and look for the <strong>Trial status</strong>. Your Account manager keeps track of the number of days remaining in your trial. You can also see the countdown in the Fabric menu bar or go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> &gt; <strong>Trial</strong>.</p>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/trial-status-me-control.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/trial-status-me-control.png" alt="Screenshot of the Microsoft Fabric trial status." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h2 id="share-trial-capacities">Share trial capacities</h2>
+<p>The person who starts the Fabric trial capacity becomes the Capacity administrator for that trial capacity. Other users on the same tenant can also start a Fabric trial capacity and become the Capacity administrator for their own trial capacity. Hundreds of users can use each trial capacity. But, Microsoft sets a limit on the number of trial capacities that can be created on a single tenant. To help others in your organization try out Fabric, share your trial capacity. There are several ways to share.</p>
+<h3 id="share-by-enabling-contributor-permissions">Share by enabling contributor permissions</h3>
+<p>To share and collaborate during a trial, you need to make sure the right tenant settings are enabled. Trial enablement is managed through <strong>Tenant settings</strong> and <strong>Help and support settings</strong>, with optional capacity assignment.</p>
+<ol>
+<li>Go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Configurations</strong> &gt; <strong>Tenant settings</strong>.</li>
+<li>Expand <strong>Users can create Fabric items</strong>, and turn it on. Optionally, scope this setting to specific security groups.</li>
+<li>Under <strong>Help and support settings</strong>, enable <strong>Users can try Microsoft Fabric paid features</strong>. This allows users to start a trial.</li>
+<li>(Optional) Assign trial capacity in <strong>Capacity settings</strong> if you want to control where trial workspaces are created.</li>
+</ol>
+<div class="NOTE">
+<p>Note</p>
+<p>The previous option <strong>Enabled for the entire organization</strong> in the <strong>Trial</strong> section is no longer available. Trial enablement is now managed through tenant settings.</p>
+</div>
+<h3 id="share-by-assigning-workspaces">Share by assigning workspaces</h3>
+<p>If you're the Capacity administrator, assign the trial capacity to multiple workspaces. Anyone with access to one of those workspaces can now use the Fabric capacity trial.</p>
+<ol>
+<li>Open <strong>Workspaces</strong> and select the name of a workspace.</li>
+<li>Select <strong>Workspace settings</strong>, then <strong>Workspace type</strong>.</li>
+<li>Select the <strong>Fabric Trial</strong> as the workspace type and select <strong>Apply</strong>.</li>
+</ol>
+<p>For more information, see <a href="workspaces#workspace-type" data-linktype="relative-path">Use Workspace settings</a>.</p>
+<h2 id="increase-trial-capacity">Increase trial capacity</h2>
+<p>If you're the Capacity administrator or Tenant administrator, you might be eligible to increase the trial capacity by following these steps:</p>
+<ol>
+<li>Go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong>, and then choose the <strong>Trial</strong> tab.</li>
+<li>Your current trial size is displayed here. Select the <strong>Change size</strong> button to increase from 4 capacity units to 64 capacity units.</li>
+<li>Select <strong>Apply</strong>. If you're eligible to change the size, you see a success message and receive a notification.</li>
+</ol>
+<p>You can also downgrade from 64 capacity units to 4 capacity units using these same steps.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>Eligibility to increase trial capacity may vary. If you do not see the option, please contact your Microsoft sales representative or contact <a href="https://azure.microsoft.com/contact/?msockid=02d2195e72356be10cc60cb5738d6afb" data-linktype="external">Azure sales team</a> for assistance. Changing the trial capacity doesn't change the length of the trial. The number of remaining days doesn't reset or become extended.</p>
+</div>
+<p><a id="end-a-fabric-trial"></a></p>
+<h2 id="end-a-fabric-trial-capacity">End a Fabric trial capacity</h2>
+<p>End a Fabric capacity trial by <a href="#cancel-the-fabric-trial" data-linktype="self-bookmark">canceling</a>, <a href="#let-the-trial-expire" data-linktype="self-bookmark">letting it expire</a>, or <a href="#purchase-the-full-fabric-experience" data-linktype="self-bookmark">purchasing the full Fabric experience</a>.</p>
+<p>For more information, see <a href="../enterprise/fabric-close-end-cancel" data-linktype="relative-path">Canceling, expiring, and closing</a>.</p>
+<h3 id="cancel-the-fabric-trial">Cancel the Fabric trial</h3>
+<p>Capacity admins and Fabric admins can cancel a trial capacity. The user who starts a trial automatically becomes the Capacity administrator for that trial capacity. The Fabric administrator has full access to all Fabric management tasks. All Fabric items (non-Power BI items) in those workspaces become unusable and may be deleted after 7 days. Only the Capacity or Fabric administrator can cancel the Fabric trial capacity.</p>
+<p>One reason to cancel a trial capacity is when the Capacity administrator of a trial capacity leaves the company. Because Microsoft limits the number of trial capacities available per tenant, you might want to remove the unmanaged trial capacity to make room for other users to sign up for a new trial capacity.</p>
+<p>If you don't move the workspaces and their contents to a new capacity that supports Fabric:</p>
+<ul>
+<li>The workspace type of any workspaces assigned to that trial capacity changes to Power BI Pro.</li>
+<li>All non Power BI Fabric items in the workspaces become unusable and may be deleted after seven days. Your Power BI items are unaffected and still available when the workspace type returns to Power BI Pro.</li>
+<li>You can't create workspaces that support Fabric capabilities.</li>
+<li>You can't share Fabric items, such as machine learning models, warehouses, and notebooks, and collaborate on them with other Fabric users.</li>
+<li>You can't create any other analytics solutions using these Fabric items.</li>
+</ul>
+<div class="NOTE">
+<p>Note</p>
+<p>Only capacity and Fabric admins can cancel a Fabric trial capacity.</p>
+</div>
+<ul>
+<li><p><strong>Cancel a trial using your Account manager</strong>: As a trial capacity admin, you can cancel your free Fabric trial capacity from your Account manager. Canceling the trial this way ends the trial capacity for yourself and anyone else you invited to the trial.</p>
+<ul>
+<li>Open your Account manager and select <strong>Cancel trial</strong>.</li>
+</ul>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/cancel-trial.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/cancel-trial.png" alt="Screenshot of the Cancel trial button in Account manager." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p><strong>Cancel the Fabric trial capacity in Govern</strong>: As a Capacity or Fabric administrator, you can use <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> to cancel a Fabric trial capacity:</p>
+<ol>
+<li>Go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong>.</li>
+<li>Then choose the <strong>Trials</strong> tab.</li>
+<li>Select the cog icon for the trial capacity that you want to delete.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/fabric-delete-trial.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/fabric-delete-trial.png" alt="Screenshot of the Trial tab in the Admin portal." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+</ul>
+<p><a id="the-trial-expires"></a></p>
+<h3 id="let-the-trial-expire">Let the trial expire</h3>
+<p>A standard Fabric trial capacity lasts 60 days. If you don't reassign workspaces to a paid Fabric capacity before the end of the trial period, non-Power BI Fabric items are removed according to the <a href="../admin/portal-workspaces#workspace-states" data-linktype="relative-path">retention policy upon removal</a>. You have seven days after the expiration date to save your non-Power BI Fabric items by assigning the workspaces to an F or P capacity that supports Fabric.</p>
+<p>To retain your Fabric items, before your trial ends, <a href="https://aka.ms/fabricibiza" data-linktype="external">purchase Fabric</a>.</p>
+<h3 id="purchase-the-full-fabric-experience">Purchase the full Fabric experience</h3>
+<p>If you want to retain your data and continue to use Microsoft Fabric, <a href="../enterprise/buy-capacity" data-linktype="relative-path">purchase a capacity</a> and migrate your workspaces to that capacity. You can also migrate your workspaces to a capacity that you already own that supports Fabric items.</p>
+<h2 id="frequently-asked-questions">Frequently asked questions</h2>
+<p>Here are some things to consider and answers to frequently asked questions about the Fabric trial.</p>
+<h4 id="can-i-use-a-fabric-trial-capacity-for-production-workloads">Can I use a Fabric trial capacity for production workloads?</h4>
+<p>A Fabric trial capacity is intended for evaluation and testing only. Because trial capacities are time-bound, don't rely on them for ongoing production use, business-critical workloads, or long-term operational processes. For ongoing reliability and support for production scenarios, use a paid Fabric capacity. For more information, see <a href="#purchase-the-full-fabric-experience" data-linktype="self-bookmark">Purchase the full Fabric experience</a>.</p>
+<h4 id="is-every-user-eligible-to-start-a-fabric-trial">Is every user eligible to start a Fabric trial?</h4>
+<p>Trial eligibility depends on factors such as your tenant settings, license state, and the number of trial capacities available in your tenant. Microsoft determines trial availability by region and tenant, and availability can change over time. For troubleshooting guidance, see <a href="#why-cant-i-start-a-trial" data-linktype="self-bookmark">Why can't I start a trial</a>? If you’re still unable to start a trial, you may <a href="/en-us/training/support/" data-linktype="absolute-path">contact Microsoft Support</a>.</p>
+<h4 id="can-i-start-another-fabric-trial-after-my-current-trial-ends">Can I start another Fabric trial after my current trial ends?</h4>
+<p>Eligibility for another trial isn't guaranteed, and Microsoft might restrict repeated or successive trial usage. To continue using Fabric after your trial ends, you can <a href="#purchase-the-full-fabric-experience" data-linktype="self-bookmark">purchase a paid Fabric capacity</a> or ask your Fabric administrator whether an existing capacity is available for your workspace.</p>
+<h4 id="what-if-i-dont-already-have-an-assigned-power-bi-ppu">What if I don't already have an assigned Power BI PPU?</h4>
+<p>If you don't already have an assigned Power BI <a href="/en-us/power-bi/enterprise/service-premium-per-user-faq" data-linktype="absolute-path">Premium Per User (PPU)</a> license, you receive a Power BI <a href="/en-us/power-bi/fundamentals/service-self-service-signup-purchase-for-power-bi?tabs=trial#start-a-trial" data-linktype="absolute-path">Individual Trial</a> when initiating a Fabric trial capacity. This individual trial enables you to perform the actions and use the features that a PPU license enables. Your Account manager still displays the nontrial licenses assigned to you. But in order to make full use of Fabric, your Fabric trial capacity comes with a complementary Power BI Individual trial.</p>
+<h4 id="why-cant-i-start-a-trial">Why can't I start a trial?</h4>
+<p>If you don't see the <strong>Start trial</strong> button in your Account manager:</p>
+<ul>
+<li>Your Fabric administrator might have disabled access, and you can't start a Fabric trial capacity. To request access, <a href="#look-up-the-trial-capacity-administrator" data-linktype="self-bookmark">contact your Fabric administrator</a>.</li>
+<li>You're an existing Power BI individual trial user, and you don't see <strong>Start trial</strong> in your Account manager. You can start a Fabric trial by attempting to <a href="#other-ways-to-start-a-microsoft-fabric-trial" data-linktype="self-bookmark">create a Fabric item</a>. When you attempt to create a Fabric item, you receive a prompt to start a Fabric trial. If you don't see this prompt, it's possible your Fabric administrator deactivated this action.</li>
+</ul>
+<p>If you do see the <strong>Start trial</strong> button in your Account manager but can't start a trial:</p>
+<ul>
+<li>You might not be able to start a trial capacity if your tenant exhausted its limit of trial capacities. If that's the case, you have the following options:
+<ul>
+<li>Request another trial capacity user to share their trial capacity workspace with you. <a href="give-access-workspaces" data-linktype="relative-path">Give users access to workspaces</a>.</li>
+<li><a href="https://aka.ms/fabricibiza" data-linktype="external">Purchase a Fabric capacity from Azure</a> by performing a search for <em>Microsoft Fabric</em>.</li>
+</ul>
+</li>
+</ul>
+<p><a id="look-up-the-trial-capacity-administrator"></a></p>
+<h4 id="how-do-i-look-up-the-trial-capacity-administrator">How do I look up the trial Capacity administrator?</h4>
+<p>To request access to a trial capacity or to check whether your organization has the Fabric tenant setting enabled, you can contact your Capacity administrator. Ask your Fabric administrator to use <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> to look up your Capacity administrator. You can find your Fabric administrator as the service administrator in the Workspace Settings of your workspace.</p>
+<p>If you're the Capacity or Fabric administrator, go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong>, and then choose the <strong>Trial</strong> tab.</p>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/fabric-admin.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/fabric-admin.png" alt="Screenshot of Admin center showing the Capacity settings screen." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="how-do-i-know-if-my-tenant-has-reached-its-trial-capacity-limit">How do I know if my tenant has reached its trial capacity limit?</h4>
+<p>Microsoft limits the number of trial capacities available per tenant. If your tenant has exhausted its trial capacity limit, you'll encounter one of these scenarios:</p>
+<ul>
+<li>When attempting to start a new trial from the Account manager, the <strong>Start trial</strong> option might not be available or you may receive an error message indicating the trial limit has been reached.</li>
+<li>If you try to trigger a trial by creating a Fabric item, the trial activation prompt won't appear.</li>
+</ul>
+<p>To resolve this issue:</p>
+<ul>
+<li>Contact your Fabric administrator to check existing trial capacities in <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> &gt; <strong>Trial</strong>. If there are inactive or unmanaged trial capacities (for example, from users who left the organization), consider canceling them to free up capacity for new trials.</li>
+<li>Request access to an existing trial capacity from a Capacity administrator who can share their trial by assigning workspaces or enabling contributor permissions.</li>
+<li>Consider <a href="../enterprise/buy-capacity" data-linktype="relative-path">purchasing a Fabric capacity</a> if trial limits prevent your organization from testing Fabric features.</li>
+</ul>
+<h4 id="how-do-i-look-up-the-number-of-days-remaining-in-my-trial">How do I look up the number of days remaining in my trial?</h4>
+<p>Go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong>, and then choose the <strong>Trial</strong> tab. The <strong>Days left</strong> column tracks the remaining days for each trial.</p>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/fabric-admin-days-left.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/fabric-admin-days-left.png" alt="Screenshot of Admin center showing the Capacity settings screen and days left for each trial." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="why-cant-i-assign-a-workspace-to-the-trial-capacity-in-my-workspace-settings">Why can't I assign a workspace to the trial capacity in my workspace settings?</h4>
+<p>This can occur when the Fabric administrator turns off trials after you start a trial. To add your workspace to the trial capacity, go to <strong>OneLake catalog</strong> &gt; <strong>Govern</strong> &gt; <strong>Capacities</strong> &gt; <strong>Trial</strong>, and choose the name of the capacity. If you don't see your workspace assigned, add it here.</p>
+<p><span class="mx-imgBorder">
+<a href="media/fabric-trial/capacity-wk-assignment.png#lightbox" data-linktype="relative-path">
+<img src="media/fabric-trial/capacity-wk-assignment.png" alt="Screenshot of the Capacities page in the Admin portal." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="what-is-the-region-for-my-fabric-trial-capacity">What is the region for my Fabric trial capacity?</h4>
+<p>If you start the trial using the Account manager and didn't change the default region selection, your trial capacity is usually located in the home region for your tenant. See <a href="../admin/find-fabric-home-region" data-linktype="relative-path">Find your Fabric home region</a> for information about how to find your home region, where your data is stored.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>In most cases, the default trial Capacity region matches your home region. However, in some cases, Fabric trials are created by default in a similar but different region (for example, East US instead of Central US).</p>
+</div>
+<h4 id="how-do-i-select-a-different-region-for-my-fabric-trial-capacity">How do I select a different region for my Fabric trial capacity?</h4>
+<p>The easiest way to select a non-default region for your Fabric trial capacity is at the point of <a href="#method-1" data-linktype="self-bookmark">initiating the trial from the Account Manager</a>. The list of available regions for selection will be available during this step.</p>
+<h4 id="what-effect-does-region-have-on-my-fabric-trial-capacity">What effect does region have on my Fabric trial capacity?</h4>
+<p>Not all regions are available for the Fabric trial capacity. Start by <a href="../admin/find-fabric-home-region" data-linktype="relative-path">looking up your home region</a> and then check to <a href="../admin/region-availability" data-linktype="relative-path">see if your region is supported for the Fabric trial</a>. If your home region doesn't have Fabric enabled, don't use the Account manager to start a trial. To start a trial in a region that isn't your home region, follow the steps in <a href="#other-ways-to-start-a-microsoft-fabric-trial" data-linktype="self-bookmark">Other ways to start a Fabric trial</a>. If you already started a trial from Account manager, cancel that trial and follow the steps in <a href="#other-ways-to-start-a-microsoft-fabric-trial" data-linktype="self-bookmark">Other ways to start a Fabric trial</a> instead.</p>
+<h4 id="can-i-move-my-tenant-to-another-region">Can I move my tenant to another region?</h4>
+<p>You can't move your organization's tenant between regions by yourself. If you need to change your organization's default data location from the current region to another region, you must contact support to manage the migration for you. For more information, see <a href="/en-us/power-bi/support/service-admin-region-move" data-linktype="absolute-path">Move between regions</a>.</p>
+<h4 id="how-can-i-see-the-fabric-trial-capacity-availability-by-azure-region">How can I see the Fabric trial capacity availability by Azure region?</h4>
+<p>To learn more about regional availability for Fabric trials, see <a href="../admin/region-availability" data-linktype="relative-path">Fabric trial capacities are available in all regions.</a></p>
+<h4 id="how-is-the-fabric-trial-capacity-different-from-a-power-bi-individual-trial">How is the Fabric trial capacity different from a Power BI individual trial?</h4>
+<p>A Power BI individual trial provides use rights equivalent to a Power BI Premium Per User license. A Fabric trial capacity is for storing Fabric items and running Fabric workloads. All rules guiding <a href="/en-us/power-bi/fundamentals/service-features-license-type" data-linktype="absolute-path">Power BI licenses</a> and what you can do in the Power BI workload remain the same with a Fabric trial capacity, which is why having a complementary Power BI individual trial is useful. The key difference is that a Fabric capacity is required to use non-Power BI workloads and items.</p>
+<h4 id="does-the-fabric-trial-capacity-support-autoscale">Does the Fabric trial capacity support autoscale?</h4>
+<p>The Fabric trial capacity doesn't support autoscale. If you need more compute capacity, you can purchase a Fabric capacity in Azure.</p>
+<h4 id="how-can-trial-capacity-administrators-migrate-existing-workspaces-into-a-trial-capacity">How can trial Capacity administrators migrate existing workspaces into a trial capacity?</h4>
+<p>Trial Capacity administrators can migrate existing workspaces into a trial capacity using workspace settings and choosing <strong>Fabric Trial</strong> as the workspace type. To learn how to migrate workspaces, see <a href="create-workspaces" data-linktype="relative-path">create workspaces</a>.</p>
+<h4 id="how-many-sql-databases-can-i-create-in-a-fabric-trial-capacity">How many SQL databases can I create in a Fabric trial capacity?</h4>
+<p>Currently, you can create up to three SQL databases in a Fabric trial capacity.</p>
+<h2 id="next-steps">Next steps</h2>
+<div class="nextstepaction">
+<p><a href="https://app.fabric.microsoft.com/?pbi_source=learn-get-started-fabric-trial" data-linktype="external">Start a Fabric trial for free</a></p>
+</div>
+<h2 id="related-content">Related content</h2>
+<ul>
+<li>Learn about <a href="../enterprise/licenses" data-linktype="relative-path">licenses</a></li>
+<li>Review Fabric <a href="fabric-terminology" data-linktype="relative-path">terminology</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-09-29T05:57:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-09-29
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

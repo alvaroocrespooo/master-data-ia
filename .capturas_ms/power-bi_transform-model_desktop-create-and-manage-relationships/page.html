@@ -1,0 +1,2228 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Create and Manage Relationships in Power BI Desktop - Power BI | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Learn how to create and manage relationships in Power BI Desktop using autodetect and manual methods, including cardinality options, cross-filter directions, and relationship editing techniques." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Create and Manage Relationships in Power BI Desktop - Power BI" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships" />
+			<meta property="og:description" content="Learn how to create and manage relationships in Power BI Desktop using autodetect and manual methods, including cardinality options, cross-filter directions, and relationship editing techniques." />
+			<meta name="platform_id" content="4e85759f-649e-8e1e-c20b-719938fd38ff" /> <meta name="scope" content="Power BI" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MSPowerBI" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/power-bi/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="true" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="ms.service" content="powerbi" />
+	
+		<meta name="search.appverid" content="met150" />
+	
+		<meta name="search.app" content="fabric-powerbi-docs" />
+	
+		<meta name="search.app" content="capaedac-PowerBI" />
+	
+		<meta name="search.app" content="powerbi" />
+	
+		<meta name="search.app" content="powerbipremium-docs" />
+	
+		<meta name="search.app" content="powerbipro-docs" />
+	
+		<meta name="ms.subservice" content="pbi-transform-model" />
+	
+		<meta name="author" content="kgremban" />
+	
+		<meta name="ms.author" content="kgremban" />
+	
+		<meta name="ms.reviewer" content="" />
+	
+		<meta name="ms.topic" content="how-to" />
+	
+		<meta name="ms.date" content="2025-10-01T00:00:00Z" />
+	
+		<meta name="ms.custom" content="FY25Q1-Linter" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="LocalizationGroup" content="Model your data" />
+	
+		<meta name="document_id" content="b0390b42-0ab0-15fc-29e1-620a0ef9104c" />
+	
+		<meta name="document_version_independent_id" content="44197a9d-f275-6959-8cc8-88999b740147" />
+	
+		<meta name="updated_at" content="2026-05-21T22:06:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/8fa07c36ccb2fd3f418d22c2f6ebbcaa206ef89d/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md" />
+	
+		<meta name="git_commit_id" content="8fa07c36ccb2fd3f418d22c2f6ebbcaa206ef89d" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.powerbi-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.powerbi-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="5379" />
+	
+		<meta name="asset_id" content="transform-model/desktop-create-and-manage-relationships" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="powerbi-docs/transform-model/desktop-create-and-manage-relationships.md" />
+	
+		<meta name="previous_tlsh_hash" content="B7EDA3E2849C8900FFC13F06386BAE4094F0C08AEEB02A84027672B1CB4B2EA74B986CB56797735423359E9312B3635D79F7F732D2AC277745A85978D1683108D69D37BBE5" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/d3197845-b4ce-44c6-a237-cd4be160e76c" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/aea905fb-0a9d-4d46-b30f-e9cbaf772d1b" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/powerbi-docs",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true,
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/powerbi-docs/transform-model/desktop-create-and-manage-relationships.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="create-and-manage-relationships-in-power-bi-desktop">Create and manage relationships in Power BI Desktop</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>When you have multiple tables, chances are you'll do some analysis using data from all those tables. Relationships between those tables are necessary to accurately calculate results and display the correct information in your reports. In most cases, you won’t have to do anything. The autodetect feature does it for you. However, sometimes you might have to create relationships yourself, or need to make changes to a relationship. Either way, it’s important to understand relationships in Power BI Desktop and how to create and edit them.</p>
+<h2 id="autodetect-during-load">Autodetect during load</h2>
+<p>If you query two or more tables at the same time, when the data is loaded, Power BI Desktop attempts to find and create relationships for you. The relationship options <strong>Cardinality</strong>, <strong>Cross filter direction</strong>, and <strong>Make this relationship active</strong> are automatically set. Power BI Desktop looks at column names in the tables you're querying to determine if there are any potential relationships. If there are, those relationships are created automatically. If Power BI Desktop can't determine with a high level of confidence there's a match, it doesn't create the relationship. However, you can still use the <strong>Manage relationships</strong> dialog box to manually create or edit relationships.</p>
+<h2 id="create-a-relationship-with-autodetect">Create a relationship with autodetect</h2>
+<p>On the <strong>Modeling</strong> tab, select <strong>Manage relationships</strong> &gt; <strong>Autodetect</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/automaticrelationship.gif" alt="Animation showing how to create a relationship with autodetect." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="create-a-relationship-manually">Create a relationship manually</h2>
+<ol>
+<li><p>On the <strong>Modeling</strong> tab, select <strong>Manage relationships</strong> &gt; <strong>New</strong>.</p>
+</li>
+<li><p>In the <strong>Create relationship</strong> dialog box, in the first table drop-down list, select a table. Select the column you want to use in the relationship.</p>
+</li>
+<li><p>In the second table drop-down list, select the other table you want in the relationship. Select the other column you want to use, and then select <strong>OK</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/manualrelationship2.gif" alt="Animation showing how to create a manual relationship." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ol>
+<p>By default, Power BI Desktop automatically configures the options <strong>Cardinality</strong> (direction), <strong>Cross filter direction</strong>, and <strong>Make this relationship active</strong> for your new relationship. However, you can change these settings if necessary. For more information, see <a href="#understanding-additional-options" data-linktype="self-bookmark">Understanding additional options</a>.</p>
+<p>If none of the tables selected for the relationship has unique values, you'll see the following error: <em>One of the columns must have unique values</em>. At least one table in a relationship <em>must</em> have a distinct, unique list of key values, which is a common requirement for all relational database technologies.</p>
+<p>If you encounter that error, there are a couple ways to fix the issue:</p>
+<ul>
+<li>Use <strong>Remove Duplicates</strong> to create a column with unique values. The drawback to this approach is that you might lose information when duplicate rows are removed.  Often a key (row) is duplicated for good reason.</li>
+<li>Add an intermediary table made of the list of distinct key values to the model, which is then linked to both original columns in the relationship.</li>
+</ul>
+<p>For more information, see this <a href="/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message" data-linktype="absolute-path">blog post</a>.</p>
+<p>Alternatively, in the <strong>Model view</strong> diagram layouts, you can drag and drop a column from one table to a column in another table to create a relationship.</p>
+<h2 id="edit-a-relationship">Edit a relationship</h2>
+<p>There are two ways to edit a relationship in Power BI.</p>
+<p>The first method to edit a relationship is using the <strong>Editing relationships in the Properties</strong> pane in <strong>Model view</strong>, where you can select any line between two tables to see the relationship options in the <strong>Properties</strong> pane. Be sure to expand the <strong>Properties</strong> pane to see the relationship options.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/relationships-options-03.png" alt="Screenshot of adjusting relationships in the properties pane." data-linktype="relative-path">
+</span>
+</p>
+<p>You can also see a <a href="https://youtu.be/Vlo7dJgr4WM?t=710" data-linktype="external">video demonstration</a> of editing relationships in the <strong>Properties</strong> pane.</p>
+<p>The other method of editing a relationship is using the <strong>Relationship editor dialog</strong>, which you can open many ways from within Power BI Desktop. The following list shows different ways you can open the <strong>Relationship editor dialog</strong>:</p>
+<p>From <strong>Report view</strong> do any of the following:</p>
+<ul>
+<li>Select the <strong>Modeling</strong> ribbon &gt; <strong>Manage relationships</strong>, then select the relationship and select <strong>Edit</strong>.</li>
+<li>Select a table in the <strong>Fields</strong> list then select the <strong>Table tools</strong> ribbon &gt; <strong>Manage relationships</strong>, then select the relationship and then select <strong>Edit</strong>.</li>
+</ul>
+<p>From the Table view, select the <strong>Table tools</strong> ribbon &gt; <strong>Manage relationships</strong>, then select the relationship and then choose <strong>Edit</strong>.</p>
+<p>From the <strong>Model</strong> view do any of the following:</p>
+<ul>
+<li>Select the <strong>Home</strong> ribbon &gt; <strong>Manage relationships</strong>, then choose the relationship and then select <strong>Edit</strong>.</li>
+<li>Double-click any line between two tables.</li>
+<li>Right-click any line between two tables and then choose <strong>Properties</strong>.</li>
+<li>Select any line between two tables, then choose <strong>Open relationship editor</strong> in the <strong>Properties</strong> pane.</li>
+</ul>
+<p>Finally, you can also edit a relationship from any view, right-click, or select the ellipsis to get to the context menu of any table, then select <strong>Manage relationships</strong>, select the relationship, and then select <strong>Edit</strong></p>
+<p>The following image shows a screenshot of the <strong>Edit relationship</strong> window.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/relationships-options-04.png" alt="Screenshot of the edit relationship window." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="editing-relationships-using-different-methods">Editing relationships using different methods</h2>
+<p>Using the <strong>Edit relationships dialog</strong> is a more guided experience for editing relationships in Power BI, and is currently in preview. You can see a preview of the data in each table. As you select different columns, the window automatically validates the relationship and offers appropriate cardinality and cross filter selections.</p>
+<p>Editing relationships in the <strong>Properties</strong> pane is a streamlined approach to editing relationships in Power BI. You only see the table names and columns from which you can choose, you aren't presented with a data preview, and the relationship choices you make are only validated when you select <strong>Apply changes</strong>. Using the <strong>Properties</strong> pane and its streamlined approach reduces the number of queries generated when editing a relationship, which might be important for big data scenarios, especially when using DirectQuery connections. Relationships created using the <strong>Properties</strong> pane can also be more advanced than the relationships allowed to be created in the <strong>Edit relationships dialog</strong>.</p>
+<p>You can also multi-select relationships in the <strong>Model</strong> view diagram layouts by pressing the Ctrl key and selecting more than one line to choose multiple relationships. Common properties can be edited in the <strong>Properties</strong> pane and <strong>Apply changes</strong> process the changes in one transaction.</p>
+<p>Single or multi-selected relationships can also be deleted by pressing <em>Delete</em> on your keyboard. You can't undo the delete action, so a dialog prompts you to confirm deleting the relationships.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Editing relationships in the properties pane feature is currently in preview. While in preview, functionality and documentation are likely to change. You must enable this feature in Power BI Desktop by going to <strong>File &gt; Options and settings &gt; Options &gt; Preview features</strong> and then in the GLOBAL section, select the checkbox next to <strong>Relationship pane</strong>.</p>
+</div>
+<h2 id="configure-more-options">Configure more options</h2>
+<p>When you create or edit a relationship, you can configure more options. By default, Power BI Desktop automatically configures more options based on its best guess, which can be different for each relationship based on the data in the columns.</p>
+<h3 id="cardinality">Cardinality</h3>
+<p>The <strong>Cardinality</strong> option can have one of the following settings:</p>
+<ul>
+<li><strong>Many to one (*:1)</strong>: A many-to-one relationship is the most common, default type of relationship. It means the column in a given table can have more than one instance of a value, and the other related table, often know as the lookup table, has only one instance of a value.</li>
+<li><strong>One to one (1:1)</strong>: In a one-to-one relationship, the column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.</li>
+<li><strong>One to many (1:*)</strong>: In a one-to-many relationship, the column in one table has only one instance of a particular value, and the other related table can have more than one instance of a value.</li>
+<li><strong>Many to many (*:*)</strong>: With composite models, you can establish a many-to-many relationship between tables, which removes requirements for unique values in tables. It also removes previous workarounds, such as introducing new tables only to establish relationships. For more information, see <a href="desktop-many-to-many-relationships" data-linktype="relative-path">Relationships with a many-many cardinality</a>.</li>
+</ul>
+<p>For more information about when to change cardinality, see <a href="#understanding-additional-options" data-linktype="self-bookmark">Understanding additional options</a>.</p>
+<h3 id="cross-filter-direction">Cross filter direction</h3>
+<p>The <strong>Cross filter direction</strong> option can have one the following settings:</p>
+<p><strong>Both</strong>: For filtering purposes, both tables are treated as if they're a single table. The <strong>Both</strong> setting works well with a single table that has many lookup tables that surround it. An example is a sales actuals table with a lookup table for its department. This configuration is often called a star schema configuration (a central table with several lookup tables). However, if you have two or more tables that also have lookup tables (with some in common) then you wouldn't want to use the <strong>Both</strong> setting. To continue the previous example, in this case, you also have a budget sales table that records target budget for each department. And, the department table is connected to both the sales and the budget table. Avoid the <strong>Both</strong> setting for this kind of configuration.</p>
+<p><strong>Single</strong>: The most common, default direction, which means filtering choices in connected tables work on the table where values are being aggregated. If you import a Power Pivot in Excel 2013 or earlier data model, all relationships have a single direction.</p>
+<p>For more information about when to change cross filter direction, see <a href="#understanding-additional-options" data-linktype="self-bookmark">Understanding additional options</a>.</p>
+<h3 id="make-this-relationship-active">Make this relationship active</h3>
+<p>When checked, the relationship serves as the active, default relationship. In cases where there's more than one relationship between two tables, the active relationship provides a way for Power BI Desktop to automatically create visualizations that include both tables.</p>
+<p>For more information about when to make a particular relationship active, see <a href="#understanding-additional-options" data-linktype="self-bookmark">Understanding additional options</a>.</p>
+<h2 id="understanding-relationships">Understanding relationships</h2>
+<p>Once you've connected two tables together with a relationship, you can work with the data in both tables as if they were a single table. You're then free from having to worry about relationship details or flattening those tables into a single table before importing them. In many situations, Power BI Desktop can automatically create relationships for you. However, if Power BI Desktop can’t determine with a high-degree of certainty that a relationship between two tables should exist, it doesn't automatically create the relationship. In that case, you must do so.</p>
+<p>Let’s go through a quick tutorial, to better show you how relationships work in Power BI Desktop.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>You can complete this lesson yourself:</p>
+<ol>
+<li>Copy the following <strong>ProjectHours</strong> table into an Excel worksheet (excluding the title), select all of the cells, and then select <strong>Insert</strong> &gt; <strong>Table</strong>.</li>
+<li>In the <strong>Create Table</strong> dialog box, select <strong>OK</strong>.</li>
+<li>Select any table cell, select <strong>Table Design</strong> &gt; <strong>Table Name</strong>, and then enter <em>ProjectHours</em>.</li>
+<li>Do the same for the <strong>CompanyProject</strong> table.</li>
+<li>Import the data by using <strong>Get Data</strong> in Power BI Desktop. Select the two tables as a data source, and then select <strong>Load</strong>.</li>
+</ol>
+</div>
+<p>The first table, <strong>ProjectHours</strong>, is a record of work tickets that record the number of hours a person has worked on a particular project.</p>
+<h3 id="projecthours">ProjectHours</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;"><strong>Ticket</strong></th>
+<th style="text-align: left;"><strong>SubmittedBy</strong></th>
+<th style="text-align: right;"><strong>Hours</strong></th>
+<th style="text-align: left;"><strong>Project</strong></th>
+<th style="text-align: right;"><strong>DateSubmit</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1001</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">Blue</td>
+<td style="text-align: right;">1/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1002</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Red</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1003</td>
+<td style="text-align: left;">Ito, Shu</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: left;">Yellow</td>
+<td style="text-align: right;">12/4/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1004</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">Orange</td>
+<td style="text-align: right;">1/2/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1005</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: left;">Purple</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1006</td>
+<td style="text-align: left;">Bento, Nuno</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: left;">Green</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1007</td>
+<td style="text-align: left;">Hamilton, David</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">Yellow</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1008</td>
+<td style="text-align: left;">Han, Mu</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Orange</td>
+<td style="text-align: right;">1/2/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1009</td>
+<td style="text-align: left;">Ito, Shu</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">Purple</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1010</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Green</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1011</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Blue</td>
+<td style="text-align: right;">10/15/2013</td>
+</tr>
+</tbody>
+</table>
+<p>This second table, <strong>CompanyProject</strong>, is a list of projects with an assigned priority: A, B, or C.</p>
+<h3 id="companyproject">CompanyProject</h3>
+<table>
+<thead>
+<tr>
+<th><strong>ProjName</strong></th>
+<th><strong>Priority</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blue</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>B</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Purple</td>
+<td>B</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<p>Notice that each table has a project column. Each is named slightly different, but the values look like they’re the same. That difference is important, and we’ll get back to it in soon.</p>
+<p>Now that we have our two tables imported into a model, let’s create a report. The first thing we want to get is the number of hours submitted by project priority, so we select <strong>Priority</strong> and <strong>Hours</strong> from the <strong>Fields</strong> pane.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_reportfiltersnorel.png" alt="Screenshot of the Priority and Hours fields selected from the Fields pane." data-linktype="relative-path">
+</span>
+</p>
+<p>If we look at our table in the report canvas, you’ll see the number of hours is 256 for each project, which is also the total. Clearly this number isn’t correct. Why? It’s because we can’t calculate a sum total of values from one table (<strong>Hours</strong> in the <strong>Project</strong> table), sliced by values in another table (<strong>Priority</strong> in the <strong>CompanyProject</strong> table) without a relationship between these two tables.</p>
+<p>So, let’s create a relationship between these two tables.</p>
+<p>Remember those columns we saw in both tables with a project name, but with values that look alike? We'll use these two columns to create a relationship between our tables.</p>
+<p>Why these columns? Well, if we look at the <strong>Project</strong> column in the <strong>ProjectHours</strong> table, we see values like Blue, Red, Yellow, Orange, and so on. In fact, we see several rows that have the same value. In effect, we have many color values for <strong>Project</strong>.</p>
+<p>If we look at the <strong>ProjName</strong> column in the <strong>CompanyProject</strong> table, we see there’s only one of each of the color values for the project name. Each color value in this table is unique, and that’s important, because we can create a relationship between these two tables. In this case, a many-to-one relationship. In a many-to-one relationship, at least one column in one of the tables must contain unique values. There are some more options for some relationships, which we'll look at later. For now, let’s create a relationship between the project columns in each of our two tables.</p>
+<h3 id="to-create-the-new-relationship">To create the new relationship</h3>
+<ol>
+<li><p>Select <strong>Manage relationships</strong> from the <strong>Modeling</strong> tab.</p>
+</li>
+<li><p>In <strong>Manage relationships</strong>, select <strong>New</strong> to open the <strong>Create relationship</strong> dialog box, where we can select the tables, columns, and any other settings we want for our relationship.</p>
+</li>
+<li><p>In the first drop-down list, select <strong>ProjectHours</strong> as the first table, then select the <strong>Project</strong> column. This side is the *many sides of our relationship.</p>
+</li>
+<li><p>In the second drop-down list, <strong>CompanyProject</strong> is preselected as the second table. Select the <strong>ProjName</strong> column. This side is the <em>one</em> side of our relationship.</p>
+</li>
+<li><p>Accept the defaults for the relationship options, and then select <strong>OK</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_create_compproj.png" alt="Screenshot of the Create relationship dialog box." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>In the <strong>Manage relationships</strong> dialog box, select <strong>Close</strong>.</p>
+</li>
+</ol>
+<p>In the interest of full disclosure, you just created this relationship the hard way. You could have selected <strong>Autodetect</strong> in the <strong>Manage relationships</strong> dialog box. In fact, autodetect would have automatically created the relationship for you when you loaded the data if both columns had the same name.</p>
+<p>Now, let’s look at the table in our report canvas again.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_reportfilterswithrel.png" alt="Screenshot of the Priority and Hours fields selected from the Fields pane with new relationship." data-linktype="relative-path">
+</span>
+</p>
+<p>That looks a whole lot better, doesn’t it?</p>
+<p>When we sum up hours by <strong>Priority</strong>, Power BI Desktop looks for every instance of the unique color values in the <strong>CompanyProject</strong> lookup table, looks for every instance of each of those values in the <strong>ProjectHours</strong> table, and then calculates a sum total for each unique value.</p>
+<p>With autodetect, you might not even have to do that much.</p>
+<h2 id="understanding-additional-options">Understanding additional options</h2>
+<p>When a relationship is created, either with autodetect or one you create manually, Power BI Desktop automatically configures additional options based on the data in your tables. These additional relationship options are located in the lower portion of the <strong>Create relationship</strong> and <strong>Edit relationship</strong> dialog boxes.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png" alt="Screenshot of the lower portion of the Create relationship dialog box showing Cardinality and Cross filter direction options." data-linktype="relative-path">
+</span>
+</p>
+<p>Power BI typically sets these options automatically and you won’t need to adjust them. But there are several situations where you might want to configure these options yourself.</p>
+<h2 id="automatic-relationship-updates">Automatic relationship updates</h2>
+<p>You can manage how Power BI treats and automatically adjusts relationships in your reports and models. To specify how Power BI handles relationships options, select <strong>File</strong> &gt; <strong>Options and settings</strong> &gt; <strong>Options</strong> from Power BI Desktop, and then select <strong>Data Load</strong> in the left pane. The options for <strong>Relationships</strong> appear.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/relationships-options-01.png" alt="Screenshot of the Options box showing the Relationships settings in the Data Load tab." data-linktype="relative-path">
+</span>
+</p>
+<p>There are three options that can be selected and enabled:</p>
+<ul>
+<li><p><strong>Import relationships from data sources on first load</strong>: This option is selected by default. When it's selected, Power BI checks for relationships defined in your data source, such as foreign key/primary key relationships in your data warehouse. If such relationships exist, they're mirrored into the Power BI data model when you initially load data. This option enables you to quickly begin working with your model, rather than requiring you find or define those relationships yourself.</p>
+</li>
+<li><p><strong>Update or delete relationships when refreshing data</strong>: This option is unselected by default. If you select it, Power BI checks for changes in data source relationships when your semantic model is refreshed. If those relationships changed or are removed, Power BI mirrors those changes in its own data model, updating or deleting them to match.</p>
+<div class="WARNING">
+<p>Warning</p>
+<p>If you're using row-level security that relies on the defined relationships, we don't recommend selecting this option. If you remove a relationship that your RLS settings rely on, your model might become less secure.</p>
+</div>
+</li>
+<li><p><strong>Autodetect new relationships after data is loaded</strong>: This option is described in <a href="#autodetect-during-load" data-linktype="self-bookmark">Autodetect during load</a>.</p>
+</li>
+</ul>
+<h2 id="future-updates-to-the-data-require-a-different-cardinality">Future updates to the data require a different cardinality</h2>
+<p>Normally, Power BI Desktop can automatically determine the best cardinality for the relationship. If you do need to override the automatic setting, because you know the data will change in the future, you can change it with the <strong>Cardinality</strong> control. Let’s look at an example where we need to select a different cardinality.</p>
+<p>The <strong>CompanyProjectPriority</strong> table is a list of all company projects and their priority. The <strong>ProjectBudget</strong> table is the set of projects for which a budget has been approved.</p>
+<h3 id="companyprojectpriority">CompanyProjectPriority</h3>
+<table>
+<thead>
+<tr>
+<th><strong>ProjName</strong></th>
+<th><strong>Priority</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blue</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>B</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Purple</td>
+<td>B</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<h3 id="projectbudget-table">ProjectBudget Table</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Approved Projects</strong></th>
+<th style="text-align: right;"><strong>BudgetAllocation</strong></th>
+<th style="text-align: right;"><strong>AllocationDate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Blue</td>
+<td style="text-align: right;">40,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td style="text-align: left;">Red</td>
+<td style="text-align: right;">100,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td style="text-align: left;">Green</td>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+</tbody>
+</table>
+<p>If we create a relationship between the <strong>Approved Projects</strong> column in the <strong>ProjectBudget</strong> table and the <strong>ProjectName</strong> column in the <strong>CompanyProjectPriority</strong> table, Power BI automatically sets <strong>Cardinality</strong> to <strong>One to one (1:1)</strong> and <strong>Cross filter direction</strong> to <strong>Both</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png" alt="Screenshot of the Create relationship dialog box with Cardinality to One to one (1:1) and Cross filter direction to Both." data-linktype="relative-path">
+</span>
+</p>
+<p>The reason Power BI makes these settings is because, to Power BI Desktop, the best combination of the two tables is as follows:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ProjName</strong></th>
+<th><strong>Priority</strong></th>
+<th style="text-align: right;"><strong>BudgetAllocation</strong></th>
+<th style="text-align: right;"><strong>AllocationDate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Blue</td>
+<td>A</td>
+<td style="text-align: right;">40,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td style="text-align: left;">Red</td>
+<td>B</td>
+<td style="text-align: right;">100,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td style="text-align: left;">Green</td>
+<td>C</td>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td style="text-align: left;">Yellow</td>
+<td>C</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Purple</td>
+<td>B</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Orange</td>
+<td>C</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p>There's a one-to-one relationship between our two tables because there are no repeating values in the combined table’s <strong>ProjName</strong> column. The <strong>ProjName</strong> column is unique, because each value occurs only once; therefore, the rows from the two tables can be combined directly without any duplication.</p>
+<p>But, let’s say you know the data will change the next time you refresh it. A refreshed version of the <strong>ProjectBudget</strong> table now has additional rows for the Blue and Red projects:</p>
+<h3 id="projectbudget">ProjectBudget</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Approved Projects</strong></th>
+<th style="text-align: right;"><strong>BudgetAllocation</strong></th>
+<th style="text-align: right;"><strong>AllocationDate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blue</td>
+<td style="text-align: right;">40,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Red</td>
+<td style="text-align: right;">100,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Green</td>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td style="text-align: right;">80,000</td>
+<td style="text-align: right;">6/1/2013</td>
+</tr>
+<tr>
+<td>Red</td>
+<td style="text-align: right;">90,000</td>
+<td style="text-align: right;">6/1/2013</td>
+</tr>
+</tbody>
+</table>
+<p>These additional rows mean the best combination of the two tables now looks like this:</p>
+<table>
+<thead>
+<tr>
+<th><strong>ProjName</strong></th>
+<th><strong>Priority</strong></th>
+<th style="text-align: right;"><strong>BudgetAllocation</strong></th>
+<th style="text-align: right;"><strong>AllocationDate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blue</td>
+<td>A</td>
+<td style="text-align: right;">40,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>B</td>
+<td style="text-align: right;">100,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>C</td>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">12/1/2012</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>C</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Purple</td>
+<td>B</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>C</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>A</td>
+<td style="text-align: right;">80000</td>
+<td style="text-align: right;">6/1/2013</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>B</td>
+<td style="text-align: right;">90000</td>
+<td style="text-align: right;">6/1/2013</td>
+</tr>
+</tbody>
+</table>
+<p>In this new combined table, the <strong>ProjName</strong> column has repeating values. The two original tables won’t have a one-to-one relationship once the table is refreshed. In this case, because we know those future updates will cause the <strong>ProjName</strong> column to have duplicates, we want to set the <strong>Cardinality</strong> to be <strong>Many to one (*:1)</strong>, with the <em>many</em> side on <strong>ProjectBudget</strong> and the <em>one</em> side on <strong>CompanyProjectPriority</strong>.</p>
+<h2 id="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships">Adjusting Cross filter direction for a complex set of tables and relationships</h2>
+<p>For most relationships, the cross filter direction is set to <strong>Both</strong>. There are, however, some more uncommon circumstances where you might need to set this option differently from the default. One example is if you’re importing a model from an older version of Power Pivot, where every relationship is set to a single direction.</p>
+<p>The <strong>Both</strong> setting enables Power BI Desktop to treat all aspects of connected tables as if they're a single table. There are some situations, however, where Power BI Desktop can't set a relationship’s cross filter direction to <strong>Both</strong> and also keep an unambiguous set of defaults available for reporting purposes. If a relationship cross filter direction isn't set to <strong>Both</strong>, then it’s usually because it would create ambiguity. If the default cross filter setting isn’t working for you, try setting it to a particular table or to <strong>Both</strong>.</p>
+<p>Single direction cross filtering works for many situations. In fact, if you’ve imported a model from Power Pivot in Excel 2013 or earlier, all of the relationships will be set to single direction. Single direction means that filtering choices in connected tables work on the table where aggregation work is happening. Sometimes, understanding cross filtering can be a little difficult, so let’s look at an example.</p>
+<p>With single direction cross filtering, if you create a report that summarizes the project hours, you can then choose to summarize (or filter) by the <strong>CompanyProject</strong> table and its <strong>Priority</strong> column or the <strong>CompanyEmployee</strong> table and its <strong>City</strong> column. If however, you want to count the number of employees per projects (a less common question), it won’t work. You’ll get a column of values that are all the same. In the following example, both relationship's cross filtering direction is set to a single direction: towards the <strong>ProjectHours</strong> table. In the <strong>Values</strong> well, the <strong>Project</strong> field is set to <strong>Count</strong>:</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png" alt="Screenshot of the visualization tab used with the Employee and Project fields." data-linktype="relative-path">
+</span>
+</p>
+<p>Filter specification will flow from <strong>CompanyProject</strong> to <strong>ProjectHours</strong> (as shown in the following image), but it won’t flow up to <strong>CompanyEmployee</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png" alt="Diagram of a cross filtering example with flow from CompanyProject to ProjectHours." data-linktype="relative-path">
+</span>
+</p>
+<p>However, if you set the cross filtering direction to <strong>Both</strong>, it will work. The <strong>Both</strong> setting allows the filter specification to flow up to <strong>CompanyEmployee</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_bidircrossfiltering.png" alt="Diagram of a cross filtering example with flow both ways" data-linktype="relative-path">
+</span>
+</p>
+<p>With the cross filtering direction set to <strong>Both</strong>, our report now appears correct:</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_repcrossfilterbi.png" alt="Screenshot of cross filtering direction set to Both." data-linktype="relative-path">
+</span>
+</p>
+<p>Cross filtering both directions works well for a pattern of table relationships such as the pattern shown previously. This schema is most commonly called a star schema, like this:</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_crossfilterstarschema.png" alt="Diagram of cross filtering both directions in star schema." data-linktype="relative-path">
+</span>
+</p>
+<p>Cross filtering direction doesn't work well with a more general pattern often found in databases, like in this diagram:</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_crossfilterwithloops.png" alt="Diagram of cross filtering in both directions on a database pattern." data-linktype="relative-path">
+</span>
+</p>
+<p>If you have a table pattern like this, with loops, then cross filtering can create an ambiguous set of relationships. For instance, if you sum up a field from TableX and then choose to filter by a field on TableY, then it’s not clear how the filter should travel, through the top table or the bottom table. A common example of this kind of pattern is with TableX as a sales table with actuals data and for TableY to be budget data. Then, the tables in the middle are lookup tables that both tables use, such as division or region.</p>
+<p>As with active/inactive relationships, Power BI Desktop won’t allow a relationship to be set to <strong>Both</strong> if it will create ambiguity in reports. There are several different ways you can handle this situation. Here are the two most common:</p>
+<ul>
+<li>Delete or mark relationships as inactive to reduce ambiguity. Then, you might be able to set a relationship cross filtering as <strong>Both</strong>.</li>
+<li>Bring in a table twice (with a different name the second time) to eliminate loops. Doing so makes the pattern of relationships like a star schema. With a star schema, all of the relationships can be set to <strong>Both</strong>.</li>
+</ul>
+<h2 id="wrong-active-relationship">Wrong active relationship</h2>
+<p>When Power BI Desktop automatically creates relationships, it sometimes encounters more than one relationship between two tables. When this situation happens, only one of the relationships is set to be active. The active relationship serves as the default relationship, so that when you choose fields from two different tables, Power BI Desktop can automatically create a visualization for you. However, in some cases the automatically selected relationship can be wrong. Use the <strong>Manage relationships</strong> dialog box to set a relationship as active or inactive, or set the active relationship in the <strong>Edit relationship</strong> dialog box.</p>
+<p>To ensure there’s a default relationship, Power BI Desktop allows only a single active relationship between two tables at a given time. Therefore, you must first set the current relationship as inactive and then set the relationship you want to be active.</p>
+<p>Let’s look at an example. The first table is <strong>ProjectTickets</strong>, and the second table is <strong>EmployeeRole</strong>.</p>
+<h3 id="projecttickets">ProjectTickets</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;"><strong>Ticket</strong></th>
+<th style="text-align: left;"><strong>OpenedBy</strong></th>
+<th style="text-align: left;"><strong>SubmittedBy</strong></th>
+<th style="text-align: right;"><strong>Hours</strong></th>
+<th style="text-align: left;"><strong>Project</strong></th>
+<th style="text-align: right;"><strong>DateSubmit</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1001</td>
+<td style="text-align: left;">Perham, Tom</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">Blue</td>
+<td style="text-align: right;">1/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1002</td>
+<td style="text-align: left;">Roman, Daniel</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Red</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1003</td>
+<td style="text-align: left;">Roth, Daniel</td>
+<td style="text-align: left;">Ito, Shu</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: left;">Yellow</td>
+<td style="text-align: right;">12/4/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1004</td>
+<td style="text-align: left;">Perham, Tom</td>
+<td style="text-align: left;">Brewer, Alan</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">Orange</td>
+<td style="text-align: right;">1/2/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1005</td>
+<td style="text-align: left;">Roman, Daniel</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: left;">Purple</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1006</td>
+<td style="text-align: left;">Roth, Daniel</td>
+<td style="text-align: left;">Bento, Nuno</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: left;">Green</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1007</td>
+<td style="text-align: left;">Roth, Daniel</td>
+<td style="text-align: left;">Hamilton, David</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">Yellow</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1008</td>
+<td style="text-align: left;">Perham, Tom</td>
+<td style="text-align: left;">Han, Mu</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Orange</td>
+<td style="text-align: right;">1/2/2012</td>
+</tr>
+<tr>
+<td style="text-align: right;">1009</td>
+<td style="text-align: left;">Roman, Daniel</td>
+<td style="text-align: left;">Ito, Shu</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">Purple</td>
+<td style="text-align: right;">2/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1010</td>
+<td style="text-align: left;">Roth, Daniel</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Green</td>
+<td style="text-align: right;">10/1/2013</td>
+</tr>
+<tr>
+<td style="text-align: right;">1011</td>
+<td style="text-align: left;">Perham, Tom</td>
+<td style="text-align: left;">Bowen, Eli</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Blue</td>
+<td style="text-align: right;">10/15/2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="employeerole">EmployeeRole</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Employee</strong></th>
+<th><strong>Role</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bento, Nuno</td>
+<td>Project Manager</td>
+</tr>
+<tr>
+<td>Bowen, Eli</td>
+<td>Project Lead</td>
+</tr>
+<tr>
+<td>Brewer, Alan</td>
+<td>Project Manager</td>
+</tr>
+<tr>
+<td>Hamilton, David</td>
+<td>Project Lead</td>
+</tr>
+<tr>
+<td>Han, Mu</td>
+<td>Project Lead</td>
+</tr>
+<tr>
+<td>Ito, Shu</td>
+<td>Project Lead</td>
+</tr>
+<tr>
+<td>Perham, Tom</td>
+<td>Project Sponsor</td>
+</tr>
+<tr>
+<td>Roman, Daniel</td>
+<td>Project Sponsor</td>
+</tr>
+<tr>
+<td>Roth, Daniel</td>
+<td>Project Sponsor</td>
+</tr>
+</tbody>
+</table>
+<p>There are actually two relationships here:</p>
+<ul>
+<li>Between <strong>Employee</strong> in the <strong>EmployeeRole</strong> table and <strong>SubmittedBy</strong> in the <strong>ProjectTickets</strong> table.</li>
+<li>Between <strong>OpenedBy</strong> in the <strong>ProjectTickets</strong> table and <strong>Employee</strong> in the <strong>EmployeeRole</strong> table.</li>
+</ul>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_activerelview.png" alt="Screenshot of a two-relationship example." data-linktype="relative-path">
+</span>
+</p>
+<p>If we add both relationships to the model (<strong>OpenedBy</strong> first), then the <strong>Manage relationships</strong> dialog box shows that <strong>OpenedBy</strong> is active:</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_managerelactive.png" alt="Screenshot of a OpenedBy active in the Manage relationships dialog box." data-linktype="relative-path">
+</span>
+</p>
+<p>Now, if we create a report that uses <strong>Role</strong> and <strong>Employee</strong> fields from <strong>EmployeeRole</strong>, and the <strong>Hours</strong> field from <strong>ProjectTickets</strong> in a table visualization in the report canvas, we see only project sponsors because they’re the only ones that opened a project ticket.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png" alt="Screenshot shows the Employee, Role, and Hours fields selected." data-linktype="relative-path">
+</span>
+</p>
+<p>We can change the active relationship and get <strong>SubmittedBy</strong> instead of <strong>OpenedBy</strong>. In <strong>Manage relationships</strong>, uncheck the <strong>ProjectTickets(OpenedBy)</strong> to <strong>EmployeeRole(Employee)</strong> relationship, and then check the <strong>EmployeeRole(Employee)</strong> to <strong>Project Tickets(SubmittedBy)</strong> relationship.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/candmrel_managerelactivesubmittedby.png" alt="Screenshot of changing the active relationship in the Manage relationship dialog box." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="see-all-of-your-relationships-in-relationship-view">See all of your relationships in Relationship view</h2>
+<p>Sometimes your model has multiple tables and complex relationships between them. <strong>Relationship</strong> view in Power BI Desktop shows all of the relationships in your model, their direction, and cardinality in an easy to understand and customizable diagram.</p>
+<p>To learn more, see <a href="desktop-relationship-view" data-linktype="relative-path">Work with Relationship view in Power BI Desktop</a>.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>This section provides guidance and troubleshooting information when working with relationships in Power BI.</p>
+<h3 id="relationships-between-fields-cant-be-determined">Relationships between fields can't be determined</h3>
+<p>Power BI attempts to show relevant data in visuals by inferring the relationships from the model being used. Sometimes such inferences aren't obvious, and you might be surprised to see an error in your visual, indicating there's no relationship between certain columns.</p>
+<p>To explain how Power BI determines whether fields are related, let's use an example model to illustrate a few scenarios in the following sections. The following image shows the sample model we'll use in the example scenarios.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/create-manage-relationships-01.png" alt="Screenshot of a sample model used in troubleshooting scenarios." data-linktype="relative-path">
+</span>
+</p>
+<p><strong>Scenario 1: Traditional star schema and no measure constraint provided.</strong> Referring to the sample model in the previous image, let's look first at the right half of the images with the <em>Vendor - Purchases - Product</em> tables. This example is a traditional star schema with the Fact table (<em>Purchases</em>) and two Dimension tables (<em>Product</em> and <em>Vendor</em>). The relationship between the dimension tables and the fact table is <em>1 to Many</em> (one product corresponds to many purchases, one vendor corresponds to many purchases). In this type of schema, we can answer questions like <em>What sales do we have for product X?</em> and <em>What sales do we have for Vendor Y?</em> and <em>What products does Vendor Y sell?</em></p>
+<p>If we want to correlate <em>Products</em> and <em>Vendors</em>, we can do so by looking at the <em>Purchases</em> table to see if there's an entry with the same product and vendor. A sample query might look like the following example:</p>
+<p><code>Correlate Product[Color] with Vendor[Name] where CountRows(Purchases)&gt;0</code></p>
+<p>The <code>where CountRows(Purchases)&gt;0</code> is an implicit constraint that Power BI would add to ensure relevant data is returned.
+By doing this correlation through the <em>Purchases</em> table, we can return pairings of Product-Vendor that have at least one entry in a fact table, pairings that make sense from the data perspective. You can expect any nonsensical combinations of Product-Vendor for which there has never been a sale (which would be useless for analysis) won't be displayed.</p>
+<p><strong>Scenario 2: Traditional star schema and measure constraint provided.</strong> In the previous example in Scenario 1, if the user provides a constraint in the form of summarized column (Sum/Average/Count of Purchase Qty, for example) or a model measure (Distinct Count of VendID), Power BI can generate a query in the form of the following example:</p>
+<p><code>Correlate Product[Color] with Vendor[Name] where MeasureConstraint is not blank</code></p>
+<p>In such a case, Power BI attempts to return combinations that have meaningful values for the constraint provided by the user (non-blank). Power BI doesn't need to also add its own implicit constraint of <em>CountRows(Purchases)&gt;0</em>, such as what was done like in the previous Scenario 1, because the constraint provided by the user is sufficient.</p>
+<p><strong>Scenario 3: Non-star schema and no measure constraint provided.</strong> In this scenario, we focus our attention to the center of the model, where we have the <em>Sales - Product - Purchases</em> tables, where we have one dimension table (<em>Product</em>) and two Fact Tables (<em>Sales</em>, <em>Purchases</em>). Since this example isn't a star schema, we can't answer the same kind of questions as we had in Scenario 1. Let's say we try to correlate <em>Purchases</em> and <em>Sales</em>, since <em>Purchases</em> has a <em>Many to 1</em> relationship with <em>Product</em>, and <em>Product</em> has a <em>1 to Many</em> relationship with <em>Sales</em>. <em>Sales</em> and <em>Purchases</em> are indirectly <em>Many to Many</em>. We can link one <em>Product</em> to many <em>Purchases</em> and one <em>Product</em> to many sales, but we can't link one <em>Sale</em> to many <em>Purchases</em> or vice versa. We can only link many <em>Purchases</em> to many <em>Sales</em>.</p>
+<p>In this situation, if we try to combine <em>Purchase[VenID]</em> and <em>Sales[CustID]</em> in a visual, Power BI doesn't have a concrete constraint it can apply, due to the <em>Many to Many</em> relationship between those tables. Though there might be custom constraints (not necessarily stemming from the relationships established in the model) that can be applied for various scenarios, Power BI can't infer a default constraint solely based on the relationships. If Power BI attempted to return all combinations of the two tables, it would create a large cross join and return non-relevant data. Instead of this, Power BI raises an error in the visual, such as the following.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/create-manage-relationships-02.png" alt="Screenshot of an error dialog when relationship can’t be inferred. Alternatively, Screenshot of an error dialog where relationship isn’t inferred." data-linktype="relative-path">
+</span>
+</p>
+<p><strong>Scenario 4: Non-star schema and measure constraint provided.</strong> If we take the example from Scenario 3, and add a user provided constraint in the form of a summarized column (<em>Count of Product[ProdID]</em> for example) or a model measure (<em>Sales[Total Qty]</em>), Power BI can generate a query in the form of <em>Correlate Purchase[VenID]</em> and <em>Sales[CustID]</em> where <em>MeasureConstraint</em> isn't blank.</p>
+<p>In this case, Power BI respects the user's constraint as being the sole constraint Power BI needs to apply, and return the combinations that produce non-blank values for it. The user has guided Power BI to the scenario it wants, and Power BI applies the guidance.</p>
+<p><strong>Scenario 5: When a measure constraint is provided but it is partially related to the columns.</strong> There are cases where the measure constraint provided by the user isn't entirely related to all the columns in the visual. A model measure always relates everything. Power BI treats this scenario as a black box when attempting to find relationships between columns in the visual, and it assumes the user knows what they're doing by using it. However, summarized columns in the form of <em>Sum</em>, <em>Average</em>, and similar summaries chosen from the user interface can be related to only a subset of the columns/tables used in the visual based on the relationships of the table to which that column belongs. As such, the constraint applies to some pairings of columns, but not to all. In that case Power BI attempts to find default constraints it can apply for the columns that aren't related by the user provided constraint (such as in Scenario 1). If Power BI can't find any, the following error is returned.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-create-and-manage-relationships/create-manage-relationships-02.png" alt="Screenshot of an error dialog when Power BI can’t find default constraints." data-linktype="relative-path">
+</span>
+</p>
+<h4 id="resolving-relationship-errors">Resolving relationship errors</h4>
+<p>When you see the <strong>Can't determine relationships between the fields</strong> error, you can take the following steps to attempt to resolve the error:</p>
+<ol>
+<li><p>Check your model. Is it set up appropriately for the types of questions you want answered from your analysis? Can you change some of the relationships between tables? Can you avoid creating an indirect <em>Many to Many</em>?</p>
+<p>Consider converting your reversed <em>V</em> shape schema to two tables, and use a direct <em>Many to Many</em> relationship between them as described in <a href="desktop-many-to-many-relationships" data-linktype="relative-path">apply many-many relationships in Power BI Desktop</a>.</p>
+</li>
+<li><p>Add a constraint to the visual in the form of a summarized column or a model measure.</p>
+</li>
+<li><p>If a summarized column is added and there still is an error, consider using a model measure.</p>
+</li>
+</ol>
+<h2 id="related-content">Related content</h2>
+<p>For more information about models and relationships, see the following articles:</p>
+<ul>
+<li><a href="desktop-composite-models" data-linktype="relative-path">Use composite models in Power BI Desktop</a></li>
+<li><a href="desktop-storage-mode" data-linktype="relative-path">Storage mode in Power BI Desktop</a></li>
+<li><a href="../connect-data/desktop-directquery-about" data-linktype="relative-path">Use DirectQuery in Power BI</a></li>
+<li><a href="../connect-data/power-bi-data-sources" data-linktype="relative-path">Power BI data sources</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2025-10-01T08:00:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2025-10-01
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

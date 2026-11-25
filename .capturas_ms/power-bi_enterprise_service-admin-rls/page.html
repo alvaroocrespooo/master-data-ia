@@ -1,0 +1,1821 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Row-level security (RLS) with Power BI - Microsoft Fabric | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="How to configure row-level security for imported semantic models, and DirectQuery, within the Power BI service." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Row-level security (RLS) with Power BI - Microsoft Fabric" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security" />
+			<meta property="og:description" content="How to configure row-level security for imported semantic models, and DirectQuery, within the Power BI service." />
+			<meta name="platform_id" content="c14e9b2a-4f07-1c8c-53b1-621ae4488500" /> <meta name="scope" content="Microsoft Fabric" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Fabric" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/fabric/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="false" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/?forum=bbb1936d-44f9-ed11-8849-000d3a4ef41d&amp;category=e94fbb29-45f9-ed11-8849-000d3a4ef41d" />
+	
+		<meta name="ms.service" content="fabric" />
+	
+		<meta name="author" content="billmath" />
+	
+		<meta name="ms.author" content="billmath" />
+	
+		<meta name="ms.subservice" content="security" />
+	
+		<meta name="ms.topic" content="how-to" />
+	
+		<meta name="ms.date" content="2026-05-13T00:00:00Z" />
+	
+		<meta name="ms.update-cycle" content="180-days" />
+	
+		<meta name="ms.custom" content="sfi-image-nochange" />
+	
+		<meta name="LocalizationGroup" content="Administration" />
+	
+		<meta name="ms.collection" content="ce-skilling-ai-copilot" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="document_id" content="efadcb4f-7bc7-3cf4-a64b-00fb837f47cf" />
+	
+		<meta name="document_version_independent_id" content="efadcb4f-7bc7-3cf4-a64b-00fb837f47cf" />
+	
+		<meta name="updated_at" content="2026-07-08T17:06:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/live/docs/security/service-admin-row-level-security.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/3dd90c7fba7b42eafee314bb4fcd17a738322914/docs/security/service-admin-row-level-security.md" />
+	
+		<meta name="git_commit_id" content="3dd90c7fba7b42eafee314bb4fcd17a738322914" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.fabric-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.fabric-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="4180" />
+	
+		<meta name="asset_id" content="security/service-admin-row-level-security" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="docs/security/service-admin-row-level-security.md" />
+	
+		<meta name="previous_tlsh_hash" content="850445C2B76EC710BFD16E0AFC7FEA5199F0E1D9ABB016C8113A31DED95A1EE30B957CFAF75BB2C8233105920092B65E81D9F728F15D235213A86CBC46482052E78D27F6D9" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/fabric-docs/blob/main/docs/security/service-admin-row-level-security.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/d3197845-b4ce-44c6-a237-cd4be160e76c" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/8b896464-3b7d-4e1f-84b0-9bb45aeb5f64" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/aea905fb-0a9d-4d46-b30f-e9cbaf772d1b" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/b1d2d671-9549-46e8-918c-24349120dbf5" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/?forum=bbb1936d-44f9-ed11-8849-000d3a4ef41d\u0026category=e94fbb29-45f9-ed11-8849-000d3a4ef41d",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/fabric-docs/blob/main/docs/security/service-admin-row-level-security.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/fabric-docs-pr/blob/live/docs/security/service-admin-row-level-security.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/docs/security/service-admin-row-level-security.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="row-level-security-rls-with-power-bi">Row-level security (RLS) with Power BI</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>Row-level security (RLS) restricts data access for specific users of a Power BI semantic model. Filters restrict data at the row level, and you define filters within roles. In the Power BI service, users with access to a workspace have access to semantic models in that workspace. RLS only restricts data access for users with <strong>Viewer</strong> permissions. It doesn't apply to workspace <strong>Admin</strong>, <strong>Member</strong>, or <strong>Contributor</strong> roles.</p>
+<p>To implement RLS, follow this high-level workflow:</p>
+<ol>
+<li><strong>Define roles and rules</strong> in Power BI Desktop using DAX filter expressions.</li>
+<li><strong>Publish</strong> the semantic model and report to the Power BI service.</li>
+<li><strong>Add members</strong> to roles in the Power BI service.</li>
+<li><strong>Validate</strong> by using the <strong>Test as role</strong> feature to confirm data filtering works as expected.</li>
+</ol>
+<p>You can configure RLS for imported semantic models in Power BI Desktop or the Power BI service. You can also configure RLS on semantic models that use DirectQuery, such as SQL Server. For Analysis Services or Azure Analysis Services live connections, you configure row-level security in the model, not in Power BI. The security option doesn't show up for live connection semantic models.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>This article covers RLS for Power BI semantic models specifically. For data security in other Microsoft Fabric items, see <a href="/en-us/fabric/security/security-overview" data-linktype="absolute-path">Security in Microsoft Fabric</a>.</p>
+</div>
+<div class="NOTE">
+<p>Note</p>
+<p>For Direct Lake semantic models in Microsoft Fabric, RLS is supported. However, if a DAX query falls back to DirectQuery mode due to unsupported features, RLS filters still apply but performance characteristics may change. Monitor query fallback behavior in the Fabric capacity metrics app.</p>
+</div>
+<h2 id="define-roles-and-rules-in-power-bi-desktop">Define roles and rules in Power BI Desktop</h2>
+<p>You can define roles and rules within Power BI Desktop. With this editor, you can toggle between using the default drop-down interface and a DAX interface.  When you publish to Power BI, you also publish the role definitions.</p>
+<p>To define security roles:</p>
+<ol>
+<li><p>Import data into your Power BI Desktop report, or configure a DirectQuery connection.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>You can't define roles within Power BI Desktop for Analysis Services live connections. You need to do that within the Analysis Services model.</p>
+</div>
+</li>
+<li><p>From the <strong>Modeling</strong> tab, select <strong>Manage Roles</strong>.</p>
+</li>
+<li><p>From the <strong>Manage roles</strong> window, select <strong>New</strong> to create a new role.</p>
+</li>
+<li><p>Under <strong>Roles</strong>, provide a name for the role and select enter.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>You can't define a role with a comma, for example <code>London,ParisRole</code>.</p>
+</div>
+</li>
+<li><p>Under <strong>Select tables</strong>, select the table to which you want to apply a row-level security filter.</p>
+</li>
+<li><p>Under <strong>Filter data</strong>, use the default editor to define your roles. The expressions created return a true or false value. A DAX filter evaluates TRUE/FALSE for each row. Only rows that return TRUE are visible
+Everything else is completely removed.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>Not all row-level security filters supported in Power BI can be defined using the default editor. Limitations include expressions that today can only be defined using DAX including dynamic rules such as <em>username()</em> or <em>userprincipalname()</em>. To define roles using these filters switch to use the DAX editor.</p>
+</div>
+</li>
+<li><p>Optionally select <strong>Switch to DAX editor</strong> to switch to using the DAX editor to define your role. DAX expressions return a value of true or false. For example: <code>[Entity ID] = “Value”</code>. The DAX editor is complete with autocomplete for formulas (intellisense). You can select the checkmark above the expression box to validate the expression and the X button above the expression box to revert changes.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>You can use <em>username()</em> within this expression. Be aware that <em>username()</em> has the format of <em>DOMAIN\username</em> within Power BI Desktop. Within the Power BI service and Power BI Report Server, it's in the format of the user's User Principal Name (UPN). Additionally, in this expression box, use commas to separate DAX function arguments even if you're using a locale that normally uses semicolon separators, such as French or German.</p>
+</div>
+</li>
+<li><p>You can switch back to the default editor by selecting <strong>Switch to default editor</strong>. All changes made in either editor interface persist when switching interfaces when possible. When defining a role using the DAX editor that can't be defined in the default editor, if you attempt to switch to the default editor you'll be prompted with a warning that switching editors may result in some information being lost. To keep this information, select <strong>Cancel</strong> and continue only editing this role in the DAX editor.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>In this expression box, use commas to separate DAX function arguments even if you're using a locale that normally uses semicolon separators, such as French or German.</p>
+</div>
+</li>
+<li><p>Select <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>You can't assign users to a role within Power BI Desktop. You assign them in the Power BI service. You can enable dynamic security within Power BI Desktop by making use of the <em>username()</em> or <em>userprincipalname()</em> DAX functions and having the proper relationships configured.</p>
+<h2 id="common-dax-filter-patterns-for-rls-roles">Common DAX filter patterns for RLS roles</h2>
+<p>The following examples show common DAX filter expressions you can use when defining RLS roles in Power BI Desktop:</p>
+<ul>
+<li><p><strong>Static RLS</strong> — Restricts data to a fixed value:</p>
+<pre><code class="lang-dax">[Region] = "West"
+</code></pre>
+</li>
+<li><p><strong>Dynamic RLS with UPN</strong> — Restricts data based on the signed-in user's email address:</p>
+<pre><code class="lang-dax">[UserEmail] = USERPRINCIPALNAME()
+</code></pre>
+</li>
+<li><p><strong>Dynamic RLS with USERNAME</strong> — Restricts data based on the user's domain and username:</p>
+<pre><code class="lang-dax">[UserDomain] = USERNAME()
+</code></pre>
+</li>
+<li><p><strong>Dynamic RLS with CUSTOMDATA</strong> — Restricts data based on a custom string passed from the embedding application:</p>
+<pre><code class="lang-dax">[AppRole] = CUSTOMDATA()
+</code></pre>
+<div class="NOTE">
+<p>Note</p>
+<p><code>CUSTOMDATA()</code> is primarily used in embedded scenarios where the application passes a custom effective identity string via the Power BI REST API.</p>
+</div>
+</li>
+</ul>
+<p>Dynamic RLS is the most common approach because it allows a single role definition to filter data differently for each user, based on a user-mapping table in your data model.</p>
+<h2 id="example-filter-power-bi-sales-data-by-region">Example: Filter Power BI sales data by region</h2>
+<p>Suppose you have a <code>Sales</code> table with columns <code>Region</code>, <code>Product</code>, and <code>Amount</code>. You want to restrict users assigned to the "West" role so they see only rows where the region is "West".</p>
+<p>In the <strong>DAX filter</strong> field for the "West" role, enter the following expression:</p>
+<pre><code class="lang-dax">[Region] = "West"
+</code></pre>
+<p><strong>Before filtering (all data):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Product</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>West</td>
+<td>Widget A</td>
+<td>500</td>
+</tr>
+<tr>
+<td>East</td>
+<td>Widget B</td>
+<td>300</td>
+</tr>
+<tr>
+<td>West</td>
+<td>Widget C</td>
+<td>450</td>
+</tr>
+<tr>
+<td>South</td>
+<td>Widget A</td>
+<td>200</td>
+</tr>
+<tr>
+<td>East</td>
+<td>Widget C</td>
+<td>375</td>
+</tr>
+</tbody>
+</table>
+<p><strong>After filtering (view for "West" role users):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Product</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>West</td>
+<td>Widget A</td>
+<td>500</td>
+</tr>
+<tr>
+<td>West</td>
+<td>Widget C</td>
+<td>450</td>
+</tr>
+</tbody>
+</table>
+<p>The DAX expression acts as a row filter that evaluates each row in the table. Only rows where the <code>Region</code> column equals "West" are visible to users assigned to that role.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>Use the <strong>View as role</strong> feature (described in <a href="#validate-the-role-within-the-power-bi-service" data-linktype="self-bookmark">Validate the role within the Power BI service</a>) to validate that your filter returns the expected rows before publishing the report.</p>
+</div>
+<h2 id="bi-directional-cross-filtering-with-rls">Bi-directional cross-filtering with RLS</h2>
+<p>By default, row-level security filtering uses single-directional filters, whether the relationships are set to single direction or bi-directional.</p>
+<p>You can manually enable bi-directional cross-filtering with row-level security by selecting the relationship and checking the <strong>Apply security filter in both directions</strong> checkbox. Select this option when you've also implemented dynamic row-level security at the server level, where row-level security is based on username or login ID. If a table takes part in multiple bi-directional relationships, you can only select this option for one of those relationships.</p>
+<div class="CAUTION">
+<p>Caution</p>
+<p>Enabling bi-directional security filtering can negatively impact query performance, especially in models with many relationships or large datasets. Test thoroughly before deploying to production.</p>
+</div>
+<p>For more information, see <a href="/en-us/power-bi/transform-model/desktop-bidirectional-filtering" data-linktype="absolute-path">Bidirectional cross-filtering using DirectQuery in Power BI</a> and the <a href="https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx" data-linktype="external">Securing the Tabular BI Semantic Model</a> technical article.</p>
+<p><span class="mx-imgBorder">
+<img src="../includes/media/powerbi-security-apply-filter-in-both-directions.png" alt="Screenshot of the model relationship setting to apply security filter in both directions." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="manage-security-on-your-semantic-model">Manage security on your semantic model</h2>
+<p>To manage security on your semantic model, open the workspace where you saved your semantic model in Microsoft Fabric and do the following steps:</p>
+<ol>
+<li><p>In Microsoft Fabric, select the <strong>More options</strong> menu for a semantic model. This menu appears when you hover on a semantic model name.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/dataset-canvas-more-options.png" alt="Screenshot showing the More options menu in navigation menu." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select <strong>Security</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/dataset-more-options-menu.png" alt="Screenshot showing the More options menu with Security selected." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ol>
+<p><strong>Security</strong> takes you to the Row-Level Security page where you add members to a role you created. Users with the workspace <strong>Contributor</strong> role or higher see the <strong>Security</strong> option and can assign users to a role. Semantic model ownership or <strong>Build</strong> permission might also be required depending on the scenario.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>You can only manage security on semantic models that have row-level security roles already defined in Power BI Desktop or when editing your data model in the Power BI service. If your semantic model doesn't have roles already defined, you can't manage security in the Power BI service.</p>
+</div>
+<h2 id="manage-rls-role-membership-in-the-power-bi-service">Manage RLS role membership in the Power BI service</h2>
+<h3 id="add-members-to-an-rls-role">Add members to an RLS role</h3>
+<p>In the Power BI service, you can add a member to an RLS role by typing in the email address or name of the user or security group. You can't add groups created in Power BI. You can add members <a href="/en-us/power-bi/guidance/whitepaper-azure-b2b-power-bi#data-security-for-external-partners" data-linktype="absolute-path">external to your organization</a>. For guidance on how RLS works with external B2B guest users, see <a href="#considerations-for-external-b2b-guest-users" data-linktype="self-bookmark">Considerations for external (B2B guest) users</a>.</p>
+<p>You can use the following Microsoft Entra ID and email-enabled groups to set up row-level security:</p>
+<ul>
+<li>Distribution group</li>
+<li>Mail-enabled group</li>
+<li><a href="/en-us/azure/active-directory/fundamentals/groups-view-azure-portal" data-linktype="absolute-path">Microsoft Entra security group</a> — If the security group contains external B2B guest users, see <a href="#considerations-for-external-b2b-guest-users" data-linktype="self-bookmark">Considerations for external (B2B guest) users</a> for known limitations.</li>
+</ul>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Microsoft 365 groups aren't supported and can't be added to any RLS roles. Only the group types listed above are supported for RLS role membership.</p>
+</div>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-add-member.png" alt="Screenshot showing how to add a member." data-linktype="relative-path">
+</span>
+</p>
+<p>You can see how many members are part of the role by the number in parentheses next to the role name, or next to <strong>Members</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-member-count.png" alt="Screenshot showing members in role." data-linktype="relative-path">
+</span>
+</p>
+<h3 id="remove-members-from-an-rls-role">Remove members from an RLS role</h3>
+<p>You can remove members by selecting the <strong>X</strong> next to their name.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-remove-member.png" alt="Screenshot showing how to remove a member." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="validate-the-role-within-the-power-bi-service">Validate the role within the Power BI service</h2>
+<p>You can validate that the RLS role you defined works correctly in the Power BI service by testing the role.</p>
+<ol>
+<li>Select <strong>More options</strong> (...) next to the role.</li>
+<li>Select <strong>Test as role</strong>.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-test-role.png" alt="Screenshot of Test as role option." data-linktype="relative-path">
+</span>
+</p>
+<div class="NOTE">
+<p>Note</p>
+<p>Dashboards aren't available for testing using the <strong>Test as role</strong> option. You're redirected to the report that was published from Power BI Desktop with this semantic model, if one exists.</p>
+</div>
+<p>When the report loads, verify the following:</p>
+<ul>
+<li>The report displays only data rows that match the filter expression defined in the role.</li>
+<li>Visuals, tables, and charts reflect the filtered data, not the full dataset.</li>
+<li>If you use dynamic RLS, the data corresponds to the identity shown in the <strong>Now viewing as</strong> header.</li>
+</ul>
+<p>In the page header, the role being applied is shown. Test other roles, a combination of roles, or a specific person by selecting <strong>Now viewing as</strong>. Here you see important permissions details pertaining to the individual or role being tested. For more information about how permissions interact with RLS, see <a href="/en-us/power-bi/guidance/powerbi-implementation-planning-security-report-consumer-planning#rls-user-experience" data-linktype="absolute-path">RLS user experience</a>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-test-role-2.png" alt="Screenshot of Now viewing as dropdown for a specific person." data-linktype="relative-path">
+</span>
+</p>
+<p>Test other reports connected to the semantic model by selecting <strong>Viewing</strong> in the page header. You can only test reports located in the same workspace as your semantic model.</p>
+<p><span class="mx-imgBorder">
+<img src="media/service-admin-row-level-security/row-level-security-test-role-3.png" alt="Screenshot of Viewing to select a different report to test." data-linktype="relative-path">
+</span>
+</p>
+<p>To return to normal viewing, select <strong>Back to Row-Level Security</strong>.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>The <strong>Test as role</strong> feature doesn't work for DirectQuery semantic models with single sign-on (SSO) enabled. Additionally, not all aspects of a report can be validated in the <strong>Test as role</strong> feature, including Q&amp;A visualizations, Quick insights visualizations, and Copilot.</p>
+</div>
+<div class="TIP">
+<p>Tip</p>
+<p><strong>If Test as role doesn't show the expected results</strong>, try the following:</p>
+<ul>
+<li>Verify the DAX filter expression syntax is correct and references the right column names.</li>
+<li>Make sure you selected the correct role to test.</li>
+<li>For dynamic RLS, confirm the user-mapping table contains matching values for <code>USERPRINCIPALNAME()</code> or <code>USERNAME()</code>.</li>
+<li>For DirectQuery semantic models with SSO enabled, <strong>Test as role</strong> isn't supported. Instead, sign in as an actual Viewer-role user to validate data filtering.</li>
+</ul>
+</div>
+<h2 id="using-the-username-or-userprincipalname-dax-function">Using the username() or userprincipalname() DAX function</h2>
+<p>You can take advantage of the DAX functions <em>username()</em> or <em>userprincipalname()</em> within your dataset. You can use them within expressions in Power BI Desktop. When you publish your model, it will be used within the Power BI service.</p>
+<p>Within Power BI Desktop, <em>username()</em> will return a user in the format of <em>DOMAIN\User</em> and <em>userprincipalname()</em> will return a user in the format of <em>user@contoso.com</em>.</p>
+<p>Within the Power BI service, <em>username()</em> and <em>userprincipalname()</em> will both return the user's User Principal Name (UPN). This looks similar to an email address.</p>
+<h2 id="use-rls-with-workspaces-in-power-bi">Use RLS with workspaces in Power BI</h2>
+<p>If you publish your Power BI Desktop report to a <a href="/en-us/power-bi/collaborate-share/service-new-workspaces" data-linktype="absolute-path">workspace</a> in the Power BI service, the RLS roles are applied to members assigned to the <strong>Viewer</strong> role in the workspace. Even if <strong>Viewers</strong> are given <strong>Build</strong> permissions to the semantic model, RLS still applies. For example, if Viewers with <strong>Build</strong> permissions use <a href="/en-us/power-bi/collaborate-share/service-analyze-in-excel" data-linktype="absolute-path">Analyze in Excel</a>, their view of the data is restricted by RLS. Workspace members assigned <strong>Admin</strong>, <strong>Member</strong>, or <strong>Contributor</strong> have edit permission for the semantic model and, therefore, RLS doesn't apply to them. If you want RLS to apply to people in a workspace, you can only assign them the <strong>Viewer</strong> role. For more information, see <a href="/en-us/power-bi/collaborate-share/service-roles-new-workspaces" data-linktype="absolute-path">roles in workspaces</a>.</p>
+<h2 id="considerations-for-external-b2b-guest-users">Considerations for external (B2B guest) users</h2>
+<p>If you share Power BI content with external users through <a href="/en-us/azure/active-directory/external-identities/what-is-b2b" data-linktype="absolute-path">Microsoft Entra B2B</a>, be aware of the following considerations for RLS.</p>
+<h3 id="microsoft-entra-security-groups-with-external-members">Microsoft Entra security groups with external members</h3>
+<p>Microsoft Entra security groups that contain external B2B guest users might not work as expected when used for RLS role membership. In some configurations — particularly when the external user has a guest-type account (rather than a member-type account) — the guest's group membership isn't correctly evaluated by the Power BI service when enforcing RLS filters.</p>
+<p><strong>Recommended workaround:</strong> Instead of adding external users to RLS roles through Microsoft Entra security groups, add them directly to the role by email address. The email address is resolved to the user's B2B account. This ensures their identity is correctly matched when RLS filters are applied. For more information, see <a href="#manage-rls-role-membership-in-the-power-bi-service" data-linktype="self-bookmark">Manage RLS role membership in the Power BI service</a>.</p>
+<p>For organizations with many external users, consider using dynamic RLS with <code>USERPRINCIPALNAME()</code> instead of group-based role membership. This approach evaluates each user's identity individually and avoids the group membership resolution issue entirely.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>If you currently use Microsoft Entra security groups for RLS role membership and those groups include B2B guest users, verify that the guest users see the correct filtered data. If they don't, add the external users directly to the RLS role by email address.</p>
+</div>
+<div class="NOTE">
+<p>Note</p>
+<p>The exact scope of this limitation may vary depending on your Microsoft Entra ID configuration and the type of B2B guest invitation used. Always test with actual guest user accounts before relying on group-based RLS for external access.</p>
+</div>
+<p>If the issue persists after applying the workaround, see <a href="#troubleshoot-external-b2b-guest-sees-no-data-in-a-power-bi-report" data-linktype="self-bookmark">Troubleshoot: External B2B guest sees no data in a Power BI report</a> for additional diagnostic steps.</p>
+<h3 id="upn-resolution-for-b2b-guests-in-power-bi-rls">UPN resolution for B2B guests in Power BI RLS</h3>
+<p>When an external B2B guest user accesses a Power BI report, the <code>USERPRINCIPALNAME()</code> DAX function typically returns an email-like identifier (for example, <code>user@partner.com</code>). In some configurations, it might return a guest UPN in the <code>#EXT#</code> format (for example, <code>user_partner.com#EXT#@yourtenant.onmicrosoft.com</code>).</p>
+<p>This distinction matters for dynamic RLS. If your user-mapping table stores a different identifier format than what <code>USERPRINCIPALNAME()</code> returns, the filter expression won't match, and the guest user might see no data or incorrect data.</p>
+<h3 id="username-behavior-for-b2b-guests-in-power-bi-rls">USERNAME() behavior for B2B guests in Power BI RLS</h3>
+<p>The <code>USERNAME()</code> DAX function returns the user's <code>domain\username</code> identifier. For B2B guest users, <code>USERNAME()</code> often returns a UPN-like identifier similar to <code>USERPRINCIPALNAME()</code>, depending on configuration (for example, <code>user@partner.com</code>) rather than a <code>domain\username</code> format. Because <code>USERNAME()</code> and <code>USERPRINCIPALNAME()</code> often return the same value for B2B guests, most implementations use <code>USERPRINCIPALNAME()</code> for consistency.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>If your existing dynamic RLS uses <code>USERNAME()</code>, verify what value it returns for guest users in your environment before sharing content externally. You can check by adding a card visual displaying <code>USERNAME()</code> in a test report.</p>
+</div>
+<p><strong>Recommended approach:</strong> Store and consistently use the same identifier format in your user-mapping table as the value returned by <code>USERPRINCIPALNAME()</code>. In most cases, using email addresses simplifies management:</p>
+<pre><code class="lang-dax">[UserEmail] = USERPRINCIPALNAME()
+</code></pre>
+<p>Where the <code>UserEmail</code> column contains email addresses like <code>user@partner.com</code> for both internal and external users.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>The value returned by <code>USERPRINCIPALNAME()</code> is the user's sign-in identifier (UPN), not necessarily their email address. For most users these are the same, but they can differ (for example, when a user's email is an alias). When building your user-mapping table, use the value returned by <code>USERPRINCIPALNAME()</code> rather than the <code>mail</code> attribute from Microsoft Entra ID.</p>
+</div>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>If you use dynamic RLS with <code>USERPRINCIPALNAME()</code>, always test with actual external guest users. The <a href="#validate-the-role-within-the-power-bi-service" data-linktype="self-bookmark">Test as role</a> feature uses your own identity and won't reveal external user UPN resolution issues.</p>
+</div>
+<div class="NOTE">
+<p>Note</p>
+<p>UPN resolution behavior for B2B guests can vary depending on your Microsoft Entra ID configuration, such as cross-tenant access settings and guest user type. Always validate the behavior in your specific environment.</p>
+</div>
+<h3 id="troubleshoot-external-b2b-guest-sees-no-data-in-a-power-bi-report">Troubleshoot: External B2B guest sees no data in a Power BI report</h3>
+<p>If a B2B guest user sees an empty report or receives a "no data" message, follow these steps:</p>
+<ol>
+<li><strong>Verify the returned UPN format</strong> — Create a test measure using <code>USERPRINCIPALNAME()</code> and display it in a card visual. Have the guest user view the report to see the actual value returned.</li>
+<li><strong>Check the user-mapping table</strong> — Confirm the mapping table contains a row with a value that exactly matches what <code>USERPRINCIPALNAME()</code> returns for that guest.</li>
+<li><strong>Check for case sensitivity</strong> — DAX string comparisons are case-insensitive by default, but verify your data source hasn't introduced case-sensitive values.</li>
+<li><strong>Review cross-tenant access settings</strong> — If your organization uses <a href="/en-us/azure/active-directory/external-identities/cross-tenant-access-overview" data-linktype="absolute-path">cross-tenant access policies</a>, these can affect which UPN format is presented to Power BI.</li>
+<li><strong>Test with the actual guest user</strong> — The <strong>Test as role</strong> feature uses your own identity. Always validate with the real external guest account.</li>
+<li><strong>Verify role assignment</strong> — If a guest user sees <em>more</em> data than expected, confirm they're assigned to an RLS role. Users who aren't assigned to any RLS role typically see no data (empty results), because RLS is enforced but no matching role is applied. A DAX filter evaluates TRUE/FALSE for each row. Only rows that return TRUE are visible. Everything else is completely removed.</li>
+</ol>
+<p>For more information on sharing Power BI content with external users, see <a href="/en-us/power-bi/guidance/whitepaper-azure-b2b-power-bi" data-linktype="absolute-path">Distribute Power BI content to external guest users with Microsoft Entra B2B</a>.</p>
+<h2 id="considerations-and-limitations">Considerations and limitations</h2>
+<p>You can see the current limitations for row-level security on cloud models here:</p>
+<ul>
+<li>If you previously defined roles and rules in the Power BI service, you must re-create them in Power BI Desktop.</li>
+<li>You can define RLS only on the semantic models created with Power BI Desktop. If you want to enable RLS for semantic models created with Excel, you must convert your files into Power BI Desktop (PBIX) files first. <a href="/en-us/power-bi/connect-data/desktop-import-excel-workbooks" data-linktype="absolute-path">Learn more</a>.</li>
+<li>Service principals can't be added to an RLS role. Accordingly, RLS isn't applied for apps using a service principal as the final effective identity.</li>
+<li>Only Import and DirectQuery connections are supported. Live connections to Analysis Services are handled in the on-premises model.</li>
+<li>With RLS enabled, using the USERELATIONSHIP() function in DAX queries and measures might cause unexpected errors. To work around this issue, redesign your DAX expressions to avoid USERELATIONSHIP() and use model-level relationships or other DAX patterns instead.</li>
+<li>The Test as role/View as role feature doesn't work for DirectQuery models with single sign-on (SSO) enabled.</li>
+<li>The Test as role/view as role feature shows only reports from semantic models workspace.</li>
+<li>The Test as role/View as role feature doesn't work for paginated reports.</li>
+<li>The token-based identity only works for DirectQuery models on a capacity connected to an Azure SQL Database that's configured to allow Microsoft Entra authentication. For more information, see <a href="/en-us/power-bi/developer/embedded/rls-sso" data-linktype="absolute-path">Embed a report with token-based identity</a></li>
+<li>The 'IdentityBlob' parameter is an OAuth 2.0 access token for Azure SQL and is only supported for datasets with a DirectQuery connection to Azure SQL. The mechanism itself is Azure-SQL-specific: The blob <em>is</em> a Microsoft Entra access token scoped to <code>https://database.windows.net/.default</code>. There's no equivalent token-passing mechanism for other data sources in App-owns-data embedding. For more information, see <a href="/en-us/rest/api/power-bi/embed-token/generate-token" data-linktype="absolute-path">REST API reference for GenerateToken</a>.</li>
+<li></li>
+</ul>
+<h2 id="considerations-and-limitations-for-dynamic-rls">Considerations and limitations for dynamic RLS</h2>
+<p>When you use dynamic row-level security (RLS) with DAX functions like <code>USERPRINCIPALNAME()</code>, <code>USERNAME()</code>, or <code>CUSTOMDATA()</code>, be aware of the following considerations.</p>
+<h3 id="b2b-cross-tenant-scenarios">B2B cross-tenant scenarios</h3>
+<p>In B2B scenarios, <code>USERPRINCIPALNAME()</code> returns the identity as resolved by the Power BI service, which may differ depending on tenant configuration. It can appear as either:</p>
+<ul>
+<li>The external user’s email address (user@partner.com), or</li>
+<li>A tenant-resolved value such as user_partner.com#EXT#@tenant.onmicrosoft.com</li>
+</ul>
+<p>The exact format isn’t guaranteed and must be validated in your environment.</p>
+<p>If your user-mapping table stores identifiers in a different format than what <code>USERPRINCIPALNAME()</code> returns for guest users, the RLS filter expression won't match and the guest sees no data or incorrect data. Always verify the exact value returned by <code>USERPRINCIPALNAME()</code> for external users in your environment.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>Create a test measure using <code>USERPRINCIPALNAME()</code> and display it in a card visual. Have external guest users view the report to confirm the returned value matches your user-mapping table. This simple test can prevent hours of debugging mismatched identity values.</p>
+</div>
+<h3 id="test-as-role-limitations-with-dynamic-rls">Test as role limitations with dynamic RLS</h3>
+<p>The <strong>Test as role</strong> feature in the Power BI service uses your own identity when evaluating dynamic RLS expressions. This means <code>USERPRINCIPALNAME()</code> returns <strong>your</strong> UPN, not that of the user you're trying to simulate. You can't use <strong>Test as role</strong> to see what a specific B2B guest user or service principal would see.</p>
+<p><strong>Test as role</strong> simulates role membership but doesn’t fully replicate the authentication context of another user, especially for B2B guests or embedded scenarios.</p>
+<p>To validate dynamic RLS for external users, sign in as the actual guest user and view the report directly. This is the only way to confirm that <code>USERPRINCIPALNAME()</code> returns the expected value and that RLS filters match correctly for that user.</p>
+<h3 id="embedded-scenarios-with-service-principals">Embedded scenarios with service principals</h3>
+<p>When a report is accessed through an embedded application that authenticates with a service principal, <code>USERPRINCIPALNAME()</code> and <code>USERNAME()</code> return the service principal's application ID or an empty string—not an end user's identity.</p>
+<p>These functions don’t return the end user identity and therefore can’t be used for per-user filtering in service principal embedding scenarios. This means dynamic RLS filters based on these functions won't filter data per user in embedded scenarios.</p>
+<p>To apply per-user RLS in embedded scenarios, use the <strong>effective identity</strong> feature of the Power BI REST API. Pass the <code>EffectiveIdentity</code> object with the appropriate username and roles when generating an embed token. If your RLS rules use <code>CUSTOMDATA()</code>, pass the custom data string through <code>EffectiveIdentity.CustomData</code>.</p>
+<p>For more information, see <a href="/en-us/power-bi/developer/embedded/embedded-row-level-security" data-linktype="absolute-path">RLS for Embedded scenarios for ISVs</a>.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>When embedding with a service principal, always test with actual embed tokens that include <code>EffectiveIdentity</code> to verify that RLS filters are applied correctly. The <strong>Test as role</strong> feature in the Power BI service does not simulate embedded authentication flows.</p>
+</div>
+<p>Keep in mind that if a Power BI report references a row with RLS configured then the same message displays as for a deleted or non-existing field. To these users, it looks like the report is broken.</p>
+<h2 id="faq">FAQ</h2>
+<p><strong>Question:</strong> What if I have previously created roles and rules for a dataset in the Power BI service? Do they still work if I do nothing?<br>
+<strong>Answer:</strong> No, visuals won't render properly. You have to re-create the roles and rules within Power BI Desktop and then publish to the Power BI service.</p>
+<p><strong>Question:</strong> Can I create these roles for Analysis Services data sources?<br>
+<strong>Answer:</strong> Yes, if you imported the data into Power BI Desktop. If you're using a live connection, you can't configure RLS within the Power BI service. You define RLS in the Analysis Services model on-premises.</p>
+<p><strong>Question:</strong> Can I use RLS to limit the columns or measures accessible by my users?<br>
+<strong>Answer:</strong> No, if a user has access to a particular row of data, they can see all the columns of data for that row. To restrict access to columns and column metadata, consider using <a href="/en-us/fabric/security/service-admin-object-level-security" data-linktype="absolute-path">object-level security</a>.</p>
+<p><strong>Question:</strong> Does RLS let me hide detailed data but give access to data summarized in visuals?<br>
+<strong>Answer:</strong> No, you secure individual rows of data, but users can always see either the details or the summarized data.</p>
+<p><strong>Question:</strong> My data source already has security roles defined (for example SQL Server roles or SAP BW roles). What's the relationship between these roles and RLS?<br>
+<strong>Answer:</strong> The answer depends on whether you're importing data or using DirectQuery. If you're importing data into your Power BI dataset, the security roles in your data source aren't used. In this case, you should define RLS to enforce security rules for users who connect in Power BI. If you're using DirectQuery, the security roles in your data source are used. When a user opens a report, Power BI sends a query to the underlying data source, which applies security rules to the data based on the user's credentials.</p>
+<p><strong>Question:</strong> Can a user belong to more than one role?<br>
+<strong>Answer:</strong> A user can belong to multiple roles, and the roles are additive. For example, if a user belongs to both the "Sales" and "Marketing" roles, they can see data for both these roles.</p>
+<h2 id="related-content">Related content</h2>
+<ul>
+<li><a href="/en-us/power-bi/guidance/rls-guidance" data-linktype="absolute-path">Restrict data access with row-level security (RLS) for Power BI Desktop</a></li>
+<li><a href="/en-us/power-bi/guidance/powerbi-implementation-planning-security-report-consumer-planning#enforce-data-security-based-on-consumer-identity" data-linktype="absolute-path">Power BI implementation planning: Report consumer security planning</a></li>
+<li><a href="/en-us/power-bi/developer/embedded/embedded-row-level-security" data-linktype="absolute-path">RLS for Embedded scenarios for ISVs</a></li>
+<li><a href="/en-us/power-bi/guidance/whitepaper-azure-b2b-power-bi" data-linktype="absolute-path">Distribute Power BI content to external guest users with Microsoft Entra B2B</a></li>
+</ul>
+<p>Questions? <a href="https://community.powerbi.com/" data-linktype="external">Try asking the Power BI Community</a>
+Suggestions? <a href="https://ideas.powerbi.com/" data-linktype="external">Contribute ideas to improve Power BI</a></p>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-05-13T22:10:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-05-13
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

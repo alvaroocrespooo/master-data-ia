@@ -1,0 +1,1741 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Query Overview in Power BI Desktop - Power BI | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Learn how to use Power Query Editor in Power BI Desktop to connect to data sources, shape and transform data, and create queries in both the new and legacy experiences." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Query Overview in Power BI Desktop - Power BI" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview" />
+			<meta property="og:description" content="Learn how to use Power Query Editor in Power BI Desktop to connect to data sources, shape and transform data, and create queries in both the new and legacy experiences." />
+			<meta name="platform_id" content="8c22f482-5b5c-32e5-445a-dc1bb815028d" /> <meta name="scope" content="Power BI" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MSPowerBI" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/power-bi/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="true" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="ms.service" content="powerbi" />
+	
+		<meta name="search.appverid" content="met150" />
+	
+		<meta name="search.app" content="fabric-powerbi-docs" />
+	
+		<meta name="search.app" content="capaedac-PowerBI" />
+	
+		<meta name="search.app" content="powerbi" />
+	
+		<meta name="search.app" content="powerbipremium-docs" />
+	
+		<meta name="search.app" content="powerbipro-docs" />
+	
+		<meta name="ms.subservice" content="pbi-transform-model" />
+	
+		<meta name="author" content="kgremban" />
+	
+		<meta name="ms.author" content="kgremban" />
+	
+		<meta name="ms.reviewer" content="miescobar" />
+	
+		<meta name="ms.topic" content="overview" />
+	
+		<meta name="ms.date" content="2026-09-19T00:00:00Z" />
+	
+		<meta name="ms.custom" content="dFY25Q1-Linter" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="LocalizationGroup" content="Transform and shape data" />
+	
+		<meta name="document_id" content="bd6ac628-d5b4-e722-0532-d467c8347a5a" />
+	
+		<meta name="document_version_independent_id" content="20ec07f6-627d-3765-ddcb-4aa738b6952a" />
+	
+		<meta name="updated_at" content="2026-09-29T06:02:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-query-overview.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/017446f1dbdc7ddcdd81524b5bc6cf6b51dffca7/powerbi-docs/transform-model/desktop-query-overview.md" />
+	
+		<meta name="git_commit_id" content="017446f1dbdc7ddcdd81524b5bc6cf6b51dffca7" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.powerbi-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.powerbi-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="2768" />
+	
+		<meta name="asset_id" content="transform-model/desktop-query-overview" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="powerbi-docs/transform-model/desktop-query-overview.md" />
+	
+		<meta name="previous_tlsh_hash" content="FF22FB72941C4900BED55E453C0A5AA029F0908CF9B41DD45127B1A3FE5F3EA20F5D8CB56B9BB6051375022300D5E1CEEAEAF755E49C33A3576B7CB980192266A33E3FABF6" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-query-overview.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/f9be14f8-8c50-42e5-902f-9be1b3f4de11" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/d3197845-b4ce-44c6-a237-cd4be160e76c" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/ffd919fc-9768-405d-a372-71b0f52e07cb" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/aea905fb-0a9d-4d46-b30f-e9cbaf772d1b" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/powerbi-docs",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true,
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-query-overview.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-query-overview.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/powerbi-docs/transform-model/desktop-query-overview.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="query-overview-in-power-bi-desktop">Query overview in Power BI Desktop</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>With Power BI Desktop you can connect to the world of data, create compelling and foundational reports, and share your efforts with others – who can then build on your work, and expand their business intelligence efforts.</p>
+<h2 id="power-bi-desktop-views">Power BI Desktop Views</h2>
+<p>Power BI Desktop has three views:</p>
+<ul>
+<li><strong>Report</strong> view – You can use queries that you create to build compelling visualizations, arranged as you want them to appear, and with multiple pages, that you can share with others.</li>
+<li><strong>Table</strong> view – See the data in your report in data model format, where you can add measures, create new columns, and manage relationships.</li>
+<li><strong>Model</strong> view – Get a graphical representation of the relationships that are established in your data model, and manage or modify them as needed.</li>
+</ul>
+<p>Access these views by selecting one of the three icons along the left side of Power BI Desktop. In the following image, <strong>Report</strong> view is selected, indicated by the yellow band beside the icon.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-view-icons.png" alt="Screenshot of Power BI Desktop showing Report view selected." data-linktype="relative-path">
+</span>
+</p>
+<p>Power BI Desktop also comes with Power Query Editor. Use Power Query Editor to connect to one or many data sources, shape, and transform the data to meet your needs, then load that model into Power BI Desktop.</p>
+<p>This article provides an overview of the work with data in the Power Query Editor, but there's more to learn. At the end of this article, you'll find links to detailed guidance about supported data types. You'll also find guidance about connecting to data, shaping data, creating relationships, and how to get started.</p>
+<p>But first, let's get acquainted with Power Query Editor.</p>
+<h2 id="power-query-editor">Power Query Editor</h2>
+<p>Power BI Desktop offers two Power Query Editor experiences:</p>
+<ul>
+<li><strong>New Power Query experience (Preview)</strong>: A redesigned editor with streamlined navigation, improved accessibility, and a consistent Power Query experience across Power BI Desktop, web modeling, and other Fabric products.</li>
+<li><strong>Legacy experience</strong>: The original Power Query Editor window.</li>
+</ul>
+<p>In both experiences, you use Power Query Editor to connect to one or many data sources, shape and transform the data to meet your needs, and then load the result into Power BI Desktop. Select the tab that matches the experience you're using.</p>
+<p>For known limitations, workarounds, and a place to share feedback, see <a href="power-query-new-experience-limitations" data-linktype="relative-path">New Power Query experience known limitations and workarounds</a>.</p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_new-experience" role="tab" aria-controls="tabpanel_1_new-experience" data-tab="new-experience" tabindex="0" aria-selected="true" data-linktype="self-bookmark">New experience (Preview)</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_legacy-experience" role="tab" aria-controls="tabpanel_1_legacy-experience" data-tab="legacy-experience" tabindex="-1" data-linktype="self-bookmark">Legacy experience</a>
+</li>
+</ul>
+<section id="tabpanel_1_new-experience" role="tabpanel" data-tab="new-experience">
+
+<div class="NOTE">
+<p>Note</p>
+<p>The new Power Query experience is in <strong>preview</strong>.</p>
+</div>
+<h4 id="prerequisites">Prerequisites</h4>
+<p>Power BI Desktop with the <strong>New Power Query experience</strong> preview feature enabled.</p>
+<p>To enable the new Power Query experience:</p>
+<ol>
+<li>Launch Power BI Desktop.</li>
+<li>Go to <strong>File</strong> &gt; <strong>Options and settings</strong> &gt; <strong>Options</strong>.</li>
+<li>Select <strong>Preview features</strong>, and then select the <strong>New Power Query experience</strong> checkbox.</li>
+<li>Select <strong>OK</strong>.</li>
+</ol>
+<p>The same preview feature enables both the new Get Data experience and the new Power Query Editor. To return to the legacy editor, clear the checkbox. You don't need to restart Power BI Desktop. For more information about the new Get Data experience, see <a href="../connect-data/desktop-data-sources" data-linktype="relative-path">Get data in Power BI Desktop</a>.</p>
+<h4 id="open-power-query-editor">Open Power Query Editor</h4>
+<p>To open Power Query Editor, select <strong>Transform data</strong> from the <strong>Home</strong> tab of Power BI Desktop.</p>
+<p>With no data connections, Power Query Editor appears as a blank pane, ready for data. After a query is loaded, the editor presents five distinct components. The numbers in the following table correspond to the numbered callouts in the screenshot.</p>
+<p><span class="mx-imgBorder">
+<a href="media/desktop-query-overview/query-overview-new-ui-components.png#lightbox" data-linktype="relative-path">
+<img src="media/desktop-query-overview/query-overview-new-ui-components.png" alt="Screenshot of the new Power Query Editor in Power BI Desktop with each component outlined and numbered." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Component</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Ribbon</strong></td>
+<td>The ribbon navigation experience, which provides multiple tabs to add transforms, select options for your query, and access different ribbon buttons to complete various tasks.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Queries pane</strong></td>
+<td>A view of all your available queries.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Current view</strong></td>
+<td>Your main working view, which by default shows a preview of the data for your query. You can also enable the diagram view along with the data preview. You can switch between the schema view and the data preview while maintaining the diagram view.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Query settings</strong></td>
+<td>A view of the currently selected query with relevant information, such as query name, query steps, and various indicators.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Status bar</strong></td>
+<td>A bar showing important information about your query, such as execution time, total columns and rows, and processing status. This bar also contains buttons to change your current view.</td>
+</tr>
+</tbody>
+</table>
+<p>Each of these components is described in the following sections. For a full walkthrough of the Power Query user interface, see <a href="/en-us/power-query/power-query-ui" data-linktype="absolute-path">Use Power Query to transform data</a>.</p>
+<h4 id="the-ribbon">The ribbon</h4>
+<p>The ribbon is the component where you find most of the transforms and actions that you can do in Power Query Editor. Commands are grouped on the <strong>Home</strong>, <strong>Transform</strong>, <strong>Add column</strong>, <strong>View</strong>, <strong>Tools</strong>, and <strong>Help</strong> tabs. Each tab provides specific buttons and options that give you easy access to the transforms and actions you might need.</p>
+<p>The <strong>Home</strong> tab contains the common query tasks, including the <strong>Get data</strong> commands that you use to connect to data and begin the query building process. For more information about the available data sources, see <a href="../connect-data/desktop-data-sources" data-linktype="relative-path">Data sources in Power BI Desktop</a>. For more information about using connectors, see <a href="/en-us/power-query/get-data-experience" data-linktype="absolute-path">Getting data overview</a>.</p>
+<p>The <strong>Transform</strong> tab provides access to common data transformation tasks, such as adding or removing columns, changing data types, and splitting columns. The <strong>Add column</strong> tab provides more tasks associated with adding a column, formatting column data, and adding custom columns. The <strong>View</strong> tab controls which panes and views are displayed, and opens the <strong>Advanced Editor</strong>.</p>
+<p>The Power Query interface is responsive and adjusts to your screen resolution. If you want a compact version of the ribbon, select the collapse button at the bottom-right corner of the ribbon. To switch back to the standard ribbon, select the expand icon in the same corner.</p>
+<p>Many of the tasks available from the ribbon are also available by right-clicking a column, or other data, in the current view. Transforms can often be reached from more than one place, so you can use the experience you prefer.</p>
+<p>For more information about transforming data, including examples, see <a href="../connect-data/desktop-shape-and-combine-data" data-linktype="relative-path">Tutorial: Shape and combine data in Power BI Desktop</a>.</p>
+<h4 id="the-queries-pane">The Queries pane</h4>
+<p>The <strong>Queries</strong> pane displays all of your available queries. When you select a query, its data is displayed in the current view, where you can shape and transform the data to meet your needs.</p>
+<p>Select the icon in the top-right corner of the <strong>Queries</strong> pane to collapse the pane, and select it again to expand the pane. Similar icons throughout the interface let you collapse or expand other views and sections, so you can focus on the view that matters most to you.</p>
+<p>For more information, see <a href="/en-us/power-query/queries-pane" data-linktype="absolute-path">Queries pane</a>.</p>
+<h4 id="the-current-view">The current view</h4>
+<p>The current view is your main working view. By default, it shows the data preview for the selected query. You accomplish much of the query work in this area. Select a column header, or right-click it, to see the transformations available for that column. Many of these items are the same as the buttons on the ribbon tabs.</p>
+<p>When you select a transformation, the query applies the step to the data. It also saves the step as part of the query itself. The <strong>Query settings</strong> pane records the steps in sequential order, as described later in this article.</p>
+<p>You can also enable the data profiling tools to better understand your data, including value distribution and column quality. Enable and disable these tools from the <strong>View</strong> tab at your convenience. For more information, see <a href="/en-us/power-query/data-profiling-tools" data-linktype="absolute-path">Using the data profiling tools</a>.</p>
+<h4 id="switch-between-views">Switch between views</h4>
+<p>Apart from collapsing panes and sections, you can also switch which views are displayed. Go to the <strong>View</strong> tab in the ribbon, where you find the <strong>Preview</strong> and <strong>Layout</strong> groups that control how the interface looks.</p>
+<p><span class="mx-imgBorder">
+<a href="media/desktop-query-overview/query-overview-new-view-tab.png#lightbox" data-linktype="relative-path">
+<img src="media/desktop-query-overview/query-overview-new-view-tab.png" alt="Screenshot of the View tab in the new Power Query Editor, showing the Preview and Layout groups." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>The right side of the status bar also contains icons for the diagram, data, and schema views. Use these icons to change between views, or to enable and disable the view of your choice.</p>
+<p>Try these options to find the view and layout that you're most comfortable working with.</p>
+<h4 id="schema-view">Schema view</h4>
+<p>Schema view offers a quick and straightforward way to interact only with the components of the schema for your table, such as the column names and data types. Use schema view when you want to do schema-related actions, such as removing columns, renaming columns, changing column data types, reordering columns, or duplicating columns.</p>
+<p><span class="mx-imgBorder">
+<a href="media/desktop-query-overview/query-overview-new-schema-view.png#lightbox" data-linktype="relative-path">
+<img src="media/desktop-query-overview/query-overview-new-schema-view.png" alt="Screenshot of schema view in the new Power Query Editor, showing the Name, Type, and Key columns for the selected query." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>When schema view is active, the <strong>Schema tools</strong> tab appears in the ribbon with the actions that apply to columns.</p>
+<p>For more information, see <a href="/en-us/power-query/schema-view" data-linktype="absolute-path">Using Schema view</a>.</p>
+<h4 id="diagram-view">Diagram view</h4>
+<p>Diagram view helps you visualize how your query is structured and how it might interact with other queries in your project. Each step in your query has a distinct icon to help you recognize the transform that was used, and lines connect the steps to illustrate dependencies.</p>
+<p>When both the data preview and diagram view are enabled, the diagram view appears on top of the data preview. With diagram view enabled, select the plus sign to search for a new transform to add to your query.</p>
+<p><span class="mx-imgBorder">
+<a href="media/desktop-query-overview/query-overview-new-diagram-view.png#lightbox" data-linktype="relative-path">
+<img src="media/desktop-query-overview/query-overview-new-diagram-view.png" alt="Screenshot of diagram view shown above the data preview in the new Power Query Editor." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>For more information, see <a href="/en-us/power-query/diagram-view" data-linktype="absolute-path">Diagram view</a>.</p>
+<h4 id="the-query-settings-pane">The Query settings pane</h4>
+<p>The <strong>Query settings</strong> pane shows information about the currently selected query, such as the query name, its steps, and various indicators. Every transformation applied to your query is saved as a step in the <strong>Applied steps</strong> section.</p>
+<p>If you need to check how your query is transformed from step to step, select a step to preview how your query resolves at that specific point.</p>
+<p>It's important to know that the underlying data <em>isn't</em> changed. Rather, Power Query Editor adjusts and shapes its view of the data.</p>
+<p>You can rename steps, delete steps, or reorder the steps as you see fit. To do so, right-click the step in the <strong>Applied steps</strong> section, and choose from the menu that appears. Select <strong>Properties</strong> to change the name of a step or add a description to it. All query steps are carried out in the order they appear.</p>
+<p>For more information, see <a href="/en-us/power-query/applied-steps" data-linktype="absolute-path">Using the Applied Steps list</a>.</p>
+<h4 id="the-status-bar">The status bar</h4>
+<p>The status bar appears at the bottom of the editor and shows important information about your query, such as execution time, total columns and rows, and processing status. The right side of the status bar also contains icons that you can use to change the current view.</p>
+<p><span class="mx-imgBorder">
+<a href="media/desktop-query-overview/query-overview-new-status-bar.png#lightbox" data-linktype="relative-path">
+<img src="media/desktop-query-overview/query-overview-new-status-bar.png" alt="Screenshot of the status bar in the new Power Query Editor, showing processing status, column and row counts, and the view icons." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="the-formula-bar">The formula bar</h4>
+<p>The formula bar shows the <a href="/en-us/powerquery-m/" data-linktype="absolute-path">Power Query M formula language</a> expression for the selected step. You can edit the expression directly in the formula bar to adjust a single step, or use the <strong>Advanced Editor</strong> to work with the full query script.</p>
+<h4 id="get-help">Get help</h4>
+<p>The <strong>Help</strong> tab in Power Query Editor provides links to Power BI information. You can reach the same help options by selecting <strong>File</strong> &gt; <strong>Help</strong>.</p>
+</section>
+<section id="tabpanel_1_legacy-experience" role="tabpanel" data-tab="legacy-experience" aria-hidden="true" hidden="hidden">
+<h4 id="open-power-query-editor-and-connect-to-data">Open Power Query Editor and connect to data</h4>
+<p>To get to Power Query Editor, select <strong>Transform data</strong> from the <strong>Home</strong> tab of Power BI Desktop.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-transform.png" alt="Screenshot of Power BI Desktop with the transform data icon highlighted." data-linktype="relative-path">
+</span>
+</p>
+<p>With no data connections, Power Query Editor appears as a blank pane, ready for data.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-blank-panes.png" alt="Screenshot of Power BI Desktop showing Power Query Editor with no data connections." data-linktype="relative-path">
+</span>
+</p>
+<p>After a query is loaded, Power Query Editor view becomes more interesting. If you connect to a Web data source using the New Source button in the top left, Power Query Editor loads information about the data, which you can then begin to shape.</p>
+<p>Here's how Power Query Editor appears after a data connection is established:</p>
+<ul>
+<li><p>In the ribbon, many buttons are now active to interact with the data in the query.</p>
+</li>
+<li><p>In the left pane, queries are listed and available for selection, viewing, and shaping.</p>
+</li>
+<li><p>In the center pane, data from the selected query is displayed and available for shaping.</p>
+</li>
+<li><p>The <strong>Query Settings</strong> pane appears, listing the query's properties and applied steps.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-with-data-connection.png" alt="Screenshot of Power BI Desktop showing the Query Settings pane in Power Query Editor." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ul>
+<p>Each of these four areas are explained later: the ribbon, the Queries pane, the Table view, and the Query Settings pane.</p>
+<p><a id="the-query-ribbon"></a></p>
+<h4 id="the-query-ribbon">The query ribbon</h4>
+<p>The ribbon in Power Query Editor consists of the <strong>Home</strong>, <strong>Transform</strong>, <strong>Add Column</strong>, <strong>View</strong>, <strong>Tools</strong>, and <strong>Help</strong> tabs.</p>
+<p>The <strong>Home</strong> tab contains the common query tasks.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-ribbon.png" alt="Screenshot of Power BI Desktop showing the Power Query Editor query ribbon." data-linktype="relative-path">
+</span>
+</p>
+<p>To connect to data and begin the query building process, select <strong>New Source</strong>. A menu appears, providing the most common data sources.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-new-source-menu.png" alt="Screenshot of Power BI Desktop showing the New Source button." data-linktype="relative-path">
+</span>
+</p>
+<p>For more information about available data sources, see <a href="../connect-data/desktop-data-sources" data-linktype="relative-path">Data Sources</a>. For information about connecting to data, including examples and steps, see <a href="../connect-data/desktop-connect-to-data" data-linktype="relative-path">Connect to Data</a>.</p>
+<p>The <strong>Transform</strong> tab provides access to common data transformation tasks, such as:</p>
+<ul>
+<li>Adding or removing columns</li>
+<li>Changing data types</li>
+<li>Splitting columns</li>
+<li>Other data-driven tasks</li>
+</ul>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-transform-ribbon.png" alt="Screenshot of Power BI Desktop showing the Transform tab." data-linktype="relative-path">
+</span>
+</p>
+<p>For more information about transforming data, including examples, see <a href="desktop-shape-and-combine-data" data-linktype="relative-path">Tutorial: Shape and combine data in Power BI Desktop</a>.</p>
+<p>The <strong>Add Column</strong> tab provides more tasks associated with adding a column, formatting column data, and adding custom columns. The following image shows the <strong>Add Column</strong> tab.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-add-column-ribbon.png" alt="Screenshot of Power BI Desktop showing the Add Column tab." data-linktype="relative-path">
+</span>
+</p>
+<p>The <strong>View</strong> tab on the ribbon is used to toggle whether certain panes or windows are displayed. It's also used to display the Advanced Editor. The following image shows the <strong>View</strong> tab.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-view-ribbon.png" alt="Screenshot of Power BI Desktop showing the View tab." data-linktype="relative-path">
+</span>
+</p>
+<p>It's useful to know that many of the tasks available from the ribbon are also available by right-clicking a column, or other data, in the center pane.</p>
+<p><a id="the-left-queries-pane"></a></p>
+<h4 id="the-left-queries-pane">The left (Queries) pane</h4>
+<p>The left pane, or <strong>Queries</strong> pane, displays the number of active queries and the name of the query. When you select a query from the left pane, its data is displayed in the center pane, where you can shape and transform the data to meet your needs. The following image shows the left pane with a query.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-the-left-pane.png" alt="Screenshot of Power BI Desktop showing Queries in the left pane." data-linktype="relative-path">
+</span>
+</p>
+<p><a id="the-center-data-pane"></a></p>
+<h4 id="the-center-data-pane">The center (Data) pane</h4>
+<p>In the center pane, or <strong>Data</strong> pane, data from the selected query is displayed. This pane is where much of the work of the <strong>Query</strong> view is accomplished.</p>
+<p>The following image shows the Web data connection established earlier. The <strong>Overall score</strong> column is selected, and its header is right-clicked to show the available menu items. Notice that many of these items in the right-click menu are the same as buttons in the ribbon tabs.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-the-center-pane.png" alt="Screenshot of Power BI Desktop showing Data in the center pane." data-linktype="relative-path">
+</span>
+</p>
+<p>When you select a right-click menu item (or a ribbon button), the query applies the step to the data. It also saves step as part of the query itself. The steps are recorded in the <strong>Query Settings</strong> pane in sequential order, as described in the next section.</p>
+<p><a id="the-right-query-settings-pane"></a></p>
+<h4 id="the-right-query-settings-pane">The right (Query Settings) pane</h4>
+<p>The right pane, or <strong>Query Settings</strong> pane, is where all steps associated with a query are displayed. For example, in the following image, the <strong>Applied Steps</strong> section of the <strong>Query Settings</strong> pane reflects the fact that we just changed the type of the <strong>Overall score</strong> column.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-query-settings-pane.png" alt="Screenshot of Power BI Desktop showing Query Settings in the right pane." data-linktype="relative-path">
+</span>
+</p>
+<p>As more shaping steps are applied to the query, they're captured in the <strong>Applied Steps</strong> section.</p>
+<p>It's important to know that the underlying data <em>isn't</em> changed. Rather, Power Query Editor adjusts and shapes its view of the data. It also shapes and adjusts the view of any interaction with the underlying data that occurs based on Power Query Editor's shaped and modified view of that data.</p>
+<p>In the <strong>Query Settings</strong> pane, you can rename steps, delete steps, or reorder the steps as you see fit. To do so, right-click the step in the <strong>Applied Steps</strong> section, and choose from the menu that appears. All query steps are carried out in the order they appear in the <strong>Applied Steps</strong> pane.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-query-settings-rename.png" alt="Screenshot of Power BI Desktop showing Query Settings Properties and Applied Steps filters." data-linktype="relative-path">
+</span>
+</p>
+</section>
+</div>
+<h2 id="advanced-editor">Advanced Editor</h2>
+<p>The <strong>Advanced Editor</strong> lets you see the code that Power Query Editor is creating with each step. It also lets you create your own code in the <a href="/en-us/powerquery-m/" data-linktype="absolute-path">Power Query M formula language</a>. To launch the advanced editor, select <strong>View</strong> from the ribbon, then select <strong>Advanced Editor</strong>. A window appears, showing the code generated for the selected query.<br>
+<span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-advanced-editor.png" alt="Screenshot of Power BI Desktop showing the Advanced Editor dialog box." data-linktype="relative-path">
+</span>
+</p>
+<p>You can directly edit the code in the <strong>Advanced Editor</strong> window. To close the window, select the <strong>Done</strong> or <strong>Cancel</strong> button.</p>
+<p>The <strong>Advanced Editor</strong> is available in both the new and the legacy experience. The preceding screenshot shows the legacy experience. Some <strong>Advanced Editor</strong> controls and display options differ in the new experience. For more information, see <a href="power-query-new-experience-limitations" data-linktype="relative-path">New Power Query experience known limitations and workarounds</a>.</p>
+<h2 id="saving-your-work">Saving your work</h2>
+<p>When your query is where you want it, select <strong>Close &amp; Apply</strong> from Power Query Editor's <strong>File</strong> menu. This action applies the changes and closes the editor.<br>
+<span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-close-nload.png" alt="Screenshot of Power BI Desktop showing the Close and Apply option under the File tab." data-linktype="relative-path">
+</span>
+</p>
+<p>As progress is made, Power BI Desktop provides a dialog to display its status.<br>
+<span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-loading.png" alt="Screenshot of Power BI Desktop showing the Applied Query Changes confirmation dialog box." data-linktype="relative-path">
+</span>
+</p>
+<p>When you're ready, Power BI Desktop can save your work in the form of a <em>.pbix</em> file.</p>
+<p>To save your work, select <strong>File</strong> &gt; <strong>Save</strong> (or <strong>File</strong> &gt; <strong>Save As</strong>), as shown in the following image.
+<span class="mx-imgBorder">
+<img src="media/desktop-query-overview/query-overview-save-work.png" alt=" Screenshot of Power BI Desktop showing the Power Query Editor File tab. The save and save as options highlighted." data-linktype="relative-path">
+</span>
+</p>
+<h2 id="related-content">Related content</h2>
+<p>There are all sorts of things you can do with Power BI Desktop. For more information on its capabilities, check out the following resources:</p>
+<ul>
+<li><a href="../fundamentals/power-bi-overview" data-linktype="relative-path">What is Power BI?</a></li>
+<li><a href="/en-us/power-query/power-query-ui" data-linktype="absolute-path">Use Power Query to transform data</a></li>
+<li><a href="power-query-new-experience-limitations" data-linktype="relative-path">New Power Query experience known limitations and workarounds</a></li>
+<li><a href="../connect-data/desktop-data-sources" data-linktype="relative-path">Data sources in Power BI Desktop</a></li>
+<li><a href="../connect-data/desktop-connect-to-data" data-linktype="relative-path">Connect to data sources in Power BI Desktop</a></li>
+<li><a href="desktop-shape-and-combine-data" data-linktype="relative-path">Tutorial: Shape and combine data with Power BI Desktop</a></li>
+<li><a href="desktop-common-query-tasks" data-linktype="relative-path">Perform common query tasks in Power BI Desktop</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-09-29T06:02:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-09-29
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

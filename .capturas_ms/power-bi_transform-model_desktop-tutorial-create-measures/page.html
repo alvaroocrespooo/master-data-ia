@@ -1,0 +1,1700 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Tutorial: Create your own measures in Power BI Desktop - Power BI | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Learn how to use measures in Power BI Desktop to help you perform calculations on your data as you interact with your reports." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tutorial-create-measures" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Tutorial: Create your own measures in Power BI Desktop - Power BI" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tutorial-create-measures" />
+			<meta property="og:description" content="Learn how to use measures in Power BI Desktop to help you perform calculations on your data as you interact with your reports." />
+			<meta name="platform_id" content="656f4cfd-eaac-caad-2bb9-8c7dae11212b" /> <meta name="scope" content="Power BI" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MSPowerBI" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/power-bi/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="true" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="ms.service" content="powerbi" />
+	
+		<meta name="search.appverid" content="met150" />
+	
+		<meta name="search.app" content="fabric-powerbi-docs" />
+	
+		<meta name="search.app" content="capaedac-PowerBI" />
+	
+		<meta name="search.app" content="powerbi" />
+	
+		<meta name="search.app" content="powerbipremium-docs" />
+	
+		<meta name="search.app" content="powerbipro-docs" />
+	
+		<meta name="ms.subservice" content="pbi-transform-model" />
+	
+		<meta name="author" content="kgremban" />
+	
+		<meta name="ms.author" content="kgremban" />
+	
+		<meta name="ms.reviewer" content="" />
+	
+		<meta name="ms.topic" content="tutorial" />
+	
+		<meta name="ms.date" content="2025-09-16T00:00:00Z" />
+	
+		<meta name="LocalizationGroup" content="Learn more" />
+	
+		<meta name="document_id" content="5439d8e1-71bb-cdf7-53bc-952f08a359e0" />
+	
+		<meta name="document_version_independent_id" content="11f475af-c858-0a7e-d07d-7083e4fc8e39" />
+	
+		<meta name="updated_at" content="2026-05-21T22:06:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-tutorial-create-measures.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/8fa07c36ccb2fd3f418d22c2f6ebbcaa206ef89d/powerbi-docs/transform-model/desktop-tutorial-create-measures.md" />
+	
+		<meta name="git_commit_id" content="8fa07c36ccb2fd3f418d22c2f6ebbcaa206ef89d" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.powerbi-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.powerbi-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="2237" />
+	
+		<meta name="asset_id" content="transform-model/desktop-tutorial-create-measures" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="powerbi-docs/transform-model/desktop-tutorial-create-measures.md" />
+	
+		<meta name="previous_tlsh_hash" content="AB6A8152657CC5005FC35F1A28967A55D0F5C24DFEB02FD4106772E2C5451CF34B92A862BA1FB20803734A632275764DA2DAEB3384ECA6A3456598ED80DA33E1A71D3BEFE9" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-tutorial-create-measures.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tutorial-create-measures?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/d3197845-b4ce-44c6-a237-cd4be160e76c" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/aea905fb-0a9d-4d46-b30f-e9cbaf772d1b" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/powerbi-docs",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true,
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/desktop-tutorial-create-measures.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/desktop-tutorial-create-measures.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/powerbi-docs/transform-model/desktop-tutorial-create-measures.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="tutorial-create-your-own-measures-in-power-bi-desktop">Tutorial: Create your own measures in Power BI Desktop</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>By using measures, you can create some of the most powerful data analysis solutions in Power BI Desktop. Measures help you by performing calculations on your data as you interact with your reports. This tutorial guides you through understanding measures and creating your own basic measures in Power BI Desktop.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><p>This tutorial is intended for Power BI users already familiar with using Power BI Desktop to create more advanced models. You should already be familiar with using Get Data and Power Query Editor to import data, work with multiple related tables, and add fields to the report canvas. If you’re new to Power BI Desktop, be sure to check out <a href="../fundamentals/desktop-getting-started" data-linktype="relative-path">Get Started with Power BI Desktop</a>.</p>
+</li>
+<li><p>This tutorial uses the <a href="https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip" data-linktype="external">Contoso Sales Sample for Power BI Desktop</a> file, which includes online sales data from the fictitious company, Contoso. Because this data is imported from a database, you can't connect to the datasource or view it in Power Query Editor. Download and extract the file on your computer.</p>
+</li>
+</ul>
+<h2 id="automatic-measures">Automatic measures</h2>
+<p>When Power BI Desktop creates a measure, it's most often created for you automatically. To see how Power BI Desktop creates a measure, follow these steps:</p>
+<ol>
+<li><p>In Power BI Desktop, select <strong>File</strong> &gt; <strong>Open</strong>, browse to the <em>Contoso Sales Sample for Power BI Desktop.pbix</em> file, and then choose <strong>Open</strong>.</p>
+</li>
+<li><p>In the <strong>Fields</strong> pane, expand the <strong>Sales</strong> table. Then, either select the check box next to the <strong>SalesAmount</strong> field or drag <strong>SalesAmount</strong> onto the report canvas.</p>
+<p>A new column chart visualization appears, showing the sum total of all values in the <strong>SalesAmount</strong> column of the <strong>Sales</strong> table.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_salesamountchart.png" alt="Screenshot of the SalesAmount column chart." data-linktype="relative-path">
+</span>
+</p>
+<p>Any field (column) in the <strong>Fields</strong> pane with a sigma icon <img src="media/desktop-tutorial-create-measures/meastut_sigma.png" alt="Sigma icon" data-linktype="relative-path"> is numeric, and its values can be aggregated. Rather than display a table with many values (2,000,000 rows for <strong>SalesAmount</strong>), Power BI Desktop automatically creates and calculates a measure to aggregate the data if it detects a numeric datatype. Sum is the default aggregation for a numeric datatype, but you can easily apply different aggregations like average or count. Understanding aggregations is fundamental to understanding measures, because every measure performs some type of aggregation.</p>
+</li>
+</ol>
+<p>To change the chart aggregation, follow these steps:</p>
+<ol>
+<li><p>Select the <strong>SalesAmount</strong> visualization in the report canvas.</p>
+</li>
+<li><p>In the <strong>Values</strong> area of the <strong>Visualizations</strong> pane, select the down arrow to the right of <strong>SalesAmount</strong>.</p>
+</li>
+<li><p>From the menu that appears, select <strong>Average</strong>.</p>
+<p>The visualization changes to an average of all sales values in the <strong>SalesAmount</strong> field.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png" alt="Screenshot of the SalesAmount average chart." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ol>
+<p>Depending on the result you want, you can change the type of aggregation. However, not all types of aggregation apply to every numeric datatype. For example, for the <strong>SalesAmount</strong> field, Sum and Average are useful, and Minimum and Maximum have their place as well. However, Count doesn't make sense for the <strong>SalesAmount</strong> field, because while its values are numeric, they’re really currency.</p>
+<p>Values calculated from measures change in response to your interactions with your report. For example, if you drag the <strong>RegionCountryName</strong> field from the <strong>Geography</strong> table onto your existing <strong>SalesAmount</strong> chart, it changes to show the average sales amounts for each country/region.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png" alt="Screenshot of the chart showing SaleAmount by Country/Region." data-linktype="relative-path">
+</span>
+</p>
+<p>When the result of a measure changes because of an interaction with your report, you affect your measure’s <em>context</em>. Every time you interact with your report visualizations, you're changing the context in which a measure calculates and displays its results.</p>
+<h2 id="create-and-use-your-own-measures">Create and use your own measures</h2>
+<p>In most cases, Power BI Desktop automatically calculates and returns values according to the types of fields and aggregations you choose. However, in some cases you might want to create your own measures to perform more complex, unique calculations. With Power BI Desktop, you can create your own measures with the Data Analysis Expressions (DAX) formula language.</p>
+<p>DAX formulas use many of the same functions, operators, and syntax as Excel formulas. However, DAX functions are designed to work with relational data and perform more dynamic calculations as you interact with your reports. There are over 200 DAX functions that do everything from simple aggregations like sum and average to more complex statistical and filtering functions. There are many resources to help you learn more about DAX. After you finish this tutorial, see <a href="desktop-quickstart-learn-dax-basics" data-linktype="relative-path">DAX basics in Power BI Desktop</a>.</p>
+<p>When you create your own measure, it's called a <em>model</em> measure, and it's added to the <strong>Fields</strong> list for the table you select. Some advantages of model measures are that you can name them whatever you want, making them more identifiable. You can use them as arguments in other DAX expressions, and you can make them perform complex calculations quickly.</p>
+<h3 id="quick-measures">Quick measures</h3>
+<p>Many common calculations are available as <em>quick measures</em>, which write the DAX formulas for you based on your inputs in a window. These quick, powerful calculations are also great for learning DAX or seeding your own customized measures.</p>
+<p>Create a quick measure using one of these methods:</p>
+<ul>
+<li><p>From a table in the <strong>Fields</strong> pane, right-click or select <strong>More options</strong> (<strong>...</strong>), and then choose <strong>New quick measure</strong> from the list.</p>
+</li>
+<li><p>Under <strong>Calculations</strong> in the <strong>Home</strong> tab of the Power BI Desktop ribbon, select <strong>New Quick Measure</strong>.</p>
+</li>
+</ul>
+<p>For more information about creating and using quick measures, see <a href="desktop-quick-measures" data-linktype="relative-path">Use quick measures</a>.</p>
+<h3 id="create-a-measure">Create a measure</h3>
+<p>Suppose you want to analyze your net sales by subtracting discounts and returns from total sales amounts. For the context that exists in your visualization, you need a measure that subtracts the sum of DiscountAmount and ReturnAmount from the sum of SalesAmount. There's no field for Net Sales in the <strong>Fields</strong> list, but you have the building blocks to create your own measure to calculate net sales.</p>
+<p>To create a measure, follow these steps:</p>
+<ol>
+<li><p>In the <strong>Fields</strong> pane, right-click the <strong>Sales</strong> table, or hover over the table and select <strong>More options</strong> (<strong>...</strong>).</p>
+</li>
+<li><p>From the menu that appears, choose <strong>New measure</strong>.</p>
+<p>This action saves your new measure in the <strong>Sales</strong> table, where it's easy to find.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png" alt="Screenshot of new measure from list in the menu." data-linktype="relative-path">
+</span>
+</p>
+<p>You can also create a new measure by selecting <strong>New Measure</strong> in the <strong>Calculations</strong> group on the <strong>Home</strong> tab of the Power BI Desktop ribbon.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png" alt="Screenshot of new measure from the ribbon." data-linktype="relative-path">
+</span>
+</p>
+<div class="TIP">
+<p>Tip</p>
+<p>When you create a measure from the ribbon, you can create it in any of your tables, but it's easier to find if you create it where you plan to use it. In this case, select the <strong>Sales</strong> table first to make it active, and then choose <strong>New measure</strong>.</p>
+</div>
+<p>In the formula bar that appears along the top of the report canvas, you can rename your measure and enter a DAX formula.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png" alt="Screenshot of the formula bar." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>By default, each new measure is named <em>Measure</em>. If you don’t rename it, new measures are named <em>Measure 2</em>, <em>Measure 3</em>, and so on. Because we want this measure to be more identifiable, highlight <em>Measure</em> in the formula bar, and then change it to <em>Net Sales</em>.</p>
+</li>
+<li><p>Begin entering your formula. After the <code>=</code> sign, start to type <em>Sum</em>. As you type, a drop-down suggestion list appears, showing all the DAX functions, beginning with the letters you type. Scroll down, if necessary, to select <strong>SUM</strong> from the list, and then press <strong>Enter</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png" alt="Screenshot of SUM chosen from a list in the formula bar." data-linktype="relative-path">
+</span>
+</p>
+<p>An opening parenthesis appears, along with a drop-down suggestion list of the available columns you can pass to the SUM function.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png" alt="Screenshot of choosing columns for the SUM formula." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Expressions always appear between opening and closing parentheses. For this example, your expression contains a single argument to pass to the SUM function: the <strong>SalesAmount</strong> column. Begin typing <em>SalesAmount</em> until <strong>Sales(SalesAmount)</strong> is the only value left in the list.</p>
+<p>The column name preceded by the table name is called the fully qualified name of the column. Fully qualified column names make your formulas easier to read.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png" alt="Screenshot of selecting SalesAmount for the SUM formula." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select <strong>Sales[SalesAmount]</strong> from the list, and then enter a closing parenthesis.</p>
+<div class="TIP">
+<p>Tip</p>
+<p>Syntax errors are most often caused by a missing or misplaced closing parenthesis.</p>
+</div>
+</li>
+<li><p>Subtract the other two columns inside the formula:</p>
+<p>a. After the closing parenthesis for the first expression, type a space, a minus operator (-), and then another space.</p>
+<p>b. Enter another SUM function, and start typing <em>DiscountAmount</em> until you can choose the <strong>Sales[DiscountAmount]</strong> column as the argument. Add a closing parenthesis.</p>
+<p>c. Type a space, a minus operator, a space, another SUM function with <strong>Sales[ReturnAmount]</strong> as the argument, and then a closing parenthesis.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png" alt="Screenshot of the complete formula." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Press <strong>Enter</strong> or select <strong>Commit</strong> (checkmark icon) in the formula bar to complete and validate the formula.</p>
+<p>The validated <strong>Net Sales</strong> measure is now ready to use in the <strong>Sales</strong> table in the <strong>Fields</strong> pane.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png" alt="Screenshot of Net Sales measure in Sales table field list." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>If you run out of room for entering a formula or want it on separate lines, select the down arrow on the right side of the formula bar to provide more space.</p>
+<p>The down arrow turns into an up arrow and a large box appears.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png" alt="Screenshot of the formula up arrow." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Separate parts of your formula by pressing <strong>Alt</strong> + <strong>Enter</strong> for separate lines, or pressing <strong>Tab</strong> to add tab spacing.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png" alt="Screenshot of the formula expanded." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ol>
+<h3 id="use-your-measure-in-the-report">Use your measure in the report</h3>
+<p>Add your new <strong>Net Sales</strong> measure to the report canvas, and calculate net sales for whatever other fields you add to the report.</p>
+<p>To look at net sales by country/region:</p>
+<ol>
+<li><p>Select the <strong>Net Sales</strong> measure from the <strong>Sales</strong> table, or drag it onto the report canvas.</p>
+</li>
+<li><p>Select the <strong>RegionCountryName</strong> field from the <strong>Geography</strong> table, or drag it onto the <strong>Net Sales</strong> chart.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png" alt="Screenshot of Net Sales by Country/Region." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>To see the difference between net sales and total sales by country/region, select the <strong>SalesAmount</strong> field or drag it onto the chart.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png" alt="Screenshot of Sales Amount and Net Sales by Country/Region." data-linktype="relative-path">
+</span>
+</p>
+<p>The chart now uses two measures: <strong>SalesAmount</strong>, which Power BI summed automatically, and the <strong>Net Sales</strong> measure, which you manually created. Each measure was calculated in the context of another field, <strong>RegionCountryName</strong>.</p>
+</li>
+</ol>
+<h3 id="use-your-measure-with-a-slicer">Use your measure with a slicer</h3>
+<p>Add a slicer to further filter net sales and sales amounts by calendar year:</p>
+<ol>
+<li><p>Select a blank area next to the chart. In the <strong>Visualizations</strong> pane, select the <strong>Table</strong> visualization.</p>
+<p>This action creates a blank table visualization on the report canvas.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png" alt="Screenshot of a New blank table visualization." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Drag the <strong>Year</strong> field from the <strong>Calendar</strong> table onto the new blank table visualization.</p>
+<p>Because <strong>Year</strong> is a numeric field, Power BI Desktop sums up its values. This summation doesn’t work well as an aggregation; we'll address that in the next step.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png" alt="Screenshot of the year aggregation." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>In the <strong>Values</strong> box in the <strong>Visualizations</strong> pane, select the down arrow next to <strong>Year</strong>, and then choose <strong>Don't summarize</strong> from the list. The table now lists individual years.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png" alt="Screenshot of menu selecting Don't summarize." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select the <strong>Slicer</strong> icon in the <strong>Visualizations</strong> pane to convert the table to a slicer. If the visualization displays a slider instead of a list, choose <strong>List</strong> from the down arrow in the slider.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png" alt="Screenshot of the slicer icon in the Visualizations pane." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select any value in the <strong>Year</strong> slicer to filter the <strong>Net Sales and Sales Amount by RegionCountryName</strong> chart accordingly. The <strong>Net Sales</strong> and <strong>SalesAmount</strong> measures recalculate and display results in the context of the selected <strong>Year</strong> field.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png" alt="Screenshot of the Net Sales and SalesAmount chart sliced by Year." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ol>
+<h3 id="use-your-measure-in-another-measure">Use your measure in another measure</h3>
+<p>Suppose you want to find out which products have the highest net sales amount per unit sold. You need a measure that divides net sales by the quantity of units sold. Create a new measure that divides the result of your <strong>Net Sales</strong> measure by the sum of <strong>Sales[SalesQuantity]</strong>.</p>
+<ol>
+<li><p>In the <strong>Fields</strong> pane, create a new measure named <strong>Net Sales per Unit</strong> in the <strong>Sales</strong> table.</p>
+</li>
+<li><p>In the formula bar, begin typing <em>Net Sales</em>. The suggestion list shows what you can add. Select <strong>[Net Sales]</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png" alt="Screenshot of using Net Sales in the formula bar." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>You can also reference measures by just typing an opening bracket (<strong>[</strong>). The suggestion list shows only measures to add to your formula.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png" alt="Screenshot of open bracket showing measures to add to the formula." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Enter a space, a divide operator (/), another space, a SUM function, and then type <em>Quantity</em>. The suggestion list shows all the columns with <em>Quantity</em> in the name. Select <strong>Sales[SalesQuantity]</strong>, type the closing parenthesis, and press <strong>ENTER</strong> or choose <strong>Commit</strong> (checkmark icon) to validate your formula.</p>
+<p>The resulting formula should appear as:</p>
+<p><code>Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])</code></p>
+</li>
+<li><p>Select the <strong>Net Sales per Unit</strong> measure from the <strong>Sales</strong> table, or drag it onto a blank area in the report canvas.</p>
+<p>The chart shows the net sales amount per unit over all products sold. This chart isn't informative; we'll   address it in the next step.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_chart.png" alt="Screenshot of net sales amount per unit over all products sold." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>For a different look, change the chart visualization type to <strong>Treemap</strong>.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png" alt="Screenshot of chart changed to a treemap." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Select the <strong>Product Category</strong> field, or drag it onto the treemap or the <strong>Group</strong> field of the <strong>Visualizations</strong> pane. Now you have some good info!</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png" alt="Screenshot of treemap by Product Category." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p>Try removing the <strong>ProductCategory</strong> field, and dragging the <strong>ProductName</strong> field onto the chart instead.</p>
+<p><span class="mx-imgBorder">
+<img src="media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png" alt="Screenshot of treemap by Product Name." data-linktype="relative-path">
+</span>
+</p>
+<p>Ok, now we're just playing, but you have to admit that's cool! Experiment with other ways to filter and format the visualization.</p>
+</li>
+</ol>
+<h2 id="what-youve-learned">What you've learned</h2>
+<p>Measures give you the power to get the insights you want from your data. You learned how to create measures by using the formula bar and give them names that make sense to you. You learned how to find and select the right formula elements by using the DAX suggestion lists. Finally, you were introduced to context, where the results of calculations in measures change according to other fields or other expressions in your formula.</p>
+<h2 id="related-content">Related content</h2>
+<ul>
+<li><p>To learn more about Power BI Desktop quick measures, which provide many common measure calculations for you, see <a href="desktop-quick-measures" data-linktype="relative-path">Use quick measures for common calculations</a>.</p>
+</li>
+<li><p>If you want to take a deeper dive into DAX formulas and create some more advanced measures, see <a href="desktop-quickstart-learn-dax-basics" data-linktype="relative-path">Learn DAX basics in Power BI Desktop</a>. This article focuses on fundamental concepts in DAX, such as syntax, functions, and a more thorough understanding of context.</p>
+</li>
+<li><p>Be sure to add the <a href="/en-us/dax/index" data-linktype="absolute-path">Data Analysis Expressions (DAX) Reference</a> to your favorites. In this reference you can find detailed info on DAX syntax, operators, and over 200 DAX functions.</p>
+</li>
+</ul>
+<p>Other articles of interest:</p>
+<ul>
+<li><a href="desktop-visual-calculations-overview" data-linktype="relative-path">Using visual calculations</a></li>
+<li><a href="desktop-calculations-options" data-linktype="relative-path">Using calculations options in Power BI Desktop</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2025-09-16T08:00:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2025-09-16
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

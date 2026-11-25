@@ -1,0 +1,2008 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>DAX Query View - Power BI | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Learn how to use DAX query view to evaluate your DAX queries." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="DAX Query View - Power BI" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view" />
+			<meta property="og:description" content="Learn how to use DAX query view to evaluate your DAX queries." />
+			<meta name="platform_id" content="c4a5f1a8-af4a-2947-d7f3-da8af9ab77af" /> <meta name="scope" content="Power BI" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MSPowerBI" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/power-bi/breadcrumb/toc.json" />
+	
+		<meta name="show_latex" content="true" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41" />
+	
+		<meta name="feedback_help_link_url" content="https://community.fabric.microsoft.com/powerbi" />
+	
+		<meta name="feedback_help_link_type" content="ask-the-community" />
+	
+		<meta name="ms.service" content="powerbi" />
+	
+		<meta name="search.appverid" content="met150" />
+	
+		<meta name="search.app" content="fabric-powerbi-docs" />
+	
+		<meta name="search.app" content="capaedac-PowerBI" />
+	
+		<meta name="search.app" content="powerbi" />
+	
+		<meta name="search.app" content="powerbipremium-docs" />
+	
+		<meta name="search.app" content="powerbipro-docs" />
+	
+		<meta name="ms.subservice" content="pbi-reports-dashboards" />
+	
+		<meta name="author" content="kgremban" />
+	
+		<meta name="ms.author" content="kgremban" />
+	
+		<meta name="ms.reviewer" content="" />
+	
+		<meta name="ms.topic" content="concept-article" />
+	
+		<meta name="ms.date" content="2026-10-22T00:00:00Z" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="LocalizationGroup" content="Create reports" />
+	
+		<meta name="document_id" content="9aed763a-0620-0656-d38d-2bf1ad807f13" />
+	
+		<meta name="document_version_independent_id" content="9aed763a-0620-0656-d38d-2bf1ad807f13" />
+	
+		<meta name="updated_at" content="2026-10-23T05:05:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/dax-query-view.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/09dcf17a46dffe7c9fb4c79f4310dfc8ff5f96e9/powerbi-docs/transform-model/dax-query-view.md" />
+	
+		<meta name="git_commit_id" content="09dcf17a46dffe7c9fb4c79f4310dfc8ff5f96e9" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.powerbi-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.powerbi-docs/{branchName}{pdfName}" />
+	
+		<meta name="word_count" content="4278" />
+	
+		<meta name="asset_id" content="transform-model/dax-query-view" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="powerbi-docs/transform-model/dax-query-view.md" />
+	
+		<meta name="previous_tlsh_hash" content="EF92CFB2731CC610BFC21F563C49A6E165F0C5CDF6702AD40227B2A7F91A2DA30F8E6CB66B5BF788633106621071FA4CD2E9EB1AA1EC7253965944FC40D82194EB1D3BFAF5" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/dax-query-view.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/d3197845-b4ce-44c6-a237-cd4be160e76c" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/cbe4ca68-43ac-4375-aba5-5945a6394c20" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/aea905fb-0a9d-4d46-b30f-e9cbaf772d1b" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/ced846cc-6a3c-4c8f-9dfb-3de0e90e2742" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03603.8379-b7d5d6ac/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "ask-the-community",
+    "feedbackHelpLinkUrl": "https://community.fabric.microsoft.com/powerbi",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/powerbi-docs",
+    "feedbackProductUrl": "https://ideas.fabric.microsoft.com/?forum=2d80fd4a-16cb-4189-896b-e0dac5e08b41",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true,
+    "mathjax": {}
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03603.8379-b7d5d6ac/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/powerbi-docs/blob/main/powerbi-docs/transform-model/dax-query-view.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/powerbi-docs-pr/blob/live/powerbi-docs/transform-model/dax-query-view.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/powerbi-docs/transform-model/dax-query-view.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="work-with-dax-query-view">Work with DAX query view</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>Use DAX query view in Power BI to view and work with Data Analysis Expressions (DAX) queries on semantic models.</p>
+<h2 id="dax-queries">DAX queries</h2>
+<p>In Power BI, DAX <em>formulas</em> define different types of calculations for your data and also set up role security. DAX <em>queries</em> return data from the model.</p>
+<p>DAX queries are similar to SQL queries because they show you data you already have. DAX queries don't create items in the model or visuals in the report.</p>
+<p>DAX queries have two main parts:</p>
+<ul>
+<li>An <strong>EVALUATE</strong> statement, which is required. It specifies what data the query returns and how it's returned.</li>
+<li>A <strong>DEFINE</strong> statement, which is optional. It lets you define DAX formulas, like a measure, to use in the query. Measures created or updated using the DAX query DEFINE MEASURE are DAX query scoped measures, running only in the context of the DAX query. You can add DAX query scoped measures to the model using CodeLens update model actions or the <strong>Update model with changes</strong> button.</li>
+</ul>
+<p>Learn more about query syntax in <a href="/en-us/dax/dax-queries" data-linktype="absolute-path">DAX queries</a>, or compare SQL and DAX examples in the <a href="#sql-to-dax-query-cheat-sheet" data-linktype="self-bookmark">SQL to DAX query cheat sheet</a> in this article.</p>
+<h2 id="open-dax-query-view">Open DAX query view</h2>
+<p>In Power BI Desktop, select the <strong>DAX Query View</strong> icon on the left side.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-icon.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-icon.png" alt="Screenshot of the DAX query view icon in Power BI Desktop." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>In the Power BI service or Fabric portal workspace, select <strong>Write DAX queries</strong> from the context menu.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/write-dax-queries-web-from-context-menu.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/write-dax-queries-web-from-context-menu.png" alt="Screenshot of the Write DAX queries entry point in the context menu of a semantic model." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>In the Power BI service or Fabric portal semantic model details page, select <strong>Write DAX queries</strong> at the top of the page.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/write-dax-queries-web-from-details-page.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/write-dax-queries-web-from-details-page.png" alt="Screenshot of the Write DAX queries entry point in the details page of semantic model." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h2 id="dax-query-view-layout">DAX query view layout</h2>
+<p>Let's take a closer look at DAX query view in Power BI Desktop.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-layout.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-layout.png" alt="Diagram that shows the DAX query view layout." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>DAX query view has these elements:</p>
+<h3 id="ribbon">Ribbon</h3>
+<p>The DAX query view ribbon has common actions used when writing DAX queries.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-ribbon.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-ribbon.png" alt="Screenshot of the DAX query view ribbon." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>Let's take a closer look at elements in the ribbon:</p>
+<h4 id="format">Format</h4>
+<p>Select the <strong>Format</strong> ribbon button or use SHIFT+ALT+F to format the current query. The query is indented with tabs. DAX functions are changed to UPPERCASE, and extra lines are added. Formatting your DAX query is considered to be a best practice and improves the DAX query readability. The formatting also indents in such a way that you can collapse and expand sections of the query.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-format-query.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-format-query.png" alt="Screenshot of the Format button." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="comment-and-uncomment">Comment and uncomment</h4>
+<p>Select the <strong>Comment</strong> ribbon button to add a double forward slash (<strong>//</strong>) to the beginning of the line where the cursor is or all the selected lines. This action comments out the lines. When the DAX query is run, those lines are ignored.</p>
+<p>Select the <strong>Uncomment</strong> ribbon button to remove <strong>//</strong> at the beginning of any line where the cursor is or all the selected lines. It doesn't work on lines where multiple line comment notation is added.</p>
+<p>You can also use CTRL+/ to toggle between comment and uncomment.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-comment.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-comment.png" alt="Screenshot of the Comment and Uncomment buttons in the DAX query view ribbon." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="find-and-replace">Find and replace</h4>
+<p>Select the <strong>Find</strong> ribbon button or use CTRL+F to search for text in the DAX query editor. Find includes options to match case, match whole word, use a regular expression, and cycle through all matches for the current query. You can also select the chevron to the left of the <strong>Find</strong> box to enter Replace.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-find.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-find.png" alt="Screenshot of the find button in the DAX query view ribbon." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>Select the <strong>Replace</strong> button in the ribbon or use CTRL+H to search for and replace text in the DAX query editor. Replace includes options to preserve the case and replace one at a time or all at once.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-replace.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-replace.png" alt="Screenshot of the Replace capability in the DAX query view ribbon." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="command-palette">Command palette</h4>
+<p>Select the <strong>Command palette</strong> ribbon button or use CTRL+ALT+P to open the command palette box. You can search for more DAX query editor actions and see their associated keyboard shortcuts.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-command-palette.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-command-palette.png" alt="Screenshot of the DAX query view command palette." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h3 id="command-bar">Command bar</h3>
+<p>The DAX query view command bar includes the most important actions when using DAX query view.</p>
+<h4 id="run-and-cancel">Run and cancel</h4>
+<p>The <strong>Run</strong> button executes the DAX query or the selected lines of a query. The status of a query after it runs appears in the lower status bar.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-command-bar.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-command-bar.png" alt="Screenshot of the DAX query view command bar." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>When a query is running, the button becomes a <strong>Cancel</strong> button, which can be used to stop a running query.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-cancel.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-cancel.png" alt="Screenshot of the DAX query view cancel." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="update-model-with-changes">Update model with changes</h4>
+<p>The <strong>Update model with changes</strong> button adds or overwrites model measures with the DAX formulas from the DAX query scoped measures. DAX query scoped measures are DAX formulas in the <strong>DEFINE MEASURE</strong> block. Alternatively, you can choose to add or overwrite model measures individually using the CodeLens text that appears above each one.</p>
+<h3 id="dax-query-editor">DAX query editor</h3>
+<p>DAX query view includes a query editor where you can write and edit queries. It's more than just a bigger DAX formula bar. It's more powerful and has many similarities to the DAX editor available in Visual Studio Code.</p>
+<p>DAX query editor has the following elements:</p>
+<h4 id="suggestions-and-intellisense">Suggestions and IntelliSense</h4>
+<p>Type in your query and get help with suggestions and IntelliSense while editing.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-intellisense.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-intellisense.png" alt="Screenshot of the DAX query editor intellisense." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>Use ENTER or TAB to add the highlighted IntelliSense, or SHIFT+ENTER or ALT+ENTER to move to another line without adding the IntelliSense option. Selecting ESC closes any of the overlays.</p>
+<h4 id="hover-to-see-measure-formulas">Hover to see measure formulas</h4>
+<p>When a measure is included in the DAX query, you can hover on it to see the formula, name, and description.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-measure.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-measure.png" alt="Screenshot of the hover to see measure formula feature." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="select-to-see-measure-light-bulb-quick-actions">Select to see measure light bulb quick actions</h4>
+<p>Selecting on a measure in an EVALUATE statement in a query without a DEFINE statement shows the quick actions light bulb. Select <strong>Define</strong> or <strong>Define with references</strong> to create a DEFINE statement with this measure’s formula with or without the reference measure DAX formulas.</p>
+<h4 id="update-model-measures-using-codelens">Update model measures using CodeLens</h4>
+<p>Using <strong>DEFINE MEASURE</strong> is helpful when creating measures by first allowing you to create them as DAX query scoped measures. You can edit multiple measures in one window, and then run the query to see the results of all or just some of them with specific group by columns. You don't need to create a table visual in Report view and switch back and forth between measure formulas. CodeLens takes this one step further by providing prompts when the measure already exists in the model. These offer quick links to add the measure or overwrite the measure in the model.</p>
+<p>CodeLens is the clickable text that shows above a DEFINE MEASURE block. For DAX query scoped measures that aren't already present in the model, the <strong>Update model: Add new measure</strong> CodeLens appears, which adds the model measure when clicked. For DAX query scoped measures that are already present in the model, and when the DAX scoped measure DAX formula is different, the <strong>Update model: Overwrite measure</strong> CodeLens appears. This changes the model measure to this DAX formula when clicked.</p>
+<p>Alternatively, you can add or overwrite multiple measures at once by clicking the <strong>Update model with changes</strong> button in the <strong>Command</strong> bar.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/update-model-with-changes-button.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/update-model-with-changes-button.png" alt="Screenshot of the Update model with changes button available in DAX query view." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h4 id="add-measure-descriptions">Add measure descriptions</h4>
+<p>You can add measure descriptions directly in DAX query view using the triple-slash (<code>///</code>) comment syntax that TMDL supports for both measure and function descriptions. Add one or more <code>///</code> comment lines directly above your <code>MEASURE</code> definition, select <strong>Update model with changes</strong>, and the description is saved to the model along with the measure definition.</p>
+<pre><code class="lang-dax">DEFINE
+    /// Year-over-year sales growth, as a percentage.
+    /// Returns BLANK when there is no prior-year value.
+    MEASURE Sales[YoY Growth %] = ...
+</code></pre>
+<p>Once saved, the description travels with the measure. Hover over the measure in DAX query view, in Model Explorer, or in the <strong>Data</strong> pane to see the description in the tooltip next to the measure name. The description also carries through to the quick queries that DAX query view generates. When you right-click a measure and choose <strong>Quick queries</strong> &gt; <strong>Define and evaluate</strong> (or any other <strong>Define</strong> option), Power BI generates a <code>DEFINE MEASURE</code> statement in DAX query view that includes the description as <code>///</code> comments above the measure definition.</p>
+<h4 id="measure-update-workflow">Measure update workflow</h4>
+<p>The light bulb quick actions and CodeLens can be used together in a complete workflow:</p>
+<ol>
+<li>In the context menu of a measure, choose Quick queries, and then Evaluate to have the query created for you in a new Query tab.</li>
+<li>Select the measure in the query to Define or Define with references, adding the DEFINE statement.</li>
+<li>Make DAX formula updates to the measure, and then run the DAX query to see the results.</li>
+<li>When the change appears as expected, use the CodeLens Update model: Overwrite measure to save it back to the model.</li>
+</ol>
+<p>Here's a more visual way to understand the workflow:</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-workflow.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-workflow.png" alt="Diagram of the workflow." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h3 id="results-grid">Results grid</h3>
+<p>When a query is run, the results are shown in the <strong>Results</strong> grid.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-results-grid.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-results-grid.png" alt="Screenshot of the results grid." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>If there's more than one EVALUATE statement in the query editor, then multiple results can be returned. You can use the <strong>Result</strong> dropdown to switch between them. The <strong>Copy</strong> button copies the entire grid as a tab delimited table with headers. Resize the grid by dragging the upper right hand corner arrows or the border between the result grid and the query editor.</p>
+<h4 id="sort-and-filter-results">Sort and filter results</h4>
+<p>The <strong>Results</strong> grid includes options to sort and filter the returned results. Use the column headers to sort the results, and apply filters to narrow down the rows shown. These options are helpful for validating that the results returned match what you expect from the DAX query, without writing and running additional queries.</p>
+<p>Sorting and filtering apply only to the results that were already returned, which might be truncated. If the results are truncated, sorting or filtering in the grid doesn't reflect the full result set. To validate a truncated result, add the equivalent ORDER BY and filter logic to the DAX query itself, and then rerun the query.</p>
+<h4 id="errors-in-the-results-grid">Errors in the results grid</h4>
+<p>If the query results in an error, the results grid shows it.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-results-grid-error.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-results-grid-error.png" alt="Screenshot of the error message in the results grid." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>A copy button transfers the error to your clipboard. The beginning of the error indicates where in the query the error is. In the image above the error is: <code>Query (4, 23) The value for 'Sales 2' can't be determined. Either the column doesn't exist, or there is no current row for this column.</code></p>
+<p>And "<strong>Query (4, 23)</strong>" indicates the error is on line 4 and at character 23.</p>
+<h3 id="query-tabs">Query tabs</h3>
+<p>DAX query view can have multiple query tabs, which can be renamed or removed. They also show the current state of the query.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-query-tabs.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-query-tabs.png" alt="Screenshot of the Query tabs." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<p>Each tab includes a status indicator:</p>
+<ul>
+<li>No indicator shows before running the query.</li>
+<li>A green checkmark indicates a successful query run.</li>
+<li>A red cross indicates an error occurred.</li>
+<li>A filled square in a circle indicates the query was canceled.</li>
+<li>A clock indicates the query is running.</li>
+</ul>
+<p>Queries can run in the background allowing you to continue working on other query tabs.</p>
+<h4 id="saving-of-dax-queries">Saving of DAX queries</h4>
+<p>DAX query view query tabs are saved in the file when you save from Power BI Desktop, so you can continue where you left off when you open the file again. If you use the developer mode to save a Power BI project, each query tab is included as a .dax file in the DAXQueries folder of the semantic model folder, or report folder if they're created in a live connected report. Learn more at the <a href="/en-us/power-bi/developer/projects/" data-linktype="absolute-path">Power BI developer mode documentation</a>.</p>
+<p>Currently, you can't view or edit the DAX queries previously added in Power BI Desktop in the Power BI service. Viewers of the report or semantic model don't see the DAX queries saved with the semantic model.</p>
+<p>DAX query view tabs are discarded on close when you <strong>Write DAX queries</strong> from the Power BI service or Fabric portal.</p>
+<h3 id="data-pane">Data pane</h3>
+<p>The <strong>Data</strong> pane shows the items in the model to help you write queries. The editing paths for most of these items is blocked in the query view.</p>
+<h4 id="quick-queries">Quick queries</h4>
+<p>The <strong>Data</strong> pane context menu includes <strong>Quick queries</strong>. Use quick queries to create queries in a new query tab for tables, columns, and measures. Quick queries are designed to be a productivity boost for common tasks and built so they can easily be further modified. All quick queries are created in a new query tab and are run automatically.</p>
+<h5 id="anywhere">Anywhere</h5>
+<ul>
+<li><p><strong>Define all measures in the model</strong> creates a query with all the measure formulas shown in a query. Easily search all your measure formulas.</p>
+</li>
+<li><p><strong>Define new measure</strong> creates a query with a define measure block. Use this to create your own measure in DAX query view then add to your model when you're ready.</p>
+</li>
+</ul>
+<h5 id="tables">Tables</h5>
+<ul>
+<li><p><strong>Show top 100 rows</strong> creates a query by using SELECTCOLUMNS() to show the top 100 rows of the table. The columns are listed on each line to allow for easy modification by commenting out lines. An ORDER BY is also included to specify your sort order.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-shoq-top-100.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-shoq-top-100.png" alt="Screenshot of the show top 100 rows." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p><strong>Show column statistics</strong> creates a query showing statistical information for every column in your table. See many of the formulas for how to aggregate columns as MIN, MAX, AVERAGE, COUNT, and more.</p>
+</li>
+<li><p><strong>Define all measures in this table</strong> creates a query with this table’s measure formulas shown in a query.</p>
+</li>
+</ul>
+<h5 id="columns">Columns</h5>
+<ul>
+<li><p><strong>Show data preview</strong> creates a query using DISTINCT() to see the values of a column.</p>
+<p><span class="mx-imgBorder">
+<img src="media/dax-query-view/dax-query-view-show-data-preview.png" alt="Screenshot of the show data preview." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p><strong>Show column statistics</strong> creates a query showing statistical information for this specific column. See many formulas for how to aggregate the column as MIN, MAX, AVERAGE, COUNT, and more. The query returned varies depending on the data type of the column, showing different statistics for numeric, text, and date columns.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-show-column-preview.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-show-column-preview.png" alt="Screenshot of the show column preview." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+</ul>
+<h5 id="measures">Measures</h5>
+<ul>
+<li><p><strong>Evaluate</strong> creates a query to show the result of the measure. SUMMARIZECOLUMNS() is used so you can add in any group by columns to show the measure by specific groups such as Country, Product, etc.</p>
+<p><span class="mx-imgBorder">
+<img src="media/dax-query-view/dax-query-view-measure-evaluate.png" alt="Screenshot of evaluate measure." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p><strong>Define and evaluate</strong> creates a query to show the result of the measure and show the measure’s formula in a DEFINE statement that can then be modified.</p>
+<p><span class="mx-imgBorder">
+<img src="media/dax-query-view/dax-query-view-measure-define-evaluate.png" alt="Screenshot of the define and evaluate measure." data-linktype="relative-path">
+</span>
+</p>
+</li>
+<li><p><strong>Define with references and evaluate</strong> creates a query to show the result of the measure and show not only the measure’s formula in a DEFINE statement that can be modified, but also any other measures referenced in the measure formula. Edit any part in the full context of the measure.</p>
+<p><span class="mx-imgBorder">
+<img src="media/dax-query-view/dax-query-view-measure-define-with-references-evaluate.png" alt="Screenshot of define with references and evaluate." data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ul>
+<h2 id="getting-visual-dax-queries-from-performance-analyzer">Getting visual DAX queries from Performance Analyzer</h2>
+<p>Visuals in Report view get data from the model by creating a DAX query. You can view the visual query in DAX query view by using Performance Analyzer. Performance Analyzer gives you insight into why a visual might show an unexpected value, or lets you quickly start a query you can change.</p>
+<p>In <strong>Report view</strong>, go to the <strong>Optimize</strong> ribbon, then select <strong>Performance Analyzer</strong>. Select <strong>Start recording</strong>, then <strong>Refresh visuals</strong>. In the following table, expand a visual to see options to copy the query or run it in DAX query view. Select <strong>Run</strong> in DAX query view to add the visual query as a new Query tab in DAX query view, and run it.</p>
+<p><span class="mx-imgBorder">
+<a href="media/dax-query-view/dax-query-view-performance-analyzer.png#lightbox" data-linktype="relative-path">
+<img src="media/dax-query-view/dax-query-view-performance-analyzer.png" alt="Screenshot of visual DAX queries in the Performance Analyzer feature." data-linktype="relative-path">
+</a>
+</span>
+</p>
+<h2 id="dax-query-view-and-live-connect-in-power-bi-desktop">DAX query view and live connect in Power BI Desktop</h2>
+<p>Power BI Desktop lets you live connect to a published Power BI semantic model by selecting <strong>Connect</strong> when you select a semantic model in the OneLake catalog. The lower right-hand corner of Report view shows <strong>Live connected to the Power BI semantic model</strong>. Use DAX query view to write DAX queries when live connected.</p>
+<h3 id="model-measures">Model measures</h3>
+<p>When live connected to a published Power BI semantic model, you can't view or edit model measures. <strong>Quick queries</strong> options are limited to <strong>Evaluate</strong>.</p>
+<h3 id="report-measures">Report measures</h3>
+<p>When live connected to a published Power BI semantic model, you can create report measures. Create report measures using the <strong>New measure</strong> action in <strong>Report</strong> and <strong>Model</strong> view. Report measures are only available in the current report. After you create a report measure, <strong>Quick queries</strong> in DAX query view shows the option to <strong>Define with references and evaluate</strong>. DAX queries run on the semantic model, so report measures must always be converted to DAX query scoped measures in the DEFINE MEASURE block to run, because they don't exist in the model itself.</p>
+<p>The <strong>Update model with changes</strong> button and CodeLens options to <strong>Update model</strong> aren't available for report measures.</p>
+<h2 id="dax-query-view-in-web">DAX query view in web</h2>
+<p>Use DAX query view in the web to write DAX queries from published semantic models. DAX query view in the web offers the same experience as Power BI Desktop, with a few exceptions.</p>
+<ul>
+<li><strong>User can edit data models in the Power BI service (preview)</strong> You need to enable the Power BI workspace setting to write DAX queries. Learn more at <a href="/en-us/power-bi/transform-model/service-edit-data-models" data-linktype="absolute-path">Edit data models in the Power BI service</a>.</li>
+<li><strong>DAX queries are discarded on close.</strong> DAX queries in Power BI Desktop save to the model, and a semantic model can have DAX queries already saved in the model. DAX query view in the web doesn't display previously saved DAX queries in the semantic model, and queries you create in the web aren't kept after you close the browser.</li>
+<li><strong>Write DAX queries requires write permission on the semantic model.</strong> Workspace viewers need to use Power BI Desktop with a live connection to the semantic model to write DAX queries.</li>
+</ul>
+<h3 id="link-sharing-of-a-query">Link sharing of a query</h3>
+<p>You can't add a DAX query as a parameter using ?query= after the URL to link to DAX query view in the web.</p>
+<h2 id="sql-to-dax-query-cheat-sheet">SQL to DAX query cheat sheet</h2>
+<p>If you're familiar with SQL, use the following examples to write DAX queries in DAX query view. SQL queries read database tables. DAX queries read tables in a semantic model, using table expressions after <code>EVALUATE</code> to specify the results.</p>
+<p>These examples use a table named <code>Sales</code> with a unique <code>SalesKey</code> column and numeric <code>ProductKey</code>, <code>Quantity</code>, and <code>SalesAmount</code> columns. Use the following sample table, or replace the table and column names with names from your semantic model. The SQL examples use Transact-SQL syntax and assume the same data, with <code>SalesAmount</code> stored as a decimal column and the blank represented by SQL <code>NULL</code>.</p>
+<h3 id="create-the-sample-table">Create the sample table</h3>
+<p>To try the DAX queries without connecting to a data source, create the sample table by using this Tabular Model Definition Language (TMDL) script. It uses Power Query to define 12 rows, including repeated product keys, tied sales amounts, and one blank amount.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Use a new Power BI Desktop file for this sample. The <code>createOrReplace</code> command replaces any existing <code>Sales</code> table and its contents, including columns and measures.</p>
+</div>
+<ol>
+<li>Open <a href="desktop-tmdl-view" data-linktype="relative-path">TMDL view</a> in Power BI Desktop and paste the following script into a new script tab.</li>
+<li>Select <strong>Apply</strong> to create the table definition.</li>
+<li>On the <strong>Home</strong> ribbon, select <strong>Refresh</strong> to load the sample rows. Applying a TMDL script changes metadata but doesn't refresh the data.</li>
+<li>Open <strong>DAX query view</strong>, paste one of the DAX queries from this section into a query tab, and select <strong>Run</strong>.</li>
+</ol>
+<pre><code class="lang-tmdl">createOrReplace
+
+	table Sales
+
+		column SalesKey
+			dataType: int64
+			summarizeBy: none
+			sourceColumn: SalesKey
+
+		column ProductKey
+			dataType: int64
+			summarizeBy: none
+			sourceColumn: ProductKey
+
+		column Quantity
+			dataType: int64
+			summarizeBy: sum
+			sourceColumn: Quantity
+
+		column SalesAmount
+			dataType: decimal
+			formatString: #,##0.00
+			summarizeBy: sum
+			sourceColumn: SalesAmount
+
+		partition Sales = m
+			mode: import
+			source =
+				#table(
+					type table [SalesKey = Int64.Type, ProductKey = Int64.Type, Quantity = Int64.Type, SalesAmount = Currency.Type],
+					{
+						{1, 101, 1, 50},
+						{2, 101, 2, 150},
+						{3, 101, 10, 1000},
+						{4, 102, 3, 300},
+						{5, 102, 12, 1200},
+						{6, 102, 1, null},
+						{7, 103, 1, 100},
+						{8, 103, 2, 200},
+						{9, 103, 5, 500},
+						{10, 104, 1, 50},
+						{11, 104, 1, 50},
+						{12, 104, 1, 50}
+					}
+				)
+</code></pre>
+<p>The row-count query returns 12, and the total-sales query returns 3,650. The missing-value query returns the row with <code>SalesKey</code> 6. The sample doesn't create a SQL database table.</p>
+<h3 id="common-query-patterns">Common query patterns</h3>
+<p>Each DAX query in the following table runs independently. For more information about query syntax, see <a href="/en-us/dax/dax-queries" data-linktype="absolute-path">DAX queries</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>SQL query</th>
+<th>DAX query</th>
+<th>Learn more</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return all rows and columns.</td>
+<td><code>SELECT * FROM Sales</code></td>
+<td><code>EVALUATE 'Sales'</code></td>
+<td><a href="/en-us/dax/dax-queries#evaluate-required" data-linktype="absolute-path">EVALUATE</a></td>
+</tr>
+<tr>
+<td>Select columns and assign an alias.</td>
+<td><code>SELECT ProductKey, SalesAmount AS Amount FROM Sales</code></td>
+<td><code>EVALUATE SELECTCOLUMNS('Sales', "ProductKey", 'Sales'[ProductKey], "Amount", 'Sales'[SalesAmount])</code></td>
+<td><a href="/en-us/dax/selectcolumns-function-dax" data-linktype="absolute-path">SELECTCOLUMNS</a></td>
+</tr>
+<tr>
+<td>Filter rows.</td>
+<td><code>SELECT * FROM Sales WHERE SalesAmount &gt; 100</code></td>
+<td><code>EVALUATE FILTER('Sales', 'Sales'[SalesAmount] &gt; 100)</code></td>
+<td><a href="/en-us/dax/filter-function-dax" data-linktype="absolute-path">FILTER</a></td>
+</tr>
+<tr>
+<td>Combine filter conditions.</td>
+<td><code>SELECT * FROM Sales WHERE Quantity &gt;= 2 AND SalesAmount &gt; 100</code></td>
+<td><code>EVALUATE FILTER('Sales', 'Sales'[Quantity] &gt;= 2 &amp;&amp; 'Sales'[SalesAmount] &gt; 100)</code></td>
+<td><a href="/en-us/dax/dax-operator-reference" data-linktype="absolute-path">DAX operators</a></td>
+</tr>
+<tr>
+<td>Return distinct values.</td>
+<td><code>SELECT DISTINCT ProductKey FROM Sales</code></td>
+<td><code>EVALUATE DISTINCT('Sales'[ProductKey])</code></td>
+<td><a href="/en-us/dax/distinct-function-dax" data-linktype="absolute-path">DISTINCT</a></td>
+</tr>
+<tr>
+<td>Count rows.</td>
+<td><code>SELECT COUNT(*) AS SalesRows FROM Sales</code></td>
+<td><code>EVALUATE ROW("SalesRows", COALESCE(COUNTROWS('Sales'), 0))</code></td>
+<td><a href="/en-us/dax/countrows-function-dax" data-linktype="absolute-path">COUNTROWS</a></td>
+</tr>
+<tr>
+<td>Calculate a total.</td>
+<td><code>SELECT SUM(SalesAmount) AS TotalSales FROM Sales</code></td>
+<td><code>EVALUATE ROW("TotalSales", SUM('Sales'[SalesAmount]))</code></td>
+<td><a href="/en-us/dax/row-function-dax" data-linktype="absolute-path">ROW</a>, <a href="/en-us/dax/sum-function-dax" data-linktype="absolute-path">SUM</a></td>
+</tr>
+<tr>
+<td>Group and aggregate.</td>
+<td><code>SELECT ProductKey, SUM(SalesAmount) AS TotalSales FROM Sales GROUP BY ProductKey</code></td>
+<td><code>EVALUATE SUMMARIZECOLUMNS('Sales'[ProductKey], "TotalSales", SUM('Sales'[SalesAmount]))</code></td>
+<td><a href="/en-us/dax/summarizecolumns-function-dax" data-linktype="absolute-path">SUMMARIZECOLUMNS</a></td>
+</tr>
+<tr>
+<td>Filter groups with HAVING.</td>
+<td><code>SELECT ProductKey, SUM(SalesAmount) AS TotalSales FROM Sales GROUP BY ProductKey HAVING SUM(SalesAmount) &gt; 1000</code></td>
+<td><code>EVALUATE FILTER(SUMMARIZECOLUMNS('Sales'[ProductKey], "TotalSales", SUM('Sales'[SalesAmount])), [TotalSales] &gt; 1000)</code></td>
+<td><a href="/en-us/dax/filter-function-dax" data-linktype="absolute-path">FILTER</a></td>
+</tr>
+<tr>
+<td>Sort results.</td>
+<td><code>SELECT * FROM Sales ORDER BY SalesAmount DESC, SalesKey ASC</code></td>
+<td><code>EVALUATE 'Sales' ORDER BY 'Sales'[SalesAmount] DESC, 'Sales'[SalesKey] ASC</code></td>
+<td><a href="/en-us/dax/dax-queries#order-by-optional" data-linktype="absolute-path">ORDER BY</a></td>
+</tr>
+<tr>
+<td>Return the top 10 rows in order.</td>
+<td><code>SELECT TOP (10) * FROM Sales ORDER BY SalesAmount DESC, SalesKey ASC</code></td>
+<td><code>EVALUATE TOPN(10, 'Sales', 'Sales'[SalesAmount], DESC, 'Sales'[SalesKey], ASC) ORDER BY 'Sales'[SalesAmount] DESC, 'Sales'[SalesKey] ASC</code></td>
+<td><a href="/en-us/dax/topn-function-dax" data-linktype="absolute-path">TOPN</a></td>
+</tr>
+<tr>
+<td>Test for missing values.</td>
+<td><code>SELECT * FROM Sales WHERE SalesAmount IS NULL</code></td>
+<td><code>EVALUATE FILTER('Sales', ISBLANK('Sales'[SalesAmount]))</code></td>
+<td><a href="/en-us/dax/isblank-function-dax" data-linktype="absolute-path">ISBLANK</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="subqueries">Subqueries</h3>
+<p>DAX doesn't use a nested <code>SELECT</code> statement for subqueries. Instead, use scalar or table expressions, and store intermediate results with <a href="/en-us/dax/var-dax" data-linktype="absolute-path">VAR</a>. The following examples show three common patterns.</p>
+<h4 id="scalar-subquery">Scalar subquery</h4>
+<p>This SQL query returns sales rows with an amount above the average for the entire table:</p>
+<pre><code class="lang-sql">SELECT *
+FROM Sales
+WHERE SalesAmount &gt; (SELECT AVG(SalesAmount) FROM Sales);
+</code></pre>
+<p>In DAX, define a scalar variable before filtering the rows. The average is calculated once, outside the row-by-row evaluation in <code>FILTER</code>.</p>
+<pre><code class="lang-dax">DEFINE
+    VAR AverageSales = AVERAGE('Sales'[SalesAmount])
+EVALUATE
+    FILTER(
+        'Sales',
+        'Sales'[SalesAmount] &gt; AverageSales
+    )
+</code></pre>
+<h4 id="in-subquery">IN subquery</h4>
+<p>This SQL query returns all sales rows for products that have at least one sales row with a quantity of 10 or more:</p>
+<pre><code class="lang-sql">SELECT *
+FROM Sales
+WHERE ProductKey IN (
+    SELECT ProductKey
+    FROM Sales
+    WHERE Quantity &gt;= 10
+);
+</code></pre>
+<p>In DAX, create a single-column table of matching product keys. Use the <a href="/en-us/dax/containsrow-function-dax" data-linktype="absolute-path">IN operator</a> to test whether each sales row's product key is in that table.</p>
+<pre><code class="lang-dax">DEFINE
+    VAR MatchingProductKeys =
+        DISTINCT(
+            SELECTCOLUMNS(
+                FILTER('Sales', 'Sales'[Quantity] &gt;= 10),
+                "ProductKey", 'Sales'[ProductKey]
+            )
+        )
+EVALUATE
+    FILTER(
+        'Sales',
+        'Sales'[ProductKey] IN MatchingProductKeys
+    )
+</code></pre>
+<h4 id="derived-table">Derived table</h4>
+<p>This SQL query aggregates sales by product in a subquery, then filters the result:</p>
+<pre><code class="lang-sql">SELECT ProductKey, TotalSales
+FROM (
+    SELECT ProductKey, SUM(SalesAmount) AS TotalSales
+    FROM Sales
+    GROUP BY ProductKey
+) AS ProductTotals
+WHERE TotalSales &gt; 1000;
+</code></pre>
+<p>In DAX, store the grouped table in a variable, then pass it to <code>FILTER</code>. Reference the column added by <code>SUMMARIZECOLUMNS</code> as <code>[TotalSales]</code>, not <code>ProductTotals[TotalSales]</code>. A table variable can't qualify a column reference.</p>
+<pre><code class="lang-dax">DEFINE
+    VAR ProductTotals =
+        SUMMARIZECOLUMNS(
+            'Sales'[ProductKey],
+            "TotalSales", SUM('Sales'[SalesAmount])
+        )
+EVALUATE
+    FILTER(
+        ProductTotals,
+        [TotalSales] &gt; 1000
+    )
+</code></pre>
+<h3 id="differences-to-consider">Differences to consider</h3>
+<p>These patterns aren't a general-purpose SQL translator. Keep the following differences in mind:</p>
+<ul>
+<li>You define relationships between tables in the semantic model, not in each DAX query. Unlike SQL queries that specify joins, DAX queries can use existing model relationships without redefining how the tables are related. DAX calculations use <a href="/en-us/dax/dax-overview#filter-context" data-linktype="absolute-path">filter context</a>, and filters propagate through active relationships according to their configured filter direction.</li>
+<li>DAX blanks aren't identical to SQL <code>NULL</code> values. Use <code>ISBLANK</code> to test for blanks. For example, DAX comparisons with <code>=</code> can treat a blank as zero, while SQL comparisons with <code>NULL</code> return unknown. See <a href="/en-us/dax/dax-operator-reference" data-linktype="absolute-path">DAX operators</a>.</li>
+<li><code>COUNTROWS</code> returns a blank for an empty table. The row-count example uses <code>COALESCE</code> to return zero, like SQL <code>COUNT(*)</code>.</li>
+<li><code>SUMMARIZECOLUMNS</code> excludes groups when all supplied aggregation expressions return blank. SQL <code>GROUP BY</code> can retain groups whose aggregates are all <code>NULL</code>.</li>
+<li><code>TOPN</code> can return more than the requested number of rows when the boundary values tie. The example includes the unique <code>SalesKey</code> as a tie-breaker. <code>TOPN</code> doesn't guarantee result order, so use <code>ORDER BY</code> to sort the returned rows.</li>
+</ul>
+<p>For more query syntax details and examples, see <a href="/en-us/dax/dax-queries" data-linktype="absolute-path">DAX queries</a> in the DAX reference.</p>
+<h2 id="considerations-and-limitations">Considerations and limitations</h2>
+<p>Considerations to keep in mind:</p>
+<ul>
+<li>500+ lines in DAX query editor has noticeable lag when typing.</li>
+<li>Light bulb quick actions for measures only display when no <code>DEFINE</code> statement is in the query tab.</li>
+<li>Command palette shows some commands that don't yet work.</li>
+<li>Result grid doesn't show columns and measures with specified format, such as Currency, Whole number with thousands, etc.</li>
+<li>Set up of the <em>initial</em> Git integration <em>from</em> the workspace doesn't include DAX queries saved in published semantic model. Learn more at <a href="/en-us/fabric/cicd/git-integration/git-get-started?wt.mc_id=fabric_inproduct_gitintegration&amp;tabs=commit-to-git#connect-a-workspace-to-an-azure-repo" data-linktype="absolute-path">Fabric Git integration</a>.</li>
+</ul>
+<p>Limitations to keep in mind:</p>
+<ul>
+<li><p>Maximum of 15MB of data per query. Once 15MB is exceeded, the current row completes, but no more rows are written.</p>
+</li>
+<li><p>Maximum of 1,000,000 values per query. If you query for 20 columns, you can get back max 50,000 rows (1 million divided by 20).</p>
+</li>
+<li><p>Define all measures in this table or model is unavailable when there are more than 500 measures.</p>
+</li>
+<li><p>Running DAX queries in the web has other limitations:</p>
+<ul>
+<li>Maximum of 99,999 rows are returned per query.</li>
+<li>Write permission on the semantic model. Viewers with build permission can use Power BI Desktop to live connect and use DAX query view to run DAX queries.</li>
+<li>Only available for nondefault semantic models. You can use Power BI Desktop to live connect to the default semantic model and use DAX query view to run DAX queries.</li>
+</ul>
+<div class="NOTE">
+<p>Note</p>
+<p>By November 30, 2025, all Power BI <em>default</em> semantic models are disconnected from their item and become independent semantic models. You can retain them if you still use them for reports or dashboards or delete them safely if they are no longer needed. For more information, see <a href="https://blog.fabric.microsoft.com/blog/decoupling-default-semantic-models-for-existing-in-microsoft-fabric?ft=All" data-linktype="external">Blog: Decoupling Default Semantic Models for Existing Items in Microsoft Fabric</a>.</p>
+<ul>
+<li>Since September 5, 2025, Power BI <em>default</em> semantic models are no longer created automatically when a warehouse, lakehouse, or mirrored item is created. For more information, see <a href="https://blog.fabric.microsoft.com/blog/sunsetting-default-semantic-models-microsoft-fabric" data-linktype="external">Blog: Sunsetting Default Semantic Models</a>.</li>
+<li>If your item doesn't have a semantic model already, you can <a href="/en-us/fabric/data-warehouse/create-semantic-model" data-linktype="absolute-path">create a Power BI semantic model</a>.</li>
+</ul>
+</div>
+<ul>
+<li>The <strong>User can edit data models in the Power BI service (preview)</strong> Power BI workspace setting needs to be enabled to write DAX queries. Learn more at <a href="/en-us/power-bi/transform-model/service-edit-data-models" data-linktype="absolute-path">Edit data models in the Power BI service</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="related-content">Related content</h2>
+<ul>
+<li><a href="/en-us/dax/dax-queries" data-linktype="absolute-path">DAX queries</a></li>
+<li><a href="desktop-modeling-view" data-linktype="relative-path">Work with Modeling view</a></li>
+<li><a href="/en-us/power-bi/transform-model/dax-query-copilot-create" data-linktype="absolute-path">Copilot to write and explain DAX queries</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-10-23T05:05:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-10-23
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>
